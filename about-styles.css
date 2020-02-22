@@ -103,14 +103,14 @@ ul {
     .main-nav {
         font-size: 0.5em;
         padding: 0;
-        margin-left: 0px;
+        margin-left: 20px;
     }
     .nav-item {
         margin-left: 7px;
         padding-right: 5px;
         padding-left: 5px;
     }
-	.container {
+   .container {
         display: block;
     }
     .cover {
@@ -119,29 +119,29 @@ ul {
         height: 184px;
     }
     .about {
-		margin-top: 50px;
-		font-size: 30px;
-	}
-	.hello {
-		font-size: 20px
-	}
-	.mh-about-tag {
-		padding: 0px;
-		margin: 0px;
-			
-	}
-	.languages {
-		margin: 2px;
-    	padding-left: 4px;
-    	padding-right: 4px;
-    	padding-top: 2px;
-    	padding-bottom: 2px;
-		font-size: 12px;
-	}
-	.markup {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .hello {
+        font-size: 20px
+    }
+    .mh-about-tag {
+        padding: 0px;
+        margin: 0px;
+            
+    }
+    .languages {
+        margin: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 12px;
+    }
+    .markup {
     margin-left: 20px;
-	}
-	.markup-down {
-		margin-left: -25px;
-	}
+    }
+    .markup-down {
+        margin-left: -25px;
+    }
 }
