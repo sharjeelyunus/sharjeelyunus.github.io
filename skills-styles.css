@@ -181,10 +181,16 @@ a:hover {
       display: block;
     }
 	.mh-skills .mh-professional-skill {
-		padding-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
 	}
 	.my-professional-skill {
     	padding-left: 0px;
     	padding-top: 60px;
-	}
+  }
+  .each-skills {
+    width: 250px;
+    margin-left: 60px;
+  }
 }
