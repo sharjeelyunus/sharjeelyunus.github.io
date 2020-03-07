@@ -30,7 +30,8 @@ body {
   list-style: none;
   font-size: 0.7em;
   margin: 0;
-  padding-left: 300px;
+  justify-content: center;
+  padding-left: 0;
 }
 
 .nav-item {
@@ -50,6 +51,8 @@ a:hover {
 h2 {
   text-align: center;
   margin-bottom: 40px;
+  font-family: sans-serif;
+  font: bolder;
 }
 
 .contact {
@@ -113,5 +116,25 @@ footer a:hover {
     margin-left: 7px;
     padding-right: 5px;
     padding-left: 5px;
+  }
+  #email {
+    width: 90%;
+  }
+  .btn {
+    margin-left: 0px;
+    width: 90%;
+  }
+  input {
+    margin-left: 0px;
+    padding: 5px;
+    width: 90%;
+  }
+  
+  textarea {
+    margin-left: 0px;
+    width: 90%;
+  }
+  footer {
+    margin-top: 0px;
   }
 }
