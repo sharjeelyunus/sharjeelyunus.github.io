@@ -26,9 +26,9 @@ body {
     list-style: none;
     font-size: 0.7em;
     margin: 0;
-    background-color: #100e17;
-    margin-left: 300px;
-}
+    justify-content: center;
+    padding-left: 0;
+  }
 
 .section-separator {
     display: inline-flex;
@@ -70,7 +70,6 @@ h1 , h2 {
 }
 
 .box {
-    background-color: #bfbfbf;
     margin: 20px;
 }
 
@@ -89,7 +88,6 @@ h1 , h2 {
     .main-nav {
         font-size: 0.5em;
         padding: 0;
-        margin-left: 20px;
     }
     .nav-item {
         margin-left: 7px;
@@ -100,3 +98,7 @@ h1 , h2 {
         margin-left: 0px;
         margin-right: 0px;
     }
+    .item14 {
+        grid-column: auto;
+    }
+}
