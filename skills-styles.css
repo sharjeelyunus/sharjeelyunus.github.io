@@ -1,53 +1,56 @@
 body {
-    margin: auto 0;
-    font-family: Simonetta;
-    background-color: #100e17;
-    color: #e7e7e8;
-    background-image: url(./img/map-color-overlay.png);
+  margin: auto 0;
+  font-family: Simonetta;
+  background-color: #100e17;
+  color: #e7e7e8;
+  background-image: url(./img/map-color-overlay.png);
 }
 
 .zone {
-    font-size:2em;
-    border-radius:4px;
-    transition: all 0.3s linear;
+  font-size: 2em;
+  border-radius: 4px;
+  transition: all 0.3s linear;
 }
 
 .zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
-
 
 /*NAV*/
 
 .main-nav {
-    display: flex;
-    list-style: none;
-    font-size: 0.7em;
-    margin: 0;
-    background-color: #100e17;
-    margin-left: 300px;
+  display: flex;
+  list-style: none;
+  font-size: 0.7em;
+  margin: 0;
+  justify-content: center;
+  padding-left: 0;
 }
 
 .section-separator {
-    display: inline-flex;
-    /*margin-top: 30px;*/
+  display: inline-flex;
+  /*margin-top: 30px;*/
 }
 
 .nav-item {
-    padding: 20px;
-    margin-left: 10px;
+  padding: 20px;
+  margin-left: 10px;
 }
 
 a {
-    color: #f5f5f6;
-    text-decoration: none;
+  color: #f5f5f6;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #0bbba0;
+  color: #0bbba0;
 }
 
 .mh-skills .mh-professional-skill {
@@ -57,29 +60,30 @@ a:hover {
 }
 
 .my-professional-skill {
-    font-family: sans-serif;
-    padding-top: 60px;
-
+  font-family: sans-serif;
+  padding-top: 60px;
 }
 
 .tech {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .pro {
-    font-size: 30px;
+  font-size: 30px;
 }
-
 
 .mh-progress {
   margin-bottom: 10px;
-  font: 900 1.1428571429em/1 Cinzel, cursive; }
-  .mh-progress .progressbar-text {
-    color: inherit !important; }
+  font: 900 1.1428571429em/1 Cinzel, cursive;
+}
+.mh-progress .progressbar-text {
+  color: inherit !important;
+}
 
 .progress.progress-line {
   height: 10px;
-  margin-right: 60px; }
+  margin-right: 60px;
+}
 
 .progress.progress-line .progressbar-text {
   position: absolute;
@@ -89,109 +93,132 @@ a:hover {
   -webkit-transform: translateY(-35%);
   -ms-transform: translateY(-35%);
   transform: translateY(-35%);
-  text-align: center; }
+  text-align: center;
+}
 
 .mh-progress.mh-progress-circle {
   display: inline-block;
   width: 100px;
-  height: 100px; }
+  height: 100px;
+}
 
 .mh-progress path:nth-child(1) {
-  stroke: rgba(0, 0, 0, 0.7); }
+  stroke: rgba(0, 0, 0, 0.7);
+}
 
 .mh-progress path:nth-child(2) {
-  stroke: #0bceaf; }
+  stroke: #0bceaf;
+}
 
 .candidatos {
   position: relative;
-  margin-bottom: 15px; }
-  .candidatos .parcial {
-    display: inline-block;
-    width: 100%;
-    vertical-align: middle; }
-    .candidatos .parcial .info {
-      position: relative; }
-      .candidatos .parcial .info .nome {
-        position: absolute;
-        top: 0;
-        left: 0;
-        font-size: 15px;
-        font-weight: 600;
-        opacity: 0.9; }
-      .candidatos .parcial .info .eleito, .candidatos .parcial .info .segundo-turno {
-        padding: 0 5px 2px 5px;
-        border-radius: 2px; }
-      .candidatos .parcial .info .percentagem-num {
-        position: absolute;
-        top: 0;
-        right: 0;
-        font-size: 14px;
-        font-weight: normal; }
-    .candidatos .parcial .progressBar {
-      position: relative;
-      width: 100%;
-      height: 7px;
-      margin: 30px 0 2px;
-      border-radius: 10px;
-      background: rgba(0, 0, 0, 0.5); }
-    .candidatos .parcial .percentagem {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 7px;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
-      background: #0bceaf;
-      -webkit-transition: 3s all;
-      -webkit-animation-duration: 3s;
-      -webkit-animation-name: animationProgress; }
-    .candidatos .parcial .partidas {
-      font-size: 10px;
-      font-weight: 600;
-      text-transform: uppercase; }
+  margin-bottom: 15px;
+}
+.candidatos .parcial {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+.candidatos .parcial .info {
+  position: relative;
+}
+.candidatos .parcial .info .nome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.candidatos .parcial .info .eleito,
+.candidatos .parcial .info .segundo-turno {
+  padding: 0 5px 2px 5px;
+  border-radius: 2px;
+}
+.candidatos .parcial .info .percentagem-num {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+.candidatos .parcial .progressBar {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  margin: 30px 0 2px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.candidatos .parcial .percentagem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 7px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #0bceaf;
+  -webkit-transition: 3s all;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: animationProgress;
+}
+.candidatos .parcial .partidas {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
-    .each-skills {
-        width: 400px;
-        font-family: 'Odibee Sans', cursive;
-    }
+.each-skills {
+  width: 400px;
+  font-family: "Odibee Sans", cursive;
+}
 
 .percentual {
-  animation-name: animationProgress; }
+  animation-name: animationProgress;
+}
 
 @-webkit-keyframes animationProgress {
   from {
-    width: 0; } }
+    width: 0;
+  }
+}
 @keyframes animationProgress {
   from {
-    width: 0; } }
+    width: 0;
+  }
+}
 
-@media only screen and (max-width: 600px) {
-    .main-nav {
-        font-size: 0.5em;
-        padding: 0;
-        margin-left: 12px;
-    }
-    .nav-item {
-        margin-left: 7px;
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-    .section-separator {
-      display: block;
-    }
-	.mh-skills .mh-professional-skill {
+@media only screen and (max-width: 400px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .nav-item {
+    margin-left: 7px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .section-separator {
+    display: block;
+  }
+  .mh-skills .mh-professional-skill {
     padding-left: 0px;
     padding-right: 0px;
-    
-	}
-	.my-professional-skill {
-    	padding-left: 0px;
-    	padding-top: 60px;
+  }
+  .my-professional-skill {
+    padding-left: 0px;
+    padding-top: 10px;
   }
   .each-skills {
     width: 250px;
     margin-left: 60px;
+  }
+  .candidatos {
+    margin-bottom: 5px;
+  }
+  .pro {
+    font-size: 25px;
   }
 }
