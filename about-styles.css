@@ -24,9 +24,9 @@ body {
     list-style: none;
     font-size: 0.7em;
     margin: 0;
-    background-color: #100e17;
-    margin-left: 300px;
-}
+    justify-content: center;
+    padding-left: 0;
+  }
 
 .nav-item {
 	padding: 20px;
@@ -103,7 +103,6 @@ ul {
     .main-nav {
         font-size: 0.5em;
         padding: 0;
-        margin-left: 20px;
     }
     .nav-item {
         margin-left: 7px;
@@ -112,6 +111,7 @@ ul {
     }
    .container {
         display: block;
+        margin-top: 10px;
     }
     .cover {
         margin-left: 20px;
@@ -143,5 +143,12 @@ ul {
     }
     .markup-down {
         margin-left: -25px;
+    }
+    p {
+        font-weight: unset;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 25px;
     }
 }
