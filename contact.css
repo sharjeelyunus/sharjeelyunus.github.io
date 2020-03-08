@@ -23,6 +23,29 @@ body {
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
 
+.grid-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: #242327;
+  opacity: 0.7;
+}
+
+.fa {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
 /*NAV*/
 
 .main-nav {
@@ -65,7 +88,7 @@ input {
   border-color: #e7e7e8;
   border-radius: 5px;
   padding-left: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-left: 20px;
   padding: 10px;
 }
@@ -75,7 +98,7 @@ textarea {
   color: #e7e7e8;
   border-color: #e7e7e8;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-left: 20px;
 }
 
@@ -86,7 +109,7 @@ textarea {
 .btn {
   margin-left: 20px;
   width: 460px;
-  border-radius: 6px;
+  border-radius: 20px;
 }
 
 footer {
@@ -117,6 +140,12 @@ footer a:hover {
     padding-right: 5px;
     padding-left: 5px;
   }
+
+  .grid-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   #email {
     width: 90%;
   }
