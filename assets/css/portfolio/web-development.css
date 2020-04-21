@@ -1,0 +1,81 @@
+body {
+    margin: auto 0;
+    font-family: Simonetta;
+    background-color: #100e17;
+    color: #e7e7e8;
+}
+
+.zone {
+    font-size:2em;
+    border-radius:4px;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+/*NAV*/
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+.section-separator {
+    display: inline-flex;
+    /*margin-top: 30px;*/
+}
+
+.nav-item {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+a {
+    color: #f5f5f6;
+    text-decoration: none;
+}
+
+.mobile-view {
+    display: none;
+  }
+
+a:hover {
+    color: #0bbba0;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+    .desktop-view {
+      display: none;
+    }
+    .expand {
+      display: block;
+    }
+    .mobile-view {
+      display: block;
+      float: right;
+      position: relative;
+      top: 20px;
+    }
+    .nav-item {
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .container {
+        position: relative;
+        top: 50px;
+    }
+}

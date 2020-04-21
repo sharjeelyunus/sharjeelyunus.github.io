@@ -45,6 +45,10 @@ a {
     text-decoration: none;
 }
 
+.mobile-view {
+    display: none;
+  }
+
 a:hover {
     color: #0bbba0;
 }
@@ -96,10 +100,23 @@ h1 , h2 {
         font-size: 0.5em;
         padding: 0;
     }
+    .desktop-view {
+      display: none;
+    }
+    .expand {
+      display: block;
+    }
+    .mobile-view {
+      display: block;
+      float: right;
+    }
     .nav-item {
-        margin-left: 7px;
-        padding-right: 5px;
-        padding-left: 5px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .container {
+        position: relative;
+        top: 50px;
     }
     .grid-wrapper {
         margin-left: 0px;
