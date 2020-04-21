@@ -23,12 +23,16 @@ body {
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
 
+.mobile-view {
+  display: none;
+}
+
 /*NAV*/
 
 .main-nav {
   display: flex;
   list-style: none;
-  font-size: 0.7em;
+  font-size: 0.35em;
   margin: 0;
   justify-content: center;
   padding-left: 0;
@@ -36,7 +40,6 @@ body {
 
 .section-separator {
   display: inline-flex;
-  /*margin-top: 30px;*/
 }
 
 .nav-item {
@@ -192,13 +195,32 @@ a:hover {
 
 @media only screen and (max-width: 400px) {
   .main-nav {
-    font-size: 0.5em;
+    font-size: 0.2em;
     padding: 0;
   }
+  .desktop-view {
+    display: none;
+  }
+  .expand {
+    display: block;
+  }
+  .mobile-view {
+    display: block;
+    float: right;
+    margin-top: -30px;
+  }
   .nav-item {
-    margin-left: 7px;
-    padding-right: 5px;
-    padding-left: 5px;
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .container {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    position: relative;
+    top: 50px;
+    margin-top: 0px;
   }
   .section-separator {
     display: block;
