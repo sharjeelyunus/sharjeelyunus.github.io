@@ -46,6 +46,10 @@ color: #0bbba0;
   display: none;
 }
 
+.cross {
+  display: none;
+}
+
 /*Cover*/
 .mh-header-info{
 font-size: 17px;
