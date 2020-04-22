@@ -107,6 +107,7 @@ ul {
     .main-nav {
         font-size: 0.5em;
         padding: 0;
+        background-color: #100e17;
     }
     .desktop-view {
       display: none;
@@ -130,6 +131,8 @@ ul {
     position: relative;
     top: 50px;
     margin-top: 0px;
+    position: absolute;
+    z-index: -1;
     }
     
     .cover {

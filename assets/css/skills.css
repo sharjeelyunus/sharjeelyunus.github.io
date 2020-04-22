@@ -32,7 +32,7 @@ body {
 .main-nav {
   display: flex;
   list-style: none;
-  font-size: 0.35em;
+  font-size: 0.7em;
   margin: 0;
   justify-content: center;
   padding-left: 0;
@@ -195,33 +195,34 @@ a:hover {
 
 @media only screen and (max-width: 400px) {
   .main-nav {
-    font-size: 0.27em;
+    font-size: 0.5em;
     padding: 0;
-  }
-  .desktop-view {
-    display: none;
-  }
-  .expand {
-    display: block;
-  }
-  .mobile-view {
-    display: block;
-    float: right;
-    margin-top: -30px;
-  }
-  .nav-item {
+    background-color: #100e17;
+}
+.desktop-view {
+  display: none;
+}
+.expand {
+  display: block;
+}
+.mobile-view {
+  display: block;
+  float: right;
+}
+.nav-item {
     margin-left: 10px;
     padding: 5px;
-  }
-  .container {
+}
+.container-main {
     display: block;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 0px;
     position: relative;
     top: 50px;
-    margin-top: 0px;
-  }
+    position: absolute;
+    z-index: -1;
+}
   .section-separator {
     display: block;
   }
