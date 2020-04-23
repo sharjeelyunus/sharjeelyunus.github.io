@@ -33,6 +33,14 @@ padding: 20px;
 margin-left: 10px;
 }
 
+.social-icon-nav {
+  display: none;
+}
+
+.logo {
+  display: block;
+}
+
 a {
   color: #e7e7e8;
   text-decoration: none;
@@ -43,6 +51,10 @@ color: #0bbba0;
 }
 
 .mobile-view {
+  display: none;
+}
+
+#techonologist {
   display: none;
 }
 
@@ -149,10 +161,20 @@ background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
-.main-nav {
+  .nav-popup {
+    background-color: #100e17;
+    display: flex;
+    position: relative;
+      top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 10px;
+      padding: 22px;
+  }
+  .main-nav {
       font-size: 0.5em;
       padding: 0;
-      background-color: #100e17;
+      display: block;
   }
   .desktop-view {
     display: none;
@@ -162,11 +184,22 @@ background-color: white;
   }
   .mobile-view {
     display: block;
-    float: right;
+    position: absolute;
+    z-index: -1;
+    margin-left: 12px;
+  }
+  .logo {
+    font-weight: 600;
+  }
+  #techonologist {
+    display: inline;
   }
   .nav-item {
       margin-left: 10px;
       padding: 5px;
+  }
+  .social-icon-nav {
+    display: flex;
   }
   .container {
       display: block;

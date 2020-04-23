@@ -10,8 +10,7 @@ jQuery(document).ready(function(){
   });
 });
 
-function myFunction() {
-  document.getElementById("burger").style.display = "none";
+function displayCross() {
   document.getElementById("cross").style.display = "block";
   document.getElementById("cross").style.float = "right";
 }

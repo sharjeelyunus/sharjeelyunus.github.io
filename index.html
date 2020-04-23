@@ -5,22 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Sharjeel Yunus Portfolio webpage for the display of skills and work.">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/home.css">
   <link rel="shortcut icon" href="/assets/img/sharj.png" type="image/x-icon">
 </head>
 <body background="/assets/img/home-bg-img.jpg">
   <nav class="zone sticky">
-    <div class="mobile-view" id="burger" onclick="myFunction()"><img src="/assets/img/burger-menu.png" alt="menu"></div>
-    <div class="cross" id="cross" onclick="myFunction()"><img src="/assets/img/times-solid.svg" alt="cross" width="25px" height="25px"></i></div>
-  	<ul class="main-nav desktop-view">
-  		<li class="nav-item"><a href="/index.html">Home</a></li>
-  		<li class="nav-item"><a href="/assets/pages/about.html">About</a></li>
-  		<li class="nav-item"><a href="/assets/pages/skills.html">Skills</a></li>
-      <li class="nav-item"><a href="/assets/pages/portfolio.html">Portfolio</a></li>
-      <li class="nav-item"><a href="/assets/pages/blog.html">Blogs</a></li>
-      <li class="nav-item"><a href="/assets/pages/contact.html">Contact</a></li>
-    </ul>
+    <div class="mobile-view" id="burger" onclick="displayCross()"><img src="/assets/img/burger-menu.png" alt="menu"></div>
+    <div class="nav-popup desktop-view">
+      <div class="cross" id="cross" onclick="displayCross()"><img src="/assets/img/times-solid.svg" alt="cross" width="25px" height="25px"></div>
+      <ul class="main-nav ">
+        <li class="nav-item logo"><a href="/index.html">Sharjeel Yunus<span id="techonologist">👨‍💻</span></a></li>
+        <li class="nav-item"><a href="/assets/pages/about.html">About</a></li>
+        <li class="nav-item"><a href="/assets/pages/skills.html">Skills</a></li>
+        <li class="nav-item"><a href="/assets/pages/portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a href="/assets/pages/blog.html">Blogs</a></li>
+        <li class="nav-item"><a href="/assets/pages/contact.html">Contact</a></li>
+      </ul>
+    </div>
   </nav>
   <div class="container img"><img class="cover" src="/assets/img/sharj.png" title="Sharjeel Yunus | Web Developer & Graphic Designer">
     <div class="mh-header-info">
