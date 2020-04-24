@@ -161,6 +161,10 @@ background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
+  #menu {
+    position: relative;
+    float: right;
+  }
   .nav-popup {
     background-color: #100e17;
     display: flex;
@@ -186,7 +190,7 @@ background-color: white;
     display: block;
     position: absolute;
     z-index: -1;
-    margin-left: 12px;
+    margin-left: -35px;
   }
   .logo {
     font-weight: 600;
@@ -200,6 +204,9 @@ background-color: white;
   }
   .social-icon-nav {
     display: flex;
+  }
+  #home {
+    display: none;
   }
   .container {
       display: block;
@@ -216,9 +223,12 @@ background-color: white;
       margin-top: 40px;
   }
   .cover {
-      margin-left: 20px;
       width: 300px;
       height: 300px;
+      margin-left: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
   .my-name {
       font-size: 42px;
