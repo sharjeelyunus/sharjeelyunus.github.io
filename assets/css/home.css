@@ -170,9 +170,9 @@ background-color: white;
     display: flex;
     position: relative;
       top: 10px;
-      margin-left: 10px;
-      margin-right: 10px;
-      border-radius: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+      border-radius: 20px;
       padding: 22px;
   }
   .main-nav {
@@ -190,7 +190,7 @@ background-color: white;
     display: block;
     position: absolute;
     z-index: -1;
-    margin-left: -35px;
+    margin-left: -45px;
   }
   .logo {
     font-weight: 600;
@@ -225,7 +225,7 @@ background-color: white;
   .cover {
       width: 300px;
       height: 300px;
-      margin-left: 45px;
+      /* margin-left: 45px; */
       display: flex;
       justify-content: center;
       align-items: center;
