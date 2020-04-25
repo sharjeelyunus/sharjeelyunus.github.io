@@ -26,6 +26,12 @@ body {
 .mobile-view {
   display: none;
 }
+#techonologist {
+  display: none;
+}
+.cross {
+  display: none;
+}
 
 /*NAV*/
 
@@ -194,20 +200,50 @@ a:hover {
 }
 
 @media only screen and (max-width: 400px) {
-  .main-nav {
-    font-size: 0.5em;
-    padding: 0;
+  #menu {
+    position: relative;
+    float: right;
+  }
+  .nav-popup {
     background-color: #100e17;
-}
-.desktop-view {
-  display: none;
-}
-.expand {
-  display: block;
-}
-.mobile-view {
-  display: block;
-  float: right;
+    display: flex;
+    position: relative;
+      top: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+      border-radius: 20px;
+      padding: 22px;
+      border: 1px solid black;
+  }
+  .main-nav {
+      font-size: 0.5em;
+      padding: 0;
+      display: block;
+  }
+  .desktop-view {
+    display: none;
+  }
+  .expand {
+    display: block;
+  }
+  .mobile-view {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    margin-left: -51px;
+    margin-top: 5px;
+  }
+  .logo {
+    font-weight: 600;
+  }
+  #techonologist {
+    display: inline;
+  }
+  #home {
+    display: none;
+  }
+  .zone:hover {
+    box-shadow: unset;
 }
 .nav-item {
     margin-left: 10px;

@@ -33,14 +33,6 @@ padding: 20px;
 margin-left: 10px;
 }
 
-.social-icon-nav {
-  display: none;
-}
-
-.logo {
-  display: block;
-}
-
 a {
   color: #e7e7e8;
   text-decoration: none;
@@ -174,6 +166,7 @@ background-color: white;
       margin-right: 20px;
       border-radius: 20px;
       padding: 22px;
+      border: 1px solid black;
   }
   .main-nav {
       font-size: 0.5em;
@@ -190,7 +183,7 @@ background-color: white;
     display: block;
     position: absolute;
     z-index: -1;
-    margin-left: -45px;
+    margin-left: -50px;
   }
   .logo {
     font-weight: 600;
@@ -198,15 +191,15 @@ background-color: white;
   #techonologist {
     display: inline;
   }
+  #home {
+    display: none;
+  }
+  .zone:hover {
+    box-shadow: unset;
+}
   .nav-item {
       margin-left: 10px;
       padding: 5px;
-  }
-  .social-icon-nav {
-    display: flex;
-  }
-  #home {
-    display: none;
   }
   .container {
       display: block;
@@ -225,7 +218,6 @@ background-color: white;
   .cover {
       width: 300px;
       height: 300px;
-      /* margin-left: 45px; */
       display: flex;
       justify-content: center;
       align-items: center;
