@@ -12,21 +12,19 @@
 </head>
 <body>
 	<nav class="zone sticky">
-		<div class="mobile-view">
-		  <img src="/assets/img/burger-menu.png" alt="" />
+		<div id="menu">
+		<div class="mobile-view" id="burger" onclick="displayCross()"><img src="/assets/img/burger-menu.png" alt="menu"></div></div>
+		<div class="nav-popup desktop-view">
+		  <div class="cross" id="cross" onclick="displayCross()"><img src="/assets/img/times-solid.svg" alt="cross" width="25px" height="25px"></div>
+		  <ul class="main-nav ">
+			<li class="nav-item logo"><a href="/index.html"><span id="home">Home</span><span id="techonologist">Sharjeel Yunus👨‍💻</span></a></li>
+			<li class="nav-item"><a href="/assets/pages/about.html">About</a></li>
+			<li class="nav-item"><a href="/assets/pages/skills.html">Skills</a></li>
+			<li class="nav-item"><a href="/assets/pages/portfolio.html">Portfolio</a></li>
+			<li class="nav-item"><a href="/assets/pages/blog.html">Blogs</a></li>
+			<li class="nav-item"><a href="/assets/pages/contact.html">Contact</a></li>
+		  </ul>
 		</div>
-		<ul class="main-nav desktop-view">
-		  <li class="nav-item"><a href="/index.html">Home</a></li>
-		  <li class="nav-item"><a href="/assets/pages/about.html">About</a></li>
-		  <li class="nav-item"><a href="/assets/pages/skills.html">Skills</a></li>
-		  <li class="nav-item">
-			<a href="/assets/pages/portfolio.html">Portfolio</a>
-		  </li>
-		  <li class="nav-item"><a href="/assets/pages/blog.html">Blogs</a></li>
-		  <li class="nav-item">
-			<a href="/assets/pages/contact.html">Contact</a>
-		  </li>
-		</ul>
 	  </nav>
 
 	  <div class="container">
@@ -34,6 +32,6 @@
 	  </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/assets/JS/script.js"></script>
+    <script src="/assets/JS/nav-script.js"></script>
 </body>
 </html>
