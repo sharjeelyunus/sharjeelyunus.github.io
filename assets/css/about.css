@@ -113,6 +113,9 @@ ul {
         position: relative;
         float: right;
       }
+      .cross {
+        margin-top: -20px;
+      }
       .nav-popup {
         background-color: #100e17;
         display: flex;
@@ -123,11 +126,13 @@ ul {
           border-radius: 20px;
           padding: 22px;
           border: 1px solid black;
+          text-align: center;
       }
       .main-nav {
           font-size: 0.5em;
           padding: 0;
           display: block;
+          margin-top: 20px;
       }
       .desktop-view {
         display: none;

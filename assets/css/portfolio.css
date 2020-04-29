@@ -108,6 +108,9 @@ h1 , h2 {
       float: right;
       margin-right: 23px;
     }
+    .cross {
+      margin-top: -20px;
+    }
     #menu {
         position: relative;
         float: right;
@@ -122,11 +125,13 @@ h1 , h2 {
           border-radius: 20px;
           padding: 22px;
           border: 1px solid black;
+          text-align: center;
       }
       .main-nav {
           font-size: 0.5em;
           padding: 0;
           display: block;
+          margin-top: 20px;
       }
       .desktop-view {
         display: none;
