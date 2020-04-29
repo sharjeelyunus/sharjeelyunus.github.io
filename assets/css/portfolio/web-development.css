@@ -84,7 +84,7 @@ a:hover {
           margin-right: 20px;
           border-radius: 20px;
           padding: 22px;
-          border: 1px solid black;
+          border: 1px solid rgb(255, 255, 255);
           text-align: center;
       }
       .main-nav {
