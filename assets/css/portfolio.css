@@ -67,7 +67,7 @@ h1 , h2 {
 .grid-wrapper {
     display: grid;
     grid-gap: 20px;
-    grid-template: 400px/ 300px 300px;
+    grid-template: 400px/ 300px 300px 300px;
 }
 
 
