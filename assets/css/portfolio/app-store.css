@@ -189,7 +189,9 @@ h1 {
       font-size: 10px;
       margin-right: 10px;
     }
-    
+    .buttons {
+      margin-right: 10px;
+    }
     .source {
       display: none;
     }
