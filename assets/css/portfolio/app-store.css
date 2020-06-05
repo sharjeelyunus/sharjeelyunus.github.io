@@ -65,6 +65,7 @@ h1 {
 }
 
 .app {
+  display: flex;
   margin-top: 30px;
   display: inline-flex;
   justify-content: center;
@@ -72,6 +73,8 @@ h1 {
   border: 1px solid white;
   border-radius: 10px;
   box-shadow: 0px 10px 20px 4px #00000062;
+  width: 900px;
+  justify-content: start;
 }
 
 .app img {
@@ -86,6 +89,8 @@ h1 {
 
 .app button {
   margin-right: 10px;
+  height: 35px;
+  white-space: nowrap;
 }
 
 .download-button{
