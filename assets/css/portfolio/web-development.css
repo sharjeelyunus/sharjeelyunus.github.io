@@ -60,6 +60,55 @@ a:hover {
     color: #0bbba0;
 }
 
+#page-title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#grid {
+  margin-top: 20px;
+}
+
+.portfolio {
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 4px #00000062;
+}
+
+.portfolio p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+.portfolio img{
+  height: 150px;
+  width: 300px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.portfolio .description {
+  font-size: 18px;
+  font-weight: unset;
+}
+
+.portfolio div{
+  display: flex;
+}
+
+.portfolio div div {
+  display: block;
+}
+
+.btn {
+  margin: 10px;
+  margin-left: 18px;
+}
+
 @media only screen and (max-width: 600px) {
     .mobile-view {
         position: relative;
