@@ -1,0 +1,291 @@
+body {
+  margin: auto 0;
+  font-family: Simonetta;
+  background-color: #100e17;
+}
+
+.zone {
+  font-size: 2em;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+}
+
+.zone:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+/*NAV*/
+
+#navbar {
+  display: flex;
+  list-style: none;
+  font-size: 0.7em;
+  margin: 0;
+  justify-content: center;
+  padding-left: 0;
+  transition: top 0.3s;
+  background-color: #221e31;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+}
+
+.nav-item {
+  padding: 20px;
+  margin-left: 10px;
+}
+
+a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+  color: #0bbba0;
+}
+
+.mobile-view {
+  display: none;
+}
+
+#techonologist {
+  display: none;
+}
+
+.cross {
+  display: none;
+}
+
+/*Cover*/
+.mh-header-info {
+  font-size: 17px;
+  color: #e7e7e8;
+  font-family: sans-serif;
+  margin-left: 200px;
+}
+
+.hello {
+  background-color: #0bceaf;
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.my-name {
+  margin-bottom: 5px;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.work {
+  margin-top: 15px;
+}
+
+.info {
+  list-style: none;
+}
+
+.info-items {
+  padding: 7px;
+  display: inline-flex;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+}
+
+.img {
+  padding-top: 100px;
+}
+
+#about-para {
+  font-size: 16px;
+}
+
+.cover {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  border: 5px solid;
+  border-radius: 50%;
+  border-color: white;
+}
+
+.fa {
+  margin-right: 15px;
+}
+
+.info {
+  display: grid;
+}
+
+.info li .fa {
+  padding: 2px 7px;
+  font-size: 18px;
+  line-height: 30px;
+  margin-right: 10px;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.info li .fa:hover {
+  color: #0bceaf;
+  background-color: white;
+}
+
+.wow {
+  display: inline-flex;
+  padding: 10px;
+}
+
+.social-icon li .fa {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 4px 14px;
+  margin-right: 10px;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.social-icon {
+  margin-bottom: 0px;
+}
+
+.social-icon li .fa:hover {
+  background-color: white;
+}
+
+.about {
+  color: #e7e7e8;
+}
+
+.markup {
+  display: grid;
+  grid-gap: 15px;
+  grid-template: auto/ auto auto auto;
+  /* margin-left: -100px; */
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.skills {
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  border: 1px solid;
+  border-radius: 4px;
+  border-color: #31bbdf;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #menu {
+    position: relative;
+    float: right;
+  }
+  .cross {
+    margin-top: -20px;
+  }
+  .nav-popup {
+    background-color: #100e17;
+    display: flex;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 22px;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+  }
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+    display: block;
+    margin-top: 20px;
+  }
+  .desktop-view {
+    display: none;
+  }
+  .expand {
+    display: block;
+  }
+  .mobile-view {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    margin-left: -50px;
+  }
+  .logo {
+    font-weight: 600;
+  }
+  #techonologist {
+    display: inline;
+  }
+  #home {
+    display: none;
+  }
+  .zone:hover {
+    box-shadow: unset;
+  }
+  .nav-item {
+    margin-left: 0px;
+    padding: 5px;
+  }
+  .container {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    position: relative;
+    top: 50px;
+    position: absolute;
+    z-index: -1;
+  }
+  .mh-header-info {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .cover {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-name {
+    font-size: 42px;
+  }
+  .work {
+    font-size: 20px;
+  }
+}
