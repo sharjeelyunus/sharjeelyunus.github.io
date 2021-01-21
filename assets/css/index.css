@@ -126,9 +126,8 @@ ul {
   border-radius: 50%;
   width: 400px;
   height: 400px;
-  border: 5px solid;
+  border: 2px solid #31bbdf;
   border-radius: 50%;
-  border-color: white;
 }
 
 .fa {
@@ -236,6 +235,8 @@ ul {
   background-color: #202026;
   border-radius: 10px;
   box-shadow: 0px 10px 20px 4px #00000015;
+  border: 1px solid;
+  border-color: #31bbdf;
 }
 
 .graphic img {
@@ -248,7 +249,7 @@ ul {
   padding-left: 20px;
 }
 
-.blog-platforms h2{
+.blog-platforms h2 {
   margin-top: 50px;
   margin-bottom: 50px;
   color: white;
@@ -259,6 +260,47 @@ ul {
   display: grid;
   grid-gap: 20px;
   grid-template: 400px/ 300px 300px;
+}
+
+#contact h2 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.grid-wrapper-contact {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 400px/ 550px;
+}
+
+.contact-box {
+  margin-top: 100px;
+}
+
+.contact-box-items {
+  justify-content: center;
+}
+
+footer {
+  padding: 10px 0px;
+  opacity: 0.7;
+  color: #e7e7e8;
+  margin-top: 90px;
+  text-align: center;
+}
+
+footer a {
+  transition: 400ms;
+}
+
+footer a:hover {
+  color: #989898;
+  text-decoration: none;
 }
 
 /* @media only screen and (max-width: 600px) {
