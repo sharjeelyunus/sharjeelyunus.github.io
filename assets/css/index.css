@@ -31,10 +31,13 @@ body {
   justify-content: center;
   padding-left: 0;
   transition: top 0.3s;
-  background-color: #221e31;
   position: fixed;
-  top: -50px;
   width: 100%;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #2b2f33 !important;
+  transition: background-color 200ms linear;
 }
 
 .nav-item {
