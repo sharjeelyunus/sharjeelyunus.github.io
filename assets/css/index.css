@@ -187,7 +187,6 @@ ul {
   display: grid;
   grid-gap: 15px;
   grid-template: auto/ auto auto auto;
-  /* margin-left: -100px; */
 }
 
 ul {

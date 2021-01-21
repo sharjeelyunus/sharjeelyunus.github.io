@@ -1,85 +1,183 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Sharjeel Yunus</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sharjeel Yunus Portfolio webpage for the display of skills and work.">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
-  <link rel="shortcut icon" href="/assets/img/sharjeel.jpg" type="image/x-icon">
-</head>
-<body>
-  <nav class="zone sticky">
-    <div id="menu">
-    <div class="mobile-view" id="burger" onclick="displayCross()"><img src="/assets/img/burger-menu.png" alt="menu"></div></div>
-    <div class="nav-popup desktop-view">
-      <div class="cross" id="cross" onclick="displayCross()"><img src="/assets/img/times-solid.svg" alt="cross" width="25px" height="25px"></div>
-      <ul id="navbar">
-        <li class="nav-item logo"><a href="#home"><span id="home">Home</span><span id="techonologist">Sharjeel Yunus👨‍💻</span></a></li>
-        <li class="nav-item"><a href="#about">About</a></li>
-        <li class="nav-item"><a href="/">Skills</a></li>
-        <li class="nav-item"><a href="/">Portfolio</a></li>
-        <li class="nav-item"><a href="/">Blogs</a></li>
-        <li class="nav-item"><a href="/">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <div class="portfolio">
-  <div id="home">
-  <div class="container img">
-    <img class="cover" src="/assets/img/sharjeel.jpg" title="Sharjeel Yunus | Web Developer & Graphic Designer">
-    <div class="mh-header-info">
-      <div>
-        <b><span class="hello">Hello 👋</span></b>
-      </div>
-                                
-      <h1 class="my-name">Sharjeel Yunus</h1>
-      <b><font size="4"><h4 class="work"><spna title="Web Developer / Apps Developer">Developer</spna> |<span title="Vector Illustrator"> Designer</span></h4></font></b>                                
-    <ul class="info">
-        <li class="info-items" title="Email">
-        	<i class="fa fa-envelope"></i>
-        	<a href="mailto:sharjeel924@gmail.com">sharjeel924@gmail.com</a></li>
-        <li class="info-items" title="Call me">
-        	<i class="fa fa-phone"></i>
-        	<a href="callto:+923097574574">+92 308 7574574</a>
-        </li>
-        <li class="info-items" title="Address">
-        	<i class="fa fa-map-marker"></i>
-        	<address title="Jalalpur Pirwala & Bahawalpur">Pakistan</address></li>
-    </ul>
-    <ul class="social-icon wow">
-         <li><a href="https://www.facebook.com/aslisharjeel" target="_blank" title="Like me on Facebook"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="https://www.instagram.com/sharjeel_arts/" target="_blank" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></li>
-         <li><a href="https://twitter.com/sharjeelyunus" target="_blank" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="https://github.com/sharjeelyunus" target="_blank" title="Follow me on GitHub"><i class="fa fa-github"></i></a></li>
-         <li><a href="https://www.linkedin.com/in/sharjeel-yunus" target="_blank" title="Connect with me on LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-    </ul>
-  </div>
-</div>
-</div>
-<div id="about">
-  <div class="container img">
-  <div class="about col-sm-12 col-md-6">
-      <h2 title="Who I am?">About Me</h2>
-      <p id="about-para">Hi, I’m Sharjeel Yunus, a <span title="at Islamia University of Bahwalpur">Computer Science Student</span> having great passion for Web & Apps Development - Vector Arts.</p>
-      <div class="wow">
-          <ul class="markup">
-              <li class="skills"><span>HTML/CSS</span></li>
-              <li class="skills"><span>Javascript</span></li>
-              <li class="skills"><span>React-JS</span></li>
-              <li class="skills"><span>Flutter</span></li>
-              <li class="skills"><span>MERN-Stack</span></li>
-              <li class="skills"><span>Illustrator</span></li>
-          </ul>
+  <head>
+    <title>Sharjeel Yunus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sharjeel Yunus Portfolio webpage for the display of skills and work."
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/sharjeel.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav class="zone sticky">
+      <div id="menu">
+        <div class="mobile-view" id="burger" onclick="displayCross()">
+          <img src="/assets/img/burger-menu.png" alt="menu" />
         </div>
       </div>
-      <img class="about-cover" src="/assets/img/Sharjeel artwork.png" width="400" height="400" alt="cover">
-  </div>
-</div>
+      <div class="nav-popup desktop-view">
+        <div class="cross" id="cross" onclick="displayCross()">
+          <img
+            src="/assets/img/times-solid.svg"
+            alt="cross"
+            width="25px"
+            height="25px"
+          />
+        </div>
+        <ul id="navbar">
+          <li class="nav-item logo">
+            <a href="#home"
+              ><span id="home">Home</span
+              ><span id="techonologist">Sharjeel Yunus👨‍💻</span></a
+            >
+          </li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="/">Portfolio</a></li>
+          <li class="nav-item"><a href="/">Blogs</a></li>
+          <li class="nav-item"><a href="/">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="landing-page">
+      <div id="home">
+        <div class="container img">
+          <div>
+            <img
+              class="cover"
+              src="/assets/img/sharjeel.jpg"
+              title="Sharjeel Yunus | Web Developer & Graphic Designer"
+            />
+          </div>
+          <div class="mh-header-info">
+            <div>
+              <b><span class="hello">Hello 👋</span></b>
+            </div>
+            <h1 class="my-name">Sharjeel Yunus</h1>
+            <b
+              ><font size="4"
+                ><h4 class="work">
+                  <spna title="Web Developer / Apps Developer">Developer</spna>
+                  |<span title="Vector Illustrator"> Designer</span>
+                </h4></font
+              ></b
+            >
+            <ul class="info">
+              <li class="info-items" title="Email">
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:sharjeel924@gmail.com">sharjeel924@gmail.com</a>
+              </li>
+              <li class="info-items" title="Call me">
+                <i class="fa fa-phone"></i>
+                <a href="callto:+923097574574">+92 308 7574574</a>
+              </li>
+              <li class="info-items" title="Address">
+                <i class="fa fa-map-marker"></i>
+                <address title="Jalalpur Pirwala & Bahawalpur">
+                  Pakistan
+                </address>
+              </li>
+            </ul>
+            <ul class="social-icon wow">
+              <li>
+                <a
+                  href="https://www.facebook.com/aslisharjeel"
+                  target="_blank"
+                  title="Like me on Facebook"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/sharjeel_arts/"
+                  target="_blank"
+                  title="Follow me on Instagram"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/sharjeelyunus"
+                  target="_blank"
+                  title="Follow me on Twitter"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/sharjeelyunus"
+                  target="_blank"
+                  title="Follow me on GitHub"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/sharjeel-yunus"
+                  target="_blank"
+                  title="Connect with me on LinkedIn"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
+      <!-- ---------------------------------------------------------------- -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="/assets/JS/nav-script.js"></script>
-</body>
+      <div id="about">
+        <div class="container img">
+          <div class="about col-sm-12 col-md-6">
+            <h2 title="Who I am?">About Me</h2>
+            <p id="about-para">
+              Hi, I’m Sharjeel Yunus, a
+              <span title="at Islamia University of Bahwalpur"
+                >Computer Science Student</span
+              >
+              having great passion for Web & Apps Development - Vector Arts.
+            </p>
+            <div class="wow">
+              <ul class="markup">
+                <li class="skills"><span>HTML/CSS</span></li>
+                <li class="skills"><span>Javascript</span></li>
+                <li class="skills"><span>React-JS</span></li>
+                <li class="skills"><span>Flutter</span></li>
+                <li class="skills"><span>MERN-Stack</span></li>
+                <li class="skills"><span>Illustrator</span></li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <img
+              class="about-cover"
+              src="/assets/img/Sharjeel artwork.png"
+              width="400"
+              height="400"
+              alt="cover"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------------- -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/assets/JS/nav-script.js"></script>
+  </body>
 </html>
