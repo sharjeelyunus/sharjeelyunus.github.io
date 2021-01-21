@@ -119,7 +119,7 @@ ul {
 }
 
 #about-para {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .cover {
@@ -180,13 +180,13 @@ ul {
 
 .about {
   color: #e7e7e8;
+  padding-top: 80px;
 }
 
 .markup {
   display: grid;
   grid-gap: 15px;
   grid-template: auto/ auto auto auto;
-  /* margin-left: -100px; */
 }
 
 ul {
@@ -206,8 +206,7 @@ ul {
   text-align: center;
 }
 
-
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   #menu {
     position: relative;
     float: right;
@@ -288,4 +287,4 @@ ul {
   .work {
     font-size: 20px;
   }
-}
+} */
