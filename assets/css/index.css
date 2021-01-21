@@ -198,12 +198,53 @@ ul {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
   border: 1px solid;
   border-radius: 4px;
   border-color: #31bbdf;
   font-weight: bold;
   text-align: center;
+}
+
+#portfolio {
+  margin-top: 200px;
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 400px/ 300px 300px 300px;
+}
+
+.box > img {
+  width: 100%;
+}
+
+.box {
+  margin: 20px;
+  background-color: #202026;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 4px #00000015;
+}
+
+.graphic img {
+  width: 250px;
+}
+
+.graphic p {
+  margin-top: 90px;
+  padding-bottom: 24px;
+  padding-left: 20px;
+}
+
+.web-development {
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
 
 /* @media only screen and (max-width: 600px) {
