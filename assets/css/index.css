@@ -31,10 +31,13 @@ body {
   justify-content: center;
   padding-left: 0;
   transition: top 0.3s;
-  background-color: #221e31;
   position: fixed;
-  top: -50px;
   width: 100%;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #2b2f33 !important;
+  transition: background-color 200ms linear;
 }
 
 .nav-item {
@@ -203,6 +206,21 @@ ul {
   border-color: #31bbdf;
   font-weight: bold;
   text-align: center;
+}
+
+#about-separate {
+  background-color: #202026;
+}
+
+.certificates {
+  margin-left: 160px;
+}
+
+.certificates a h2 {
+  background-color: #31bbdf;
+  border-radius: 4px;
+  color: #202026;
+  border: 1px solid white;
 }
 
 #portfolio {
