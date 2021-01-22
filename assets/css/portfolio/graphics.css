@@ -73,6 +73,23 @@ h1 , h2 {
     padding-right: 50px;
 }
 
+.grid-wrapper-certificates {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 500px/ 550px 550px;
+  justify-content: center;
+}
+
+.grid-wrapper-certificates div p {
+  text-align: center;
+  font-size: 22px;
+}
+
+#title-certificates {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .grid-wrapper-illustration {
     display: grid;
     grid-gap: 20px;

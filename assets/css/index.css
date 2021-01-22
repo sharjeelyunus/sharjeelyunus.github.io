@@ -208,6 +208,21 @@ ul {
   text-align: center;
 }
 
+#about-separate {
+  background-color: #202026;
+}
+
+.certificates {
+  margin-left: 160px;
+}
+
+.certificates a h2 {
+  background-color: #31bbdf;
+  border-radius: 4px;
+  color: #202026;
+  border: 1px solid white;
+}
+
 #portfolio {
   margin-top: 150px;
 }
