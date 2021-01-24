@@ -122,7 +122,7 @@ h2 {
 .grid-wrapper-developer {
   display: grid;
   grid-gap: 20px;
-  grid-template: 234px/ 438px 438px;
+  grid-template: 260px/ 438px 438px;
 }
 
 .box > img {
@@ -214,6 +214,19 @@ ul {
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+}
+
+.dev-language {
+  display: flex;
+}
+
+.dev-language img {
+  padding: 2px;
+  height: 25px;
+}
+
+.dev-language p{
+  font-size: 16px;
 }
 
 .item14 {
