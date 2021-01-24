@@ -1,6 +1,5 @@
 body {
   margin: auto 0;
-  font-family: Simonetta;
   background-color: #100e17;
 }
 
@@ -213,7 +212,11 @@ ul {
 }
 
 .certificates {
-  margin-left: 160px;
+  margin-left: 142px;
+}
+
+.certificates a h2 {
+  padding: 3px;
 }
 
 .certificates a h2 {
