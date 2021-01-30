@@ -125,6 +125,12 @@ h2 {
   grid-template: 260px/ 438px 438px;
 }
 
+.grid-wrapper-js30 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 140px/ 300px 300px 300px 300px;
+}
+
 .box > img {
   width: 100%;
 }
@@ -175,6 +181,11 @@ ul {
   height: 200px;
 }
 
+.main-js30 {
+  width: 300px;
+  height: auto;
+}
+
 .live {
   display: block;
   height: 100px;
@@ -182,6 +193,16 @@ ul {
   right: 0;
   top: 0;
   width: 100px;
+  z-index: 1001;
+}
+
+.live_js {
+  display: block;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 70px;
   z-index: 1001;
 }
 
@@ -193,7 +214,19 @@ ul {
   border-radius: 10px;
 }
 
+.text-js30 a {
+  background-color: #2b2f33;
+  color: white;
+  font-size: 12px;
+  padding: 16px;
+  border-radius: 10px;
+}
+
 .text a:hover {
+  color: white;
+}
+
+.text-js30 a:hover {
   color: white;
 }
 
@@ -232,6 +265,28 @@ ul {
 
 .item14 {
   grid-column: 2/4;
+}
+
+.hero_title {
+  font-size: 36px;
+  border-bottom: 0;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-family: 'againtsregular';
+  color: #fff;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 20%), 0 0 10px rgb(0 0 0 / 10%);
+}
+
+.hero_title .hashtag {
+    color: #ffc600;
+    font-size: 25px;
+}
+
+.hero_title .num {
+  color: #ffc600;
+  font-size: 1.5em;
+  position: relative;
+  top: 0.07em;
 }
 
 @media only screen and (max-width: 600px) {
