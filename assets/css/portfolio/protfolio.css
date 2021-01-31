@@ -4,6 +4,9 @@ body {
   color: #e7e7e8;
   justify-content: center;
   text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .zone {
@@ -137,6 +140,7 @@ h2 {
 
 .box {
   margin: 20px;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
 .bar h2 {
@@ -259,7 +263,7 @@ ul {
   height: 25px;
 }
 
-.dev-language p{
+.dev-language p {
   font-size: 16px;
 }
 
@@ -272,14 +276,14 @@ ul {
   border-bottom: 0;
   font-weight: 100;
   letter-spacing: 2px;
-  font-family: 'againtsregular';
+  font-family: "againtsregular";
   color: #fff;
   text-shadow: 2px 2px 2px rgb(0 0 0 / 20%), 0 0 10px rgb(0 0 0 / 10%);
 }
 
 .hero_title .hashtag {
-    color: #ffc600;
-    font-size: 25px;
+  color: #ffc600;
+  font-size: 25px;
 }
 
 .hero_title .num {
@@ -287,6 +291,10 @@ ul {
   font-size: 1.5em;
   position: relative;
   top: 0.07em;
+}
+
+.yellow {
+  color: #ffc600;
 }
 
 @media only screen and (max-width: 600px) {
