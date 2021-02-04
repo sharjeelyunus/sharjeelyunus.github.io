@@ -98,7 +98,7 @@ button::after {
   transition: transform 0.5s;
 }
 .spin {
-  width: 5em;
+  width: 8em;
   height: 5em;
   padding: 0;
 }
@@ -127,7 +127,7 @@ button::after {
   border-top: 2px solid #0eb7da;
   border-left-width: 2px;
   border-right-width: 2px;
-  transform: rotate(270deg);
+  transform: rotate(180deg);
   transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;
 }
 .circle {
@@ -139,7 +139,7 @@ button::after {
   border-radius: 100%;
 }
 .thick {
-  color: #f45e61;
+  color: #0bceaf;
 }
 .thick:hover {
   color: #fff;
@@ -154,16 +154,16 @@ button::after {
   z-index: -1;
 }
 .thick:hover::before {
-  background: #f45e61;
-  border-top-color: #f45e61;
-  border-right-color: #f45e61;
-  border-bottom-color: #f45e61;
+  background: #0bceaf;
+  border-top-color: #0bceaf;
+  border-right-color: #0bceaf;
+  border-bottom-color: #0bceaf;
   transition: background 0s linear 0.4s, border-top-color 0.15s linear,
     border-right-color 0.15s linear 0.15s,
     border-bottom-color 0.15s linear 0.25s;
 }
 .thick:hover::after {
-  border-top: 2.5em solid #f45e61;
+  border-top: 2.5em solid #0bceaf;
   border-left-width: 2.5em;
   border-right-width: 2.5em;
 }
