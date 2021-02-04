@@ -220,7 +220,7 @@ ul {
 }
 
 #portfolio {
-  margin-top: 150px;
+  padding-top: 150px;
 }
 
 .portfolio-grid h2 {
@@ -263,6 +263,11 @@ ul {
   padding-left: 20px;
 }
 
+#blogs {
+  padding-top: 150px;
+  margin-top: -150px;
+}
+
 .blog-platforms h2 {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -274,6 +279,11 @@ ul {
   display: grid;
   grid-gap: 20px;
   grid-template: 400px/ 300px 300px;
+}
+
+#contact {
+  padding-top: 150px;
+  margin-top: -200px;
 }
 
 #contact h2 {
