@@ -14,10 +14,6 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
     <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
     <link
       rel="shortcut icon"
@@ -165,7 +161,7 @@
             
             <div class="certificates">
               <a href="/assets/pages/certificates.html">
-                <button class="draw meet">Certificates</button>
+                <button class="draw meet">-> Certificates <-</button>
               </a>
             </div>
           </div>
@@ -230,22 +226,24 @@
       <div id="blogs">
         <div class="blog-platforms">
           <h2>Blogs</h2>
-
+          <i class="fa fa-dev"></i>
           <div id="flex">
             <div class="blue grid-wrapper-blogs">
               <div id="medium">
-                <a href="https://medium.com/@sharjeelyunus">
-                  <div class="box graphic">
-                    <img src="/assets/img/medium.png" />
-                  </div>
+                <a href="https://medium.com/@sharjeelyunus" target="_blank">
+                  <button class="spin thick">
+                      <i class="fab fa-medium"></i>
+                      <p style="color: white;">Read Blogs on MEDIUM</p>
+                </button>
                 </a>
               </div>
 
               <div id="dev">
-                <a href="https://dev.to/sharjeelyunus">
-                  <div class="box web-development">
-                    <img src="/assets/img/dev.png" />
-                  </div>
+                <a href="https://dev.to/sharjeelyunus" target="_blank">
+                  <button class="spin thick">
+                    <i class="fab fa-dev"></i>
+                    <p style="color: white;">Read Blogs on DEV</p>
+                  </button>  
                 </a>
               </div>
             </div>
@@ -335,5 +333,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/assets/JS/nav-script.js"></script>
+    <script src="https://kit.fontawesome.com/2d014bc0d8.js" crossorigin="anonymous"></script>
   </body>
 </html>
