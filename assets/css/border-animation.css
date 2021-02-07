@@ -56,19 +56,19 @@ button::after {
     height 0.25s ease-out 0.75s;
 }
 .meet:hover {
-  color: #fbca67;
+  color: #0bceaf;
 }
 .meet::after {
   top: 0;
   left: 0;
 }
 .meet:hover::before {
-  border-top-color: #fbca67;
-  border-right-color: #fbca67;
+  border-top-color: #0bceaf;
+  border-right-color: #0bceaf;
 }
 .meet:hover::after {
-  border-bottom-color: #fbca67;
-  border-left-color: #fbca67;
+  border-bottom-color: #0bceaf;
+  border-left-color: #0bceaf;
   transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
 }
 .center:hover {
@@ -139,7 +139,7 @@ button::after {
   border-radius: 100%;
 }
 .thick {
-  color: #0bceaf;
+  color: #ffffff;
 }
 .thick:hover {
   color: #fff;
@@ -154,16 +154,16 @@ button::after {
   z-index: -1;
 }
 .thick:hover::before {
-  background: #0bceaf;
-  border-top-color: #0bceaf;
-  border-right-color: #0bceaf;
-  border-bottom-color: #0bceaf;
+  background: #202026;
+  border-top-color: #202026;
+  border-right-color: #202026;
+  border-bottom-color: #202026;
   transition: background 0s linear 0.4s, border-top-color 0.15s linear,
     border-right-color 0.15s linear 0.15s,
     border-bottom-color 0.15s linear 0.25s;
 }
 .thick:hover::after {
-  border-top: 2.5em solid #0bceaf;
+  border-top: 2.5em solid #202026;
   border-left-width: 2.5em;
   border-right-width: 2.5em;
 }

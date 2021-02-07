@@ -32,10 +32,11 @@ body {
   transition: top 0.3s;
   position: fixed;
   width: 100%;
+  z-index: 1001;
 }
 
 .navbar-fixed-top.scrolled {
-  background-color: #2b2f33 !important;
+  background-color: #202026 !important;
   transition: background-color 200ms linear;
 }
 
