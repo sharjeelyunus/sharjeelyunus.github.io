@@ -247,11 +247,10 @@ ul {
 
 .box {
   margin: 20px;
-  background-color: #202026;
   border-radius: 10px;
   box-shadow: 0px 10px 20px 4px #00000015;
   border: 1px solid;
-  border-color: #31bbdf;
+  border-color: white;
 }
 
 .graphic img {
@@ -352,6 +351,10 @@ footer a:hover {
     display: none;
   }
 
+  .my-name {
+    margin-top: auto;
+  }
+
   .mh-header-info {
     text-align: center;
     margin-left: auto;
@@ -359,6 +362,56 @@ footer a:hover {
 
   .info {
     display: inline-grid;
+  }
+
+  #about {
+    text-align: center;
+  }
+
+  .about {
+    padding-top: unset;
+  }
+
+  .skills {
+    margin: 0px;
+    font-size: 12px;
+  }
+
+  .certificates {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+  }
+
+  .about-cover {
+    display: none;
+  }
+
+  #portfolio {
+    padding-top: 50px;
+  }
+
+  .grid-wrapper,
+  .grid-wrapper-blogs {
+    grid-template: 256px/ 256px;
+  }
+
+  #blogs {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  #contact {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .grid-wrapper-contact {
+    display: unset;
+  }
+
+  .contact-box {
+    margin-top: 20px;
   }
 }
 
