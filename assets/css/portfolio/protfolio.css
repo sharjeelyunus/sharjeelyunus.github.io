@@ -54,8 +54,21 @@ body {
   margin-left: 10px;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #2b2f33 !important;
+#navbar {
+  display: flex;
+  list-style: none;
+  font-size: 0.7em;
+  margin: 0;
+  justify-content: center;
+  padding-left: 0;
+  transition: top 0.3s;
+  width: 100%;
+  z-index: 1001;
+  font-size: 17px;
+}
+
+.navbar-fixed-top {
+  background-color: #202026 !important;
   transition: background-color 200ms linear;
 }
 
@@ -374,76 +387,21 @@ ul {
   }
 } */
 
-/* @media only screen and (max-width: 600px) {
-  .mobile-view {
-    position: relative;
-    top: 20px;
-    display: block;
-    float: right;
-    margin-right: 23px;
-  }
-  #menu {
-    position: relative;
-    float: right;
-  }
-  .cross {
-    margin-top: -20px;
-  }
-  .nav-popup {
-    background-color: #100e17;
-    display: flex;
-    position: relative;
-    top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 20px;
-    padding: 22px;
-    border: 1px solid rgb(255, 255, 255);
-    text-align: center;
-  }
-  .main-nav {
-    font-size: 0.5em;
-    padding: 0;
-    display: block;
-    margin-top: 20px;
-  }
-  .desktop-view {
+@media only screen and (max-width: 600px) {
+  #navbar {
     display: none;
-  }
-  .expand {
-    display: block;
-  }
-  .logo {
-    font-weight: 600;
-  }
-  #techonologist {
-    display: inline;
-  }
-  #home {
-    display: none;
-  }
-  .zone:hover {
-    box-shadow: unset;
-  }
-  .nav-item {
-    margin-left: 10px;
-    padding: 5px;
-  }
-  .container {
-    position: relative;
-    top: 50px;
-    position: absolute;
-    z-index: -1;
-    justify-content: center;
   }
 
-  .grid-wrapper {
-    margin-left: 0px;
-    margin-right: 0px;
+  .certificates-list {
+    font-size: 20px;
   }
-  .grid-wrapper-illustration {
-    margin-left: 0px;
-    margin-right: 0px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+  .certificates-list ul {
+    padding-left: 20px;
+    padding-right: 20px;
   }
-} */
+
+  #title-certificates {
+    margin-bottom: auto;
+  }
+}
