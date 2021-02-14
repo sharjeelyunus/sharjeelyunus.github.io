@@ -328,6 +328,10 @@ ul {
   color: #ffc600;
 }
 
+.previous {
+  display: none;
+}
+
 /* #modal-btn {
   background-color: transparent;
   border: none;
@@ -395,6 +399,17 @@ ul {
     display: none;
   }
 
+  .previous {
+    display: inline-block;
+    background-color: #202026;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
   .certificates-list {
     font-size: 20px;
   }
@@ -406,6 +421,7 @@ ul {
 
   #title-certificates {
     margin-bottom: auto;
+    margin-top: auto;
   }
 
   header {
