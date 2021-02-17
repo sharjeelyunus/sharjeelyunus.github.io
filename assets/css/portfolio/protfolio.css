@@ -296,6 +296,14 @@ ul {
   font-size: 16px;
 }
 
+p {
+  margin: 0px;
+}
+
+.box-js30 {
+  background-color: #2b2f33;
+}
+
 .item14 {
   grid-column: 2/4;
 }
@@ -447,7 +455,7 @@ ul {
 
   .grid-wrapper-developer {
     justify-content: center;
-    display: contents;
+    display: unset;
   }
 
   .box-web {
