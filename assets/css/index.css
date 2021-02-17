@@ -199,6 +199,8 @@ ul {
   margin: 10px;
   font-weight: bold;
   text-align: center;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
 
 #about-separate {
@@ -230,6 +232,10 @@ ul {
   text-align: center;
 }
 
+#graphics-design {
+  background-color: #370eca;
+}
+
 #flex {
   display: flex;
   justify-content: center;
@@ -237,8 +243,8 @@ ul {
 
 .grid-wrapper {
   display: grid;
-  grid-gap: 20px;
-  grid-template: 400px/ 300px 300px 300px;
+  grid-gap: 40px;
+  grid-template: 256px/ 256px 256px 256px;
 }
 
 .box > img {
@@ -282,13 +288,13 @@ ul {
 
 .grid-wrapper-blogs {
   display: grid;
-  grid-gap: 20px;
-  grid-template: 400px/ 300px 300px;
+  grid-gap: 40px;
+  grid-template: 256px/ 256px 256px;
 }
 
 #contact {
   padding-top: 150px;
-  margin-top: -200px;
+  margin-top: -100px;
 }
 
 #contact h2 {

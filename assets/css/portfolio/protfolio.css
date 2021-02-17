@@ -105,14 +105,15 @@ h2 {
   display: grid;
 }
 
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .grid-wrapper {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .grid-wrapper-certificates {
@@ -140,10 +141,6 @@ h2 {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .grid-wrapper-developer {
@@ -300,6 +297,10 @@ p {
   margin: 0px;
 }
 
+h2 {
+  margin: 0px;
+}
+
 .box-js30 {
   background-color: #2b2f33;
 }
@@ -407,6 +408,12 @@ p {
     display: none;
   }
 
+  .container {
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .previous {
     display: inline-block;
     background-color: #202026;
@@ -416,6 +423,10 @@ p {
     padding: 8px 16px;
     border-radius: 50%;
     margin: 10px;
+  }
+
+  .certificates-page {
+    margin-top: -30px;
   }
 
   .certificates-list {
@@ -436,21 +447,8 @@ p {
     text-align: center;
   }
 
-  .grid-wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .grid-wrapper-illustration {
-    display: grid;
-    grid-gap: 20px;
     grid-template-columns: none;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   .grid-wrapper-developer {
