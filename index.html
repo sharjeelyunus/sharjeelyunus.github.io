@@ -14,12 +14,19 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
     <link
       rel="shortcut icon"
       href="/assets/img/Sharjeel artwork.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="/assets/css/carousel.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -169,8 +176,84 @@
       <!-- ---------------------------------------------------------------- -->
 
       <div id="portfolio">
+        <h2>Portfolio</h2>
+        <div id="graphic-design">
+          <div class="header-card">
+          <a href="/assets/pages/portfolio/graphics.html">
+            <h3 style="margin-top: 20px; font-weight: bold">
+              Graphic Design Portfolio
+            </h3>
+          </a>
+            <p style="margin-bottom: 50px">
+              Check out my graphic design portfolio<br />
+              Tools i'm familiar with: <br />
+              ADOBE ILLUSTRATOR <span class="yellow">x</span> CANVA
+              <span class="yellow">x</span> FIGMA
+              <span class="yellow">x</span> ADOBE PHOTOSHOP
+            </p>
+            <p>These are some Vector Arts made with Adobe Illustrator</p>
+          </div>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+    
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="grid-wrapper-carousel">
+                  <img src="/assets/img/John Wick.png" title="John Wick" class="carousel-box"/>
+                  <img src="/assets/img/Tuba Ishtiaq.png" title="Tuba Ishtiaq" class="carousel-box"/>
+                  <img src="/assets/img/Sharjeel artwork.png" title="Sharjeel Yunus" class="carousel-box"/>
+                  <img src="/assets/img/Osman.png" title="Osman Khalid Butt" class="carousel-box"/>
+                  <img src="/assets/img/Fahad Mustafa.png" title="Fahad Mustafa" class="carousel-box"/>
+                  <img src="/assets/img/Shahveer J.png" title="Shahveer Jafary" class="carousel-box"/>
+                  <img src="/assets/img/Berlin.png" title="Berlin Money Heist" class="carousel-box"/>
+                  <img src="/assets/img/Aadil.png" title="Aadil Saeed Khan" class="carousel-box"/>
+                </div>  
+              </div>
+    
+              <div class="item">
+                <div class="grid-wrapper-carousel">
+                  <img src="/assets/img/Minal.png" title="Minal" class="carousel-box"/>
+                  <img src="/assets/img/Hamza Ali Abbasi.png" title="Hamza Ali Abbasi" class="carousel-box"/>
+                  <img src="/assets/img/You.png" title="You Season Portrait" class="carousel-box"/>
+                  <img src="/assets/img/Sharjeel.png" title="Sharjeel Yunus" class="carousel-box"/>
+                  <img src="/assets/img/Boy.png" title="Child" class="carousel-box"/>
+                  <img src="/assets/img/Quaid e Azam.png" title="Quaid-e-Azam Muhammad Ali Jinnah" class="carousel-box"/>
+                  <img src="/assets/img/Arbaz.png" title="Arbaz Sohail" class="carousel-box"/>
+                  <img src="/assets/img/Eminem.png" title="Eminem" class="carousel-box"/>
+                </div>
+              </div>
+    
+              <div class="item">
+                <div class="grid-wrapper-carousel">
+                  <img src="/assets/img/G Dragon.png" title="G Dragon" class="carousel-box"/>
+                  <img src="/assets/img/First illustrator Art.jpg" title="Illustration Art" class="carousel-box"/>
+                  <img src="/assets/img/Eath Day 2020 .png" title="Earth Day 2020" class="carousel-box"/>
+                  <img src="/assets/img/Professor.png" title="Money Heist Professor" class="carousel-box"/>
+                  <img src="/assets/img/Sehun.png" title="Sehun | Singer" class="carousel-box"/>
+                  <img src="/assets/img/Kim Donghyuk.png" title="Kim Donghyuk" class="carousel-box"/>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
         <div class="portfolio-grid">
-          <h2>Portfolio</h2>
           <div id="flex">
             <div class="blue grid-wrapper">
               <div id="graphics-design">

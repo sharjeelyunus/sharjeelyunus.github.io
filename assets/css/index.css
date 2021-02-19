@@ -95,6 +95,10 @@ a:hover {
   margin-top: 50px;
 }
 
+code {
+  background-color: transparent;
+}
+
 .work {
   margin-top: 15px;
 }
@@ -226,7 +230,11 @@ ul {
   padding-top: 150px;
 }
 
-.portfolio-grid h2 {
+.portfolio-grid {
+  display: none;
+}
+
+#portfolio h2 {
   margin-bottom: 50px;
   color: white;
   text-align: center;
@@ -253,6 +261,15 @@ ul {
   box-shadow: 0px 10px 20px 4px #00000015;
   border: 1px solid;
   border-color: white;
+}
+
+#graphic-design {
+  text-align: center;
+  color: white;
+}
+
+.yellow {
+  color: #ffc600;
 }
 
 .graphic img {
@@ -342,7 +359,9 @@ footer a:hover {
   .cover {
     width: 300px;
     height: 300px;
-    margin: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .container {
@@ -398,6 +417,14 @@ footer a:hover {
     grid-template: 256px/ 256px;
   }
 
+  .portfolio-grid {
+    display: unset;
+  }
+
+  #graphic-design {
+    display: none;
+  }
+
   #blogs {
     padding-top: 0px;
     margin-top: 0px;
@@ -416,86 +443,3 @@ footer a:hover {
     margin-top: 20px;
   }
 }
-
-/* @media only screen and (max-width: 600px) {
-  #menu {
-    position: relative;
-    float: right;
-  }
-  .cross {
-    margin-top: -20px;
-  }
-  .nav-popup {
-    background-color: #100e17;
-    display: flex;
-    position: relative;
-    top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 20px;
-    padding: 22px;
-    border: 1px solid rgb(255, 255, 255);
-    text-align: center;
-  }
-  .main-nav {
-    font-size: 0.5em;
-    padding: 0;
-    display: block;
-    margin-top: 20px;
-  }
-  .desktop-view {
-    display: none;
-  }
-  .expand {
-    display: block;
-  }
-  .mobile-view {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    margin-left: -50px;
-  }
-  .logo {
-    font-weight: 600;
-  }
-  #techonologist {
-    display: inline;
-  }
-  #home {
-    display: none;
-  }
-  .zone:hover {
-    box-shadow: unset;
-  }
-  .nav-item {
-    margin-left: 0px;
-    padding: 5px;
-  }
-  .container {
-    display: block;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 0px;
-    position: relative;
-    top: 50px;
-    position: absolute;
-    z-index: -1;
-  }
-  .mh-header-info {
-    margin-left: 20px;
-    margin-top: 40px;
-  }
-  .cover {
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .my-name {
-    font-size: 42px;
-  }
-  .work {
-    font-size: 20px;
-  }
-} */
