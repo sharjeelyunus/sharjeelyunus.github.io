@@ -1,6 +1,7 @@
 body {
   margin: auto 0;
   background-color: #100e17;
+  color: white;
 }
 
 .zone {
@@ -282,6 +283,10 @@ ul {
   padding-left: 20px;
 }
 
+#web-dev {
+  margin-top: 50px;
+}
+
 #blogs {
   padding-top: 150px;
   margin-top: -150px;
@@ -422,6 +427,10 @@ footer a:hover {
   }
 
   #graphic-design {
+    display: none;
+  }
+
+  #web-dev {
     display: none;
   }
 

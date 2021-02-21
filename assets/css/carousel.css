@@ -3,10 +3,18 @@
   padding: 0px 125px 0px 125px;
 }
 
-.grid-wrapper-carousel {
+.grid-wrapper-carousel-gd {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-wrapper-carousel-web {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 260px/ 438px 438px;
   align-items: center;
   justify-content: center;
 }
