@@ -146,7 +146,7 @@ h2 {
 .grid-wrapper-developer {
   display: grid;
   grid-gap: 20px;
-  grid-template: 260px/ 438px 438px;
+  grid-template: 280px/ 438px 438px;
 }
 
 .grid-wrapper-js30 {
