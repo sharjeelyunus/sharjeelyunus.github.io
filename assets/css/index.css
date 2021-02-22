@@ -287,6 +287,10 @@ ul {
   margin-top: 50px;
 }
 
+#app-dev {
+  margin-top: 50px;
+}
+
 .dev {
   height: 500px;
   overflow: auto;
@@ -456,6 +460,10 @@ footer a:hover {
   }
 
   #web-dev {
+    display: none;
+  }
+
+  #app-dev {
     display: none;
   }
 
