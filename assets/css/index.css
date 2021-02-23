@@ -229,6 +229,8 @@ ul {
 
 #portfolio {
   padding-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .portfolio-grid {
@@ -246,11 +248,11 @@ ul {
   justify-content: center;
 }
 
-.grid-wrapper {
+/* .grid-wrapper {
   display: grid;
   grid-gap: 40px;
   grid-template: 256px/ 256px 256px 256px;
-}
+} */
 
 .box > img {
   width: 100%;
@@ -260,8 +262,6 @@ ul {
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0px 10px 20px 4px #00000015;
-  border: 1px solid;
-  border-color: white;
 }
 
 #graphic-design {
@@ -281,6 +281,12 @@ ul {
   margin-top: 90px;
   padding-bottom: 24px;
   padding-left: 20px;
+}
+
+.header-card {
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 #web-dev {
