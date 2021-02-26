@@ -283,6 +283,12 @@ ul {
   justify-content: center;
 }
 
+.grid-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
 #web-dev {
   margin-top: 50px;
 }
