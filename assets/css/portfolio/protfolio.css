@@ -145,6 +145,48 @@ h2 {
   font-size: 1.5rem;
 }
 
+.qwiklabs {
+  margin: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.q-description {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.q-badges {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.grid-wrapper-qwiklabs {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 370px/ 300px 300px 300px 300px;
+}
+
+.box-q {
+  /* height: 400px;
+  width: 300px; */
+  padding: 30px;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
+  margin: auto;
+}
+.box-q > img {
+  width: 100%;
+}
+
+.box-q p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.box-q p span {
+  font-weight: normal;
+}
+
 .grid-wrapper-illustration {
   display: grid;
   grid-gap: 20px;
@@ -451,6 +493,10 @@ h2 {
   #title-certificates {
     margin-bottom: auto;
     margin-top: auto;
+  }
+
+  .grid-wrapper-qwiklabs {
+    display: block;
   }
 
   header {
