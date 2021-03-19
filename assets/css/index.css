@@ -76,25 +76,42 @@ a:hover {
   font-size: 17px;
   color: #e7e7e8;
   font-family: sans-serif;
-  margin-left: 200px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hello {
-  background-color: #0bceaf;
-  padding: 10px 30px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 0px;
-  font-size: 14px;
-  margin-bottom: 30px;
+  font-size: 50px;
 }
 
-.my-name {
+.intro-card {
+  background-color: rgba(21, 18, 37, 0.8);
+  padding: 20px;
+  width: 400px;
+  line-height: 1.6;
+  font-family: monospace;
+}
+
+.comment {
+  color: #586c7a;
+}
+
+.card-title {
+  color: #ec91ff;
+}
+
+.blue {
+  color: #17a2b8;
+}
+
+/* .my-name {
   margin-bottom: 5px;
   font-size: 50px;
   margin-top: 50px;
-}
+} */
 
 code {
   background-color: transparent;
@@ -132,10 +149,8 @@ ul {
 
 .cover {
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
-  border: 2px solid #31bbdf;
-  border-radius: 50%;
+  width: 500px;
+  height: 500px;
 }
 
 .fa {
@@ -412,13 +427,13 @@ footer a:hover {
     display: none;
   }
 
-  .my-name {
-    margin-top: auto;
+  .mh-header-info {
+    margin-left: auto;
+    margin: 20px;
   }
 
-  .mh-header-info {
-    text-align: center;
-    margin-left: auto;
+  .intro-card {
+    width: 330px;
   }
 
   .info {
