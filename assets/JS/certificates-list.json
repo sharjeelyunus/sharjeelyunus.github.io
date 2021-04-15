@@ -1,0 +1,86 @@
+[
+    {
+        "courseName": "Elements of AI: Introduction to AI",
+        "institute": "University of Helsinki"
+    },
+
+    {
+        "courseName": "Javascript Beginner",
+        "institute": "Udemy"
+    },
+
+    {
+        "courseName": "Introduction to Flutter Development",
+        "institute": "App Brewery"
+    },
+
+    {
+        "courseName": "Graphic Design",
+        "institute": "DigiSkills"
+    },
+
+    {
+        "courseName": "Digital Marketing",
+        "institute": "DigiSkills"
+    },
+
+    {
+        "courseName": "E-Commerce Managment",
+        "institute": "DigiSkills"
+    },
+
+    {
+        "courseName": "Freelancing",
+        "institute": "DigiSkills"
+    },
+
+    {
+        "courseName": "Artificial Intelligence Music Creation Certification",
+        "institute": "Udemy"
+    },
+
+    {
+        "courseName": "The Beginners Guide to Cyber Security",
+        "institute": "Udemy"
+    },
+
+    {
+        "courseName": "Communication Skills",
+        "institute": "Udemy"
+    },
+
+    {
+        "courseName": "Java Programming",
+        "institute": "Udemy"
+    },
+
+    {
+        "courseName": "HTML and CSS for Beginners",
+        "institute": "Udemy"
+    },
+
+    {
+        "courseName": "Programming Foundations Fundamentals",
+        "institute": "LinkedIn"
+    },
+
+    {
+        "courseName": "HTML Essential Training",
+        "institute": "LinkedIn"
+    },
+
+    {
+        "courseName": "CSS Essential Training",
+        "institute": "LinkedIn"
+    },
+
+    {
+        "courseName": "Succeeding in Web Development Full Stack and Front End",
+        "institute": "LinkedIn"
+    },
+
+    {
+        "courseName": "Programming Foundations Databases",
+        "institute": "LinkedIn"
+    }
+]
