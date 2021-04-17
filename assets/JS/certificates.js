@@ -1,28 +1,26 @@
-let certificates = [];
-fetch('../JS/certificates-list.json')
-    .then(results => results.json())
-    .then(results => {
+function addItemsToList(courseName, institute) {
+    var ul = document.getElementById("certificates");
+    var header = document.createElement("h2");
 
-        let certificatesArray = ''
-        results.forEach(element => {
-            certificatesArray += `
-            <li><i class="fas fa-trophy"></i> ${element.courseName} - <em>${element.institute}</em></li>`
+    var _courseName = document.createElement("li");
+    var _institute = document.createElement("li");
+
+    _courseName.innerHTML = `<i class="fas fa-trophy"></i> ${courseName} - <em>${(_institute.innerHTML = institute)}</em>`;
+    ul.appendChild(header);
+    ul.appendChild(_courseName);
+}
+
+function FetchAllData() {
+    firebase
+        .database()
+        .ref("Certificates-List")
+        .once("value", function (snapshot) {
+            snapshot.forEach(function (ChildSnapshot) {
+                let courseName = ChildSnapshot.val().courseName;
+                let institute = ChildSnapshot.val().institute;
+                addItemsToList(courseName, institute);
+            });
         });
-        document.getElementById("certificates").innerHTML = certificatesArray
-    });
+}
 
-let gcpBadges = [];
-fetch('../JS/badges.json')
-    .then(results => results.json())
-    .then(results => {
-
-        let badgeArray = ''
-        results.forEach(element => {
-            badgeArray += `
-                <div class="box-q">
-                    <img src="${element.img}" alt="${element.name}" title="${element.name}"/>
-                    <p>${element.name} <br/> <span>${element.issueDate}</span></p>
-                </div>`
-        });
-        document.getElementById("badge_box").innerHTML = badgeArray
-    });
+window.onload(FetchAllData());
