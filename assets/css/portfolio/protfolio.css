@@ -167,6 +167,10 @@ h2 {
   grid-template: 370px/ 300px 300px 300px 300px;
 }
 
+h6 {
+  display: none;
+}
+
 .box-q {
   /* height: 400px;
   width: 300px; */
