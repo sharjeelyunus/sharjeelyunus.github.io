@@ -4,7 +4,11 @@ function addCertificatesToList(courseName, institute) {
     var _courseName = document.createElement("li");
     var _institute = document.createElement("li");
 
-    _courseName.innerHTML = `<i class="fas fa-trophy"></i> ${courseName} - <em>${(_institute.innerHTML = institute)}</em>`;
+    _courseName.innerHTML = `
+                        <li class="box-c">
+                            <i class="fas fa-trophy"></i>
+                                <b>${courseName}</b> <br> <em>${(_institute.innerHTML = institute)}</em>
+                        </li>`;
     ul.appendChild(_courseName);
 }
 

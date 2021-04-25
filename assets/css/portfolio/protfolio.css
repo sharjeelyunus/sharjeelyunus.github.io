@@ -2,9 +2,9 @@ body {
   margin: auto 0;
   background-color: #100e17;
   color: #e7e7e8;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 .zone {
@@ -127,7 +127,7 @@ h2 {
 .grid-wrapper-certificates {
   display: grid;
   grid-gap: 20px;
-  grid-template: 500px/ 550px 550px;
+  grid-template: 50px/ 300px 300px 300px 300px;
   justify-content: center;
 }
 
@@ -142,7 +142,13 @@ h2 {
 }
 
 .certificates-list {
-  font-size: 1.5rem;
+  font-size: 15px;
+}
+
+.box-c {
+  padding: 10px;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
+  margin: auto;
 }
 
 .qwiklabs {
@@ -371,7 +377,7 @@ h2 {
   border-bottom: 0;
   font-weight: 100;
   letter-spacing: 2px;
-  font-family: "againtsregular";
+  font-family: 'againtsregular';
   color: #fff;
   text-shadow: 2px 2px 2px rgb(0 0 0 / 20%), 0 0 10px rgb(0 0 0 / 10%);
 }
