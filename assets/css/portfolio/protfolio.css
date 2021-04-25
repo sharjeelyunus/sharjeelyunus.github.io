@@ -151,6 +151,16 @@ h2 {
   margin: auto;
 }
 
+.fa-external-link-alt {
+  opacity: 0.1;
+  margin-left: 10px;
+}
+
+.fa-external-link-alt:hover {
+  opacity: 1;
+  color: yellow;
+}
+
 .qwiklabs {
   margin: 10px;
   margin-top: 100px;
