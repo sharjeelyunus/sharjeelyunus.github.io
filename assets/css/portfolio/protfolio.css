@@ -177,6 +177,30 @@ h2 {
   margin-right: 30px;
 }
 
+.badges {
+  margin-top: 100px;
+}
+
+.grid-wrapper-badges {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 370px/ 300px 300px 300px;
+  justify-content: center;
+}
+
+.badge {
+  padding: 30px;
+  box-shadow: 8px 8px 0 rgb(0 0 0 / 15%);
+  margin: auto;
+}
+
+.badge img {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
 .grid-wrapper-qwiklabs {
   display: grid;
   grid-gap: 20px;
