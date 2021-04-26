@@ -54,7 +54,7 @@ function FetchAllData() {
         });
 }
 
-function FetchBadgesData() {
+async function FetchBadgesData() {
     firebase
         .database()
         .ref("Badges")
@@ -67,7 +67,7 @@ function FetchBadgesData() {
         });
 }
 
-function FetchGCPBadgesData() {
+async function FetchGCPBadgesData() {
     firebase
         .database()
         .ref("GCP-Badges")
