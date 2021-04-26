@@ -107,12 +107,6 @@ a:hover {
   color: #17a2b8;
 }
 
-/* .my-name {
-  margin-bottom: 5px;
-  font-size: 50px;
-  margin-top: 50px;
-} */
-
 code {
   background-color: transparent;
 }
@@ -151,6 +145,26 @@ ul {
   border-radius: 50%;
   width: 500px;
   height: 500px;
+}
+
+.technologies {
+  font-size: 16px;
+}
+
+.display__skills {
+  margin-top: 10px;
+  display: flex;
+  font-size: 16px;
+}
+
+.left-skills {
+  justify-content: start;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.techIUse {
+  color: rgb(9, 255, 9);
 }
 
 .fa {
@@ -202,7 +216,6 @@ ul {
 
 .about {
   color: #e7e7e8;
-  padding-top: 80px;
 }
 
 .markup {
@@ -219,8 +232,8 @@ ul {
   margin: 10px;
   font-weight: bold;
   text-align: center;
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
 }
 
 #about-separate {
@@ -446,6 +459,14 @@ footer a:hover {
 
   .about {
     padding-top: unset;
+  }
+
+  .technologies {
+    display: flex;
+  }
+
+  .display__skills li {
+    display: -webkit-inline-box;
   }
 
   .skills {
