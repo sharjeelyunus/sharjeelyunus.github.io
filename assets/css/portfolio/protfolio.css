@@ -539,6 +539,16 @@ h2 {
     margin-top: auto;
   }
 
+  #certificates {
+    display: block;
+    font-size: 16px;
+  }
+
+  #badges {
+    display: block;
+    margin: 20px;
+  }
+
   .grid-wrapper-qwiklabs {
     display: block;
   }
