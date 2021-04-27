@@ -68,7 +68,9 @@ body {
 }
 
 .navbar-fixed-top {
-  background-color: #202026 !important;
+  position: fixed;
+  top: 0;
+  background-color: rgb(21, 18, 37);
   transition: background-color 200ms linear;
 }
 
@@ -107,6 +109,10 @@ h2 {
   justify-content: center;
   align-items: center;
   display: grid;
+}
+
+.certificates-page {
+  margin-top: 90px;
 }
 
 .container {
@@ -212,8 +218,6 @@ h6 {
 }
 
 .box-q {
-  /* height: 400px;
-  width: 300px; */
   padding: 30px;
   box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
   margin: auto;
@@ -436,68 +440,6 @@ h2 {
 .previous {
   display: none;
 }
-
-/* #modal-btn {
-  background-color: transparent;
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  padding-top: 50px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.modal-content {
-  position: relative;
-  background-color: white;
-  padding: 20px;
-  margin: auto;
-  width: 75%;
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
-  animation-name: animatetop;
-  animation-duration: 0.4s;
-}
-.close-btn {
-  float: right;
-  color: #2b2f33;
-  font-size: 30px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-@-webkit-keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
-}
-@keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
-} */
 
 @media only screen and (max-width: 600px) {
   #navbar {

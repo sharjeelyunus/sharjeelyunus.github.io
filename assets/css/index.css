@@ -36,8 +36,8 @@ body {
   z-index: 1001;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #202026 !important;
+.navbar-fixed-top {
+  background-color: rgb(21, 18, 37);
   transition: background-color 200ms linear;
 }
 
@@ -424,6 +424,10 @@ footer a:hover {
     display: none;
   }
 
+  .landing-page {
+    margin-top: 60px;
+  }
+
   .cover {
     width: 300px;
     height: 300px;
@@ -453,20 +457,8 @@ footer a:hover {
     display: inline-grid;
   }
 
-  #about {
-    text-align: center;
-  }
-
   .about {
     padding-top: unset;
-  }
-
-  .technologies {
-    display: flex;
-  }
-
-  .display__skills li {
-    display: -webkit-inline-box;
   }
 
   .skills {

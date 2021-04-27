@@ -1,0 +1,65 @@
+.popup {
+  background-color: rgb(21, 18, 37);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100000;
+  width: 100%;
+  display: none;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+}
+
+.popup p a {
+  font-size: 20px;
+  padding: 25px 25px 25px 0px;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+
+.popup p {
+  margin-bottom: 0px;
+}
+
+.popup button {
+  padding: 25px 0px 25px 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.pop-outer {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+}
+.pop-inner {
+  background-color: rgb(16, 14, 26);
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  padding: 25px;
+  margin: 0 auto;
+}
+.menu-links ul li a {
+  color: white;
+  padding: 0.5rem;
+}
+
+.menu-links {
+  margin-top: 100%;
+  font-size: 20px;
+}
+.open {
+  box-shadow: none;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .popup {
+    display: flex;
+  }
+}
