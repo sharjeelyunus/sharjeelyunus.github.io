@@ -58,6 +58,14 @@
   font-size: 20px;
 }
 
+.social-popup {
+  display: flex;
+}
+
+.social-popup li a .fa {
+  padding: 4px;
+}
+
 @media only screen and (max-width: 600px) {
   .popup {
     display: flex;
