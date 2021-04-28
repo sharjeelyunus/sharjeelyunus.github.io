@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link
-      rel="shortcut icon"
-      href="/assets/img/sharj.png"
-      type="image/x-icon"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Certificates</title>
     <link
@@ -18,6 +13,9 @@
       href="/assets/img/Sharjeel artwork.png"
       type="image/x-icon"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/popup.css" />
+    <script src="/assets/JS/popup.js"></script>
   </head>
   <body>
     <nav class="zone">
@@ -29,51 +27,140 @@
         <li class="nav-item"><a href="/index.html#contact">Contact</a></li>
       </ul>
     </nav>
+    <div class="page">
+      <div class="popup">
+        <p><a href="/index.html">Sharjeel Yunus </a></p>
+        <button class="open"><i class="fas fa-bars"></i> MENU</button>
+        <div style="display: none" id="pop-outer" class="pop-outer">
+          <div class="pop-inner">
+            <div class="menu-links">
+              <ul>
+                <li>
+                  <a href="/assets/pages/certificates.html">Certifications</a>
+                </li>
+                <li>
+                  <a href="/assets/pages/portfolio/graphics.html"
+                    >Graphic Design Portfolio</a
+                  >
+                </li>
+                <li>
+                  <a href="/assets/pages/portfolio/web-development.html">
+                    web developer Portfolio
+                  </a>
+                </li>
+                <li>
+                  <a href="/assets/pages/portfolio/javascript30.html"
+                    >JAVASCRIPT30
+                  </a>
+                </li>
+                <li>
+                  <a href="/assets/pages/portfolio/app-store.html"
+                    >app developer portfolio
+                  </a>
+                </li>
+                <li>
+                  <a href="https://medium.com/@sharjeelyunus" target="_blank"
+                    >Read Blogs on MEDIUM
+                  </a>
+                </li>
+                <li>
+                  <a href="https://dev.to/sharjeelyunus" target="_blank"
+                    >Read Blogs on DEV
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="social-icon wow social-popup">
+                <li>
+                  <a
+                    href="https://www.facebook.com/aslisharjeel"
+                    target="_blank"
+                    title="Like me on Facebook"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/sharjeel_arts/"
+                    target="_blank"
+                    title="Follow me on Instagram"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/sharjeelyunus"
+                    target="_blank"
+                    title="Follow me on Twitter"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/sharjeelyunus"
+                    target="_blank"
+                    title="Follow me on GitHub"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/sharjeel-yunus"
+                    target="_blank"
+                    title="Connect with me on LinkedIn"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <a href="/index.html" class="previous">&#8249;</a>
+      <div class="landing-page">
+        <div class="certificates-page">
+          <div>
+            <div id="title-certificates">
+              <center><h1>Certifications</h1></center>
+            </div>
 
-    <div class="certificates-page">
-      <div>
-        <div id="title-certificates">
-          <center><h1>Certifications</h1></center>
+            <div class="certificates-list">
+              <ul class="grid-wrapper-certificates" id="certificates"></ul>
+            </div>
+          </div>
         </div>
 
-        <div class="certificates-list">
-          <ul class="grid-wrapper-certificates" id="certificates"></ul>
+        <div class="badges">
+          <h1>Badges</h1>
+          <div class="grid-wrapper-badges" id="badges"></div>
+        </div>
+
+        <div class="qwiklabs">
+          <div class="q-heading">
+            <h1>Qwiklabs - GCP</h1>
+          </div>
+          <div>
+            <p class="q-description">
+              Qwiklabs provides real cloud environments that help developers and
+              IT professionals learn cloud platforms and software. <br />
+              These are the Badges I got from Qwiklabs learning Google Cloud
+              Platform (GCP) <br />
+              <a
+                href="https://www.qwiklabs.com/public_profiles/73e51438-ea6a-4ddf-808e-9f7f8f606296"
+                target="_blank"
+                >Click here to see my Qwiklabs profile</a
+              >
+            </p>
+          </div>
+          <div class="q-badges">
+            <div class="grid-wrapper-qwiklabs" id="badge_box"></div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="badges">
-      <h1>Badges</h1>
-      <div class="grid-wrapper-badges" id="badges"></div>
-    </div>
-
-    <div class="qwiklabs">
-      <div class="q-heading">
-        <h1>Qwiklabs - GCP</h1>
-      </div>
-      <div>
-        <p class="q-description">
-          Qwiklabs provides real cloud environments that help developers and IT
-          professionals learn cloud platforms and software. <br />
-          These are the Badges I got from Qwiklabs learning Google Cloud
-          Platform (GCP) <br />
-          <a
-            href="https://www.qwiklabs.com/public_profiles/73e51438-ea6a-4ddf-808e-9f7f8f606296"
-            target="_blank"
-            >Click here to see my Qwiklabs profile</a
-          >
-        </p>
-      </div>
-      <div class="q-badges">
-        <div class="grid-wrapper-qwiklabs" id="badge_box"></div>
-      </div>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/assets/JS/nav-script.js"></script>
-    <script src="/assets/JS/modal.js"></script>
     <script
       src="https://kit.fontawesome.com/2d014bc0d8.js"
       crossorigin="anonymous"

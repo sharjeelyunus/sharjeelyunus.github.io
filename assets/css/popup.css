@@ -22,9 +22,15 @@
   margin-bottom: 0px;
 }
 
+.page .popup p {
+  margin-top: 16px;
+}
+
 .popup button {
   padding: 25px 0px 25px 25px;
   color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(21, 18, 37);
+  border: none;
 }
 
 .pop-outer {
