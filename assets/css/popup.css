@@ -26,6 +26,10 @@
   margin-top: 16px;
 }
 
+.menu-links ul {
+  padding-left: 0px;
+}
+
 .popup button {
   padding: 25px 0px 25px 25px;
   color: rgba(255, 255, 255, 0.5);
@@ -53,11 +57,17 @@
 .menu-links ul li a {
   color: white;
   padding: 0.5rem;
+  font-size: 17px;
+  line-height: 180%;
+}
+
+.a-link ul li a {
+  font-size: 20px;
+  line-height: 240%;
 }
 
 .menu-links {
   margin-top: 100%;
-  font-size: 20px;
 }
 .open {
   box-shadow: none;
@@ -66,6 +76,8 @@
 
 .social-popup {
   display: flex;
+  padding-left: 0px;
+  justify-content: space-between;
 }
 
 .social-popup li a .fa {
