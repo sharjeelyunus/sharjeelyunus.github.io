@@ -259,7 +259,6 @@ h6 {
   display: flex;
   justify-content: center;
   margin-top: 5%;
-  margin-bottom: 10%;
 }
 
 .btn-cc {
@@ -271,6 +270,10 @@ h6 {
 
 .btn-cc a:hover {
   color: white;
+}
+
+.btn-d {
+  margin-bottom: 10%;
 }
 
 .grid-wrapper-developer {
