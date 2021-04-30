@@ -243,6 +243,36 @@ h6 {
   margin-right: 10%;
 }
 
+.cc {
+  margin-top: 100px;
+  margin-bottom: 10%;
+}
+
+.grid-wrapper-cc {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 330px/ 380px 380px 380px;
+  padding-left: 0px;
+}
+
+.cc-btn-d {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.btn-cc {
+  width: 300px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #2b2f33;
+}
+
+.btn-cc a:hover {
+  color: white;
+}
+
 .grid-wrapper-developer {
   display: grid;
   grid-gap: 20px;
@@ -510,6 +540,10 @@ h2 {
   .grid-wrapper-illustration {
     grid-template-columns: none;
     margin: 0px;
+  }
+
+  .grid-wrapper-cc {
+    display: block;
   }
 
   .grid-wrapper-developer {
