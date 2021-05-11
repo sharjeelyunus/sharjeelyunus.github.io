@@ -63,7 +63,7 @@ body {
   padding-left: 0;
   transition: top 0.3s;
   width: 100%;
-  z-index: 1001;
+  z-index: 9999;
   font-size: 17px;
 }
 
@@ -72,6 +72,8 @@ body {
   top: 0;
   background-color: rgb(21, 18, 37);
   transition: background-color 200ms linear;
+  z-index: 9999;
+  opacity: 1;
 }
 
 a {
@@ -116,8 +118,7 @@ h2 {
 }
 
 .container {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 100px;
 }
 
 .grid-wrapper {

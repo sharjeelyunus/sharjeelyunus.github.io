@@ -133,10 +133,6 @@ ul {
   justify-content: left;
 }
 
-.img {
-  padding-top: 100px;
-}
-
 #about-para {
   font-size: 18px;
 }
@@ -256,7 +252,7 @@ ul {
 }
 
 #portfolio {
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 .portfolio-grid {
