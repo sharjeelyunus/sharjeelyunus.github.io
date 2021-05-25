@@ -1,0 +1,71 @@
+* {
+  background-color: #100e17;
+  color: white;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__pic {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+.hello {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro__card {
+  background-color: rgba(21, 18, 37, 0.8);
+  padding: 20px;
+  width: 400px;
+  line-height: 1.6;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.comment {
+  color: #586c7a;
+  background-color: rgba(21, 18, 37, 0.8);
+}
+
+.card__title {
+  background-color: rgba(21, 18, 37, 0.8);
+  color: #ec91ff;
+}
+
+.blue {
+  background-color: rgba(21, 18, 37, 0.8);
+  color: #17a2b8;
+}
+
+.yellow {
+  background-color: rgba(21, 18, 37, 0.8);
+  color: #ffc600;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile__pic {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .hello {
+    display: none;
+  }
+
+  .intro__card {
+    width: 300px;
+  }
+}
