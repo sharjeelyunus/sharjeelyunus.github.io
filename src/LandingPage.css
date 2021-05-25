@@ -50,6 +50,46 @@
   color: #ffc600;
 }
 
+.about__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.about__details {
+  max-width: 35%;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.about__details > h2 {
+  text-align: center;
+}
+
+.display__skills {
+  margin-top: 10px;
+  display: flex;
+  font-size: 16px;
+}
+
+.display__skills > .left__skills {
+  padding-left: 0px;
+}
+
+.display__skills > ul {
+  list-style: none;
+}
+
+.skill {
+  width: 15px;
+  height: 15px;
+}
+
+.about__cover {
+  width: 400px;
+  height: 400px;
+}
+
 @media only screen and (max-width: 600px) {
   .profile {
     flex-direction: column;
