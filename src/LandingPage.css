@@ -1,4 +1,8 @@
 * {
+  margin: 0;
+}
+
+body {
   background-color: #100e17;
   color: white;
 }
@@ -88,6 +92,166 @@
 .about__cover {
   width: 400px;
   height: 400px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.portfolio > h2 {
+  font-size: 30px;
+}
+
+.header__card > a > h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.header__card > a {
+  text-decoration: none;
+  color: white;
+}
+
+.grid__wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 300px/ 300px 300px 300px 300px;
+}
+
+.box {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 4px #00000015;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.box > img {
+  width: 100%;
+}
+
+.zone {
+  font-size: 2em;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+}
+
+.zone:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: 3em;
+  padding: 1em 1.5em;
+  box-shadow: inset 0 0 0 2px white;
+  color: white;
+  font-weight: 700;
+}
+
+.grid-wrapper-developer {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 250px/ 385px 385px 385px;
+  padding: 25px 50px 0px 50px;
+}
+
+.box-web {
+  justify-content: center;
+  text-align: center;
+  background-color: #343a40;
+  color: white !important;
+  border: 1px solid rgb(48, 44, 44);
+}
+
+.zone-web {
+  font-size: 2em;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+  box-shadow: 8px 8px 0 rgb(0 0 0 / 15%);
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+
+.box-web:hover .image {
+  opacity: 0.3;
+}
+
+.box-web:hover .middle {
+  opacity: 1;
+}
+
+.box-web > p {
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.box-web > a {
+  color: white;
+  text-decoration: none;
+}
+
+.box-web > a > p {
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text a {
+  background-color: #2b2f33;
+  color: white;
+  font-size: 16px;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.main > img {
+  width: 100%;
+}
+
+.dev-language {
+  display: flex;
+}
+
+.dev-language > img {
+  padding: 2px;
+  height: 25px;
+}
+
+.dev-language > p {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 2px;
 }
 
 @media only screen and (max-width: 600px) {
