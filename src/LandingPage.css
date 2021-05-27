@@ -254,6 +254,10 @@ body {
   padding: 2px;
 }
 
+.portfolio-grid {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .profile {
     flex-direction: column;
@@ -271,5 +275,29 @@ body {
 
   .intro__card {
     width: 300px;
+  }
+
+  .portfolio__web {
+    display: none;
+  }
+
+  .portfolio-grid {
+    display: block;
+  }
+
+  .grid-wrapper-mob {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+  }
+
+  .spin {
+    background-color: transparent;
+    color: white;
+    border: 0;
+    box-shadow: inset 0 0 0 2px white;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
   }
 }

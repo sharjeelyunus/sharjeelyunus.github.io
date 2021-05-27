@@ -72,209 +72,203 @@ function LandingPage() {
 
             {/* Portfolio Section */}
             <div className="portfolio">
-                <h2>Portfolio</h2>
-                <div className="graphic__design">
-                    <div className="header__card">
-                        <a href="/"><h3>Graphic Design Portfolio</h3></a>
+                <div className="portfolio__web">
+                    <h2>Portfolio</h2>
+                    <div className="graphic__design">
+                        <div className="header__card">
+                            <a href="/"><h3>Graphic Design Portfolio</h3></a>
+                        </div>
+                        <div>
+                            <div className="grid__wrapper">
+                                <div className="box zone">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FJohn%20Wick.png?alt=media&token=395e7b66-0428-460e-b089-ab917c351c7d" title="John Wick" alt="John Wick" />
+                                </div>
+                                <div className="box zone">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FMinal.png?alt=media&token=65426863-4f5c-44ac-9232-8ff2e6a25f8e" title="Minal" alt="Minal" />
+                                </div>
+                                <div className="box zone">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FShahveer%20J.png?alt=media&token=480a5f57-ec87-4675-b368-f647fdc4d13d" title="Shahveer Jafary" alt="Shahveer Jafary" />
+                                </div>
+                                <div className="box zone">
+                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FBerlin.png?alt=media&token=4fdb080a-697b-4fef-90e4-8dba9c56cb29" title="Berlin" alt="Berlin" />
+                                </div>
+                            </div>
+                            <div>
+                                <a href="/">
+                                    <button className="button">Click here to see more Graphics</button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <div className="grid__wrapper">
-                            <div className="box zone">
-                                <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FJohn%20Wick.png?alt=media&token=395e7b66-0428-460e-b089-ab917c351c7d" title="John Wick" alt="John Wick" />
-                            </div>
-                            <div className="box zone">
-                                <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FMinal.png?alt=media&token=65426863-4f5c-44ac-9232-8ff2e6a25f8e" title="Minal" alt="Minal" />
-                            </div>
-                            <div className="box zone">
-                                <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FShahveer%20J.png?alt=media&token=480a5f57-ec87-4675-b368-f647fdc4d13d" title="Shahveer Jafary" alt="Shahveer Jafary" />
-                            </div>
-                            <div className="box zone">
-                                <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FBerlin.png?alt=media&token=4fdb080a-697b-4fef-90e4-8dba9c56cb29" title="Berlin" alt="Berlin" />
-                            </div>
+
+                    <div id="web-dev">
+                        <div className="header__card">
+                            <a href="/">
+                                <h3>
+                                    <code>web developer Portfolio</code>
+                                </h3>
+                            </a>
+                        </div>
+                        <div className="dev">
+                            <ul className="grid-wrapper-developer">
+                                <li className="box-web zone-web">
+                                    <p>SMART BRAIN</p>
+                                    <div className="main">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fsmart-brain.jpg?alt=media&token=694bc634-806d-47d8-94e7-5a2c22823b72" className="image" alt="Smart Brain" />
+                                    </div>
+                                    <div className="middle">
+                                        <div className="text">
+                                            <a href="https://github.com/sharjeelyunus/Smart-Brain" rel="noreferrer" target="_blank">SOURCE CODE</a>
+                                        </div>
+                                    </div>
+                                    <div className="dev-language">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Freact-logo.png?alt=media&token=700ef1d5-3433-4072-8310-85e6d86c183a" alt="react-logo" />
+                                        <p>REACT</p>
+                                    </div>
+                                </li>
+
+                                <li className="box-web zone-web">
+                                    <p>PEEK</p>
+                                    <div className="main">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fpeek.jpg?alt=media&token=593d2461-cc03-427d-aaf9-831eee428102" className="image" alt="PEEK" />
+                                    </div>
+                                    <div className="middle">
+                                        <div className="text">
+                                            <a href="https://github.com/sharjeelyunus/peek-mern" target="_blank" rel="noreferrer">SOURCE CODE</a>
+                                        </div>
+                                    </div>
+                                    <div className="dev-language">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2FMERN-logo.png?alt=media&token=aee49d64-950b-48dd-bf39-3846c33aaa78" alt="MERN" />
+                                        <p>MERN</p>
+                                    </div>
+                                </li>
+
+                                <li className="box-web zone-web box-js30">
+                                    <a href="/">
+                                        <p>JAVASCRIPT30</p>
+                                        <div className="main">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fjavascript30.jpg?alt=media&token=3aad848a-54b5-4bc1-9a64-1c8344020f86" className="image" alt="JavaScript30" />
+                                        </div>
+                                        <div className="dev-language">
+                                            <p>30 VANILLA JS CODING PROJECTS</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div >
+                            <a href="/">
+                                <button className="button">Click here to see more Web Apps</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="app-dev">
+                        <div className="header__card">
+                            <a href="/assets/pages/portfolio/app-store.html">
+                                <h3 >
+                                    <code>app developer portfolio</code>
+                                </h3>
+                            </a>
+                        </div>
+                        <div className="dev apps-dev">
+                            <ul className="grid-wrapper-developer">
+                                <li className="box-web zone-web">
+                                    <p>FLASH CHAT</p>
+                                    <div className="main">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflash%20chat.png?alt=media&token=91b134f6-d2e0-47ab-af6e-6ae5850ba902" className="image" alt="Flash Chat" />
+                                    </div>
+                                    <div className="middle">
+                                        <div className="text">
+                                            <a href="https://github.com/sharjeelyunus/flash-chat-flutter" target="_blank" rel="noreferrer">SOURCE CODE</a>
+                                        </div>
+                                    </div>
+                                    <div className="dev-language">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflutter-logo.png?alt=media&token=701b89ad-3d40-45ba-ab70-7db99a5b0ef6" alt="Flutter Logo" />
+                                        <p>FLUTTER</p>
+                                    </div>
+                                </li>
+
+                                <li className="box-web zone-web">
+                                    <p>COVID TRACKER</p>
+                                    <div className="main">
+                                        <img
+                                            src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2FCorona%20tracker.jpg?alt=media&token=9f40d54d-4a97-476b-b7c3-6fd92b981bfa" className="image" alt="Corona Tracker" />
+                                    </div>
+                                    <div className="middle">
+                                        <div className="text">
+                                            <a
+                                                href="https://github.com/sharjeelyunus/covid19_tracker"
+                                                target="_blank" rel="noreferrer"
+                                            >SOURCE CODE</a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div className="dev-language">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflutter-logo.png?alt=media&token=701b89ad-3d40-45ba-ab70-7db99a5b0ef6" alt="Flutter Logo" />
+                                        <p>FLUTTER</p>
+                                    </div>
+                                </li>
+
+                                <li className="box-web zone-web">
+                                    <p>BMI CALCULATOR</p>
+                                    <div className="main">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2FBMI%20Calculator.jpg?alt=media&token=f8e2bae9-0c8d-4f06-96fa-fc21237aaf60" className="image" alt="BMI Calculator" />
+                                    </div>
+                                    <div className="middle">
+                                        <div className="text">
+                                            <a
+                                                href="https://github.com/sharjeelyunus/bmi-calculator-flutter"
+                                                target="_blank" rel="noreferrer"
+                                            >SOURCE CODE</a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div className="dev-language">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflutter-logo.png?alt=media&token=701b89ad-3d40-45ba-ab70-7db99a5b0ef6" alt="Flutter Logo" />
+                                        <p>FLUTTER</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                         <div>
                             <a href="/">
-                                <button className="button">Click here to see more Graphics</button>
+                                <button className="button">Click here to see more Apps</button>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div id="web-dev">
-                    <div className="header__card">
-                        <a href="/">
-                            <h3>
-                                <code>web developer Portfolio</code>
-                            </h3>
-                        </a>
-                    </div>
-                    <div className="dev">
-                        <ul className="grid-wrapper-developer">
-                            <li className="box-web zone-web">
-                                <p>SMART BRAIN</p>
-                                <div className="main">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fsmart-brain.jpg?alt=media&token=694bc634-806d-47d8-94e7-5a2c22823b72" className="image" alt="Smart Brain" />
-                                </div>
-                                <div className="middle">
-                                    <div className="text">
-                                        <a href="https://github.com/sharjeelyunus/Smart-Brain" rel="noreferrer" target="_blank">SOURCE CODE</a>
-                                    </div>
-                                </div>
-                                <div className="dev-language">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Freact-logo.png?alt=media&token=f0f2cd26-579a-4b64-9cbb-f93e7dc46e5a" alt="react-logo" />
-                                    <p>REACT</p>
-                                </div>
-                            </li>
 
-                            <li className="box-web zone-web">
-                                <p>PEEK</p>
-                                <div className="main">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fpeek.jpg?alt=media&token=593d2461-cc03-427d-aaf9-831eee428102" className="image" alt="PEEK" />
-                                </div>
-                                <div className="middle">
-                                    <div className="text">
-                                        <a href="https://github.com/sharjeelyunus/peek-mern" target="_blank" rel="noreferrer">SOURCE CODE</a>
-                                    </div>
-                                </div>
-                                <div className="dev-language">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Freact-logo.png?alt=media&token=f0f2cd26-579a-4b64-9cbb-f93e7dc46e5a" alt="react-logo" />
-                                    <p>REACT</p>
-                                </div>
-                            </li>
-
-                            <li className="box-web zone-web box-js30">
-                                <a href="/">
-                                    <p>JAVASCRIPT30</p>
-                                    <div className="main">
-                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fjavascript30.jpg?alt=media&token=3aad848a-54b5-4bc1-9a64-1c8344020f86" className="image" alt="JavaScript30" />
-                                    </div>
-                                    <div className="dev-language">
-                                        <p>30 VANILLA JS CODING PROJECTS</p>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div >
-                        <a href="/">
-                            <button className="button">Click here to see more Web Apps</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div id="app-dev">
-                    <div className="header__card">
-                        <a href="/assets/pages/portfolio/app-store.html">
-                            <h3 >
-                                <code>app developer portfolio</code>
-                            </h3>
-                        </a>
-                    </div>
-                    <div className="dev apps-dev">
-                        <ul className="grid-wrapper-developer">
-                            <li className="box-web zone-web">
-                                <p>FLASH CHAT</p>
-                                <div className="main">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflash%20chat.png?alt=media&token=91b134f6-d2e0-47ab-af6e-6ae5850ba902" className="image" alt="Flash Chat" />
-                                </div>
-                                <div className="middle">
-                                    <div className="text">
-                                        <a href="https://github.com/sharjeelyunus/flash-chat-flutter" target="_blank" rel="noreferrer">SOURCE CODE</a>
-                                    </div>
-                                </div>
-                                <div className="dev-language">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflutter-logo.png?alt=media&token=701b89ad-3d40-45ba-ab70-7db99a5b0ef6" alt="Flutter Logo" />
-                                    <p>FLUTTER</p>
-                                </div>
-                            </li>
-
-                            <li className="box-web zone-web">
-                                <p>COVID TRACKER</p>
-                                <div className="main">
-                                    <img
-                                        src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2FCorona%20tracker.jpg?alt=media&token=9f40d54d-4a97-476b-b7c3-6fd92b981bfa" className="image" alt="Corona Tracker" />
-                                </div>
-                                <div className="middle">
-                                    <div className="text">
-                                        <a
-                                            href="https://github.com/sharjeelyunus/covid19_tracker"
-                                            target="_blank" rel="noreferrer"
-                                        >SOURCE CODE</a
-                                        >
-                                    </div>
-                                </div>
-                                <div className="dev-language">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflutter-logo.png?alt=media&token=701b89ad-3d40-45ba-ab70-7db99a5b0ef6" alt="Flutter Logo" />
-                                    <p>FLUTTER</p>
-                                </div>
-                            </li>
-
-                            <li className="box-web zone-web">
-                                <p>BMI CALCULATOR</p>
-                                <div className="main">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2FBMI%20Calculator.jpg?alt=media&token=f8e2bae9-0c8d-4f06-96fa-fc21237aaf60" className="image" alt="BMI Calculator" />
-                                </div>
-                                <div className="middle">
-                                    <div className="text">
-                                        <a
-                                            href="https://github.com/sharjeelyunus/bmi-calculator-flutter"
-                                            target="_blank" rel="noreferrer"
-                                        >SOURCE CODE</a
-                                        >
-                                    </div>
-                                </div>
-                                <div className="dev-language">
-                                    <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflutter-logo.png?alt=media&token=701b89ad-3d40-45ba-ab70-7db99a5b0ef6" alt="Flutter Logo" />
-                                    <p>FLUTTER</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="/">
-                            <button className="button">Click here to see more Apps</button>
-                        </a>
-                    </div>
-                </div>
-
-                {/* <div className="portfolio-grid">
+                <div className="portfolio-grid">
                     <div id="flex">
-                        <div className="blue grid-wrapper">
+                        <div className="grid-wrapper-mob">
                             <div id="graphics-design">
-                                <a href="/assets/pages/portfolio/graphics.html">
-                                    <button className="spin thick">
-                                        <div>
-                                            GRAGPHIC <br />
-                      DESIGN
-                    </div>
+                                <a href="/">
+                                    <button className="spin">
+                                        <div>GRAGPHIC <br /> DESIGN</div>
                                     </button>
                                 </a>
                             </div>
 
                             <div id="web-development">
-                                <a href="/assets/pages/portfolio/web-development.html">
-                                    <button className="spin thick">
-                                        <div>
-                                            WEB <br />
-                      DEVELOPMENT
-                    </div>
+                                <a href="/">
+                                    <button className="spin">
+                                        <div> WEB <br />DEVELOPMENT</div>
                                     </button>
                                 </a>
                             </div>
 
                             <div id="apps-development">
-                                <a href="/assets/pages/portfolio/app-store.html">
-                                    <button className="spin thick">
-                                        <div>
-                                            APP <br />
-                      DEVELOPMENT
-                    </div>
+                                <a href="/">
+                                    <button className="spin">
+                                        <div>APP <br />DEVELOPMENT</div>
                                     </button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     )
