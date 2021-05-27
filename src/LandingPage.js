@@ -72,8 +72,8 @@ function LandingPage() {
 
             {/* Portfolio Section */}
             <div className="portfolio">
+                <h2>Portfolio</h2>
                 <div className="portfolio__web">
-                    <h2>Portfolio</h2>
                     <div className="graphic__design">
                         <div className="header__card">
                             <a href="/"><h3>Graphic Design Portfolio</h3></a>
@@ -263,6 +263,32 @@ function LandingPage() {
                                 <a href="/">
                                     <button className="spin">
                                         <div>APP <br />DEVELOPMENT</div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Blogs */}
+            <div id="blogs">
+                <div className="blog-platforms">
+                    <h2>Blogs</h2>
+                    <div id="flex">
+                        <div className="grid-wrapper-blogs">
+                            <div id="medium">
+                                <a href="https://medium.com/@sharjeelyunus" target="_blank" rel="noreferrer">
+                                    <button className="spin button">
+                                        <p>Read Blogs on MEDIUM</p>
+                                    </button>
+                                </a>
+                            </div>
+
+                            <div id="dev">
+                                <a href="https://dev.to/sharjeelyunus" target="_blank" rel="noreferrer">
+                                    <button className="spin button">
+                                        <p>Read Blogs on DEV</p>
                                     </button>
                                 </a>
                             </div>
