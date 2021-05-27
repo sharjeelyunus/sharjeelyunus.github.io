@@ -82,6 +82,7 @@ body {
 
 .display__skills > ul {
   list-style: none;
+  line-height: 1.6;
 }
 
 .skill {
@@ -277,6 +278,19 @@ body {
     width: 300px;
   }
 
+  .about__container {
+    margin-top: 50px;
+  }
+
+  .about__cover {
+    display: none;
+  }
+
+  .about__details {
+    max-width: 90%;
+    font-size: 20px;
+  }
+
   .portfolio__web {
     display: none;
   }
@@ -296,8 +310,10 @@ body {
     color: white;
     border: 0;
     box-shadow: inset 0 0 0 2px white;
-    width: 200px;
-    height: 200px;
+    width: 276px;
+    height: 276px;
     padding: 0px;
+    line-height: 1.6;
+    font-size: large;
   }
 }
