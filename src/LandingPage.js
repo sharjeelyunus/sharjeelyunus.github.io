@@ -1,4 +1,11 @@
 import React from 'react';
+import PhoneIcon from '@material-ui/icons/Phone';
+import EmailIcon from '@material-ui/icons/Email';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import './LandingPage.css';
 
 function LandingPage() {
@@ -296,6 +303,68 @@ function LandingPage() {
                     </div>
                 </div>
             </div>
+
+            {/* Contact */}
+            <div id="contact">
+                <h2>Contact Me</h2>
+                <div className="grid-wrapper-contact">
+                    <div className="box zone">
+                        <div className="contact-box">
+                            <div className="box__contactInfo">
+                                <div>
+                                    <ul className="info contact-box-items">
+                                        <li className="info-items" title="Email">
+                                            <EmailIcon />
+                                            <a href="mailto:sharjeel924@gmail.com">sharjeel924@gmail.com</a>
+                                        </li>
+                                        <li className="info-items" title="Call me">
+                                            <PhoneIcon />
+                                            <a href="callto:+923097574574">+92 308 7574574</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul className="social-icon">
+                                        <li>
+                                            <a href="https://www.facebook.com/aslisharjeel" target="_blank" title="Like me on Facebook" rel="noreferrer">
+                                                <FacebookIcon />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/sharjeel_arts/" target="_blank" rel="noreferrer" title="Follow me on Instagram">
+                                                <InstagramIcon />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/sharjeelyunus" target="_blank" rel="noreferrer" title="Follow me on Twitter">
+                                                <TwitterIcon />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/sharjeelyunus" target="_blank" rel="noreferrer" title="Follow me on GitHub">
+                                                <GitHubIcon />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/sharjeel-yunus" target="_blank" rel="noreferrer" title="Connect with me on LinkedIn">
+                                                <LinkedInIcon />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Footer */}
+            <footer>
+                <p>
+                    {(new Date().getFullYear())}
+            &copy; Sharjeel Yunus
+          </p>
+            </footer>
         </div>
     )
 }

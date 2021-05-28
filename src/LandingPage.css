@@ -88,6 +88,7 @@ body {
 .skill {
   width: 15px;
   height: 15px;
+  object-fit: contain;
 }
 
 .about__cover {
@@ -290,6 +291,61 @@ body {
   margin: 0px;
 }
 
+.grid-wrapper-contact {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 400px/ 550px;
+}
+
+#contact > h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.contact-box {
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  list-style: none;
+}
+
+.info > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.MuiSvgIcon-root {
+  margin-bottom: -5px;
+  padding-right: 10px;
+}
+
+.social-icon {
+  margin-bottom: 0px;
+  display: inline-flex;
+  padding: 10px;
+  list-style: none;
+}
+
+.social-icon > li > a {
+  color: white;
+}
+
+footer {
+  padding: 10px 0px;
+  opacity: 0.7;
+  color: #e7e7e8;
+  margin-top: 90px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   .profile {
     flex-direction: column;
@@ -357,5 +413,36 @@ body {
     display: flex;
     flex-direction: column;
     grid-gap: 20px;
+  }
+
+  #contact {
+    padding: 10px;
+  }
+
+  #contact > h2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .info {
+    padding: 0px;
+  }
+
+  .contact-box {
+    margin-top: 20px;
+    height: 200px;
+    padding: 20px;
+  }
+
+  .box__contactInfo {
+    margin-top: 20px;
+  }
+
+  .grid-wrapper-contact {
+    display: unset;
+  }
+
+  footer {
+    margin-top: 20px;
   }
 }
