@@ -27,11 +27,11 @@ const useStyles = makeStyles({
 });
 
 const navLinks = [
-  { title: `Home`, path: `#home` },
-  { title: `About`, path: `#about` },
-  { title: `Portfolio`, path: `#portfolio` },
-  { title: `Blogs`, path: `#blogs` },
-  { title: `Contact`, path: `#contact` },
+  { title: `Home`, path: `http://localhost:3000/#home` },
+  { title: `About`, path: `http://localhost:3000/#about` },
+  { title: `Portfolio`, path: `http://localhost:3000/#portfolio` },
+  { title: `Blogs`, path: `http://localhost:3000/#blogs` },
+  { title: `Contact`, path: `http://localhost:3000/#contact` },
 ];
 
 const Header = () => {

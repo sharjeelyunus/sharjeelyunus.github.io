@@ -2,6 +2,9 @@ import React from 'react';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import SocialLinks from './components/SocialLinks';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import { Link } from "react-router-dom";
 import './LandingPage.css';
 
 function LandingPage() {
@@ -62,6 +65,11 @@ function LandingPage() {
                                 <li><img className="skill" src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/photoshop-cc.svg?alt=media&token=c5ea16d6-675f-43ba-9079-85957f2cc6f4" alt="Photoshop" /> Photoshop</li>
                             </ul>
                         </div>
+                        <div className="button__certificates">
+                            <Link to="Certificates">
+                                <button className="button"><ArrowForwardIcon />Certificates <ArrowBackIcon /></button>
+                            </Link>
+                        </div>
                     </div>
                     <div>
                         <img
@@ -71,6 +79,7 @@ function LandingPage() {
                         />
                     </div>
                 </div>
+
             </div>
 
             {/* Portfolio Section */}
@@ -79,7 +88,7 @@ function LandingPage() {
                 <div className="portfolio__web">
                     <div className="graphic__design">
                         <div className="header__card">
-                            <a href="/"><h3>Graphic Design Portfolio</h3></a>
+                            <Link to="GraphicsDesign"><h3>Graphic Design</h3></Link>
                         </div>
                         <div>
                             <div className="grid__wrapper">
@@ -97,20 +106,20 @@ function LandingPage() {
                                 </div>
                             </div>
                             <div>
-                                <a href="/">
+                                <Link to="/GraphicsDesign">
                                     <button className="button">Click here to see more Graphics</button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
 
                     <div id="web-dev">
                         <div className="header__card">
-                            <a href="/">
+                            <Link to="/WebDev">
                                 <h3>
-                                    <code>web developer Portfolio</code>
+                                    <code>web dev projects</code>
                                 </h3>
-                            </a>
+                            </Link>
                         </div>
                         <div className="dev">
                             <ul className="grid-wrapper-developer">
@@ -160,19 +169,19 @@ function LandingPage() {
                             </ul>
                         </div>
                         <div >
-                            <a href="/">
+                            <Link to="/WebDev">
                                 <button className="button">Click here to see more Web Apps</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
                     <div id="app-dev">
                         <div className="header__card">
-                            <a href="/assets/pages/portfolio/app-store.html">
-                                <h3 >
-                                    <code>app developer portfolio</code>
+                            <Link to="/AppDev">
+                                <h3>
+                                    <code>app dev projects</code>
                                 </h3>
-                            </a>
+                            </Link>
                         </div>
                         <div className="dev apps-dev">
                             <ul className="grid-wrapper-developer">
@@ -235,9 +244,9 @@ function LandingPage() {
                             </ul>
                         </div>
                         <div>
-                            <a href="/">
+                            <Link to="/AppDev">
                                 <button className="button">Click here to see more Apps</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -247,27 +256,27 @@ function LandingPage() {
                     <div id="flex">
                         <div className="grid-wrapper-mob">
                             <div id="graphics-design">
-                                <a href="/">
+                                <Link to="/GraphicsDesign">
                                     <button className="spin">
                                         <div>GRAGPHIC <br /> DESIGN</div>
                                     </button>
-                                </a>
+                                </Link>
                             </div>
 
                             <div id="web-development">
-                                <a href="/">
+                                <Link to="/WebDev">
                                     <button className="spin">
                                         <div> WEB <br />DEVELOPMENT</div>
                                     </button>
-                                </a>
+                                </Link>
                             </div>
 
                             <div id="apps-development">
-                                <a href="/">
+                                <Link to="/AppDev">
                                     <button className="spin">
                                         <div>APP <br />DEVELOPMENT</div>
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
