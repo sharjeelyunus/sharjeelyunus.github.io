@@ -177,7 +177,7 @@ body {
 .grid-wrapper-developer {
   display: grid;
   grid-gap: 20px;
-  grid-template: 250px/ 385px 385px 385px;
+  grid-template: 270px/ 385px 385px 385px;
   padding: 25px 50px 0px 50px;
 }
 
