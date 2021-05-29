@@ -1,18 +1,14 @@
 import React from 'react';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import SocialLinks from './components/SocialLinks';
 import './LandingPage.css';
 
 function LandingPage() {
     return (
         <div className="LandingPage">
             {/* Profile Section */}
-            <div className="profile">
+            <div id="home" className="profile">
                 <img className="profile__pic" src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/sharjeel-cover.png?alt=media&token=52e2228a-e5e5-4aa3-b87c-afedd11f1ea3" alt="Sharjeel Yunus | Web Developer & Graphic Designer" title="Sharjeel Yunus | Web Developer & Graphic Designer" />
                 <div className="header__info">
                     <div>
@@ -38,7 +34,7 @@ function LandingPage() {
             </div>
 
             {/* About Section */}
-            <div className="about">
+            <div id="about" className="about">
                 <div className="about__container">
                     <div className="about__details">
                         <h2 title="Who I am?">About Me</h2>
@@ -78,7 +74,7 @@ function LandingPage() {
             </div>
 
             {/* Portfolio Section */}
-            <div className="portfolio">
+            <div id="portfolio" className="portfolio">
                 <h2>Portfolio</h2>
                 <div className="portfolio__web">
                     <div className="graphic__design">
@@ -323,35 +319,8 @@ function LandingPage() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div>
-                                    <ul className="social-icon">
-                                        <li>
-                                            <a href="https://www.facebook.com/aslisharjeel" target="_blank" title="Like me on Facebook" rel="noreferrer">
-                                                <FacebookIcon />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.instagram.com/sharjeel_arts/" target="_blank" rel="noreferrer" title="Follow me on Instagram">
-                                                <InstagramIcon />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://twitter.com/sharjeelyunus" target="_blank" rel="noreferrer" title="Follow me on Twitter">
-                                                <TwitterIcon />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://github.com/sharjeelyunus" target="_blank" rel="noreferrer" title="Follow me on GitHub">
-                                                <GitHubIcon />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/sharjeel-yunus" target="_blank" rel="noreferrer" title="Connect with me on LinkedIn">
-                                                <LinkedInIcon />
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <SocialLinks />
+
                             </div>
                         </div>
                     </div>

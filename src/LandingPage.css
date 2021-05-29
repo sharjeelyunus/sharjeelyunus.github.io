@@ -7,6 +7,10 @@ body {
   color: white;
 }
 
+.LandingPage {
+  margin-top: 70px;
+}
+
 .profile {
   display: flex;
   justify-content: center;
@@ -325,17 +329,6 @@ body {
 .MuiSvgIcon-root {
   margin-bottom: -5px;
   padding-right: 10px;
-}
-
-.social-icon {
-  margin-bottom: 0px;
-  display: inline-flex;
-  padding: 10px;
-  list-style: none;
-}
-
-.social-icon > li > a {
-  color: white;
 }
 
 footer {

@@ -1,0 +1,10 @@
+.social-icon {
+  margin-bottom: 0px;
+  display: inline-flex;
+  padding: 10px;
+  list-style: none;
+}
+
+.social-icon > li > a {
+  color: white;
+}
