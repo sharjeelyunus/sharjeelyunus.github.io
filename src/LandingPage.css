@@ -332,14 +332,6 @@ body {
   padding-right: 10px;
 }
 
-footer {
-  padding: 10px 0px;
-  opacity: 0.7;
-  color: #e7e7e8;
-  margin-top: 90px;
-  text-align: center;
-}
-
 @media only screen and (max-width: 600px) {
   .profile {
     flex-direction: column;

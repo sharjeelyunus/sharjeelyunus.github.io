@@ -104,3 +104,17 @@ body {
 .box-q > img {
   width: 240px;
 }
+
+@media only screen and (max-width: 600px) {
+  .grid-wrapper-certificates {
+    display: block;
+  }
+
+  .grid-wrapper-badges {
+    display: block;
+  }
+
+  .grid-wrapper-qwiklabs {
+    display: block;
+  }
+}

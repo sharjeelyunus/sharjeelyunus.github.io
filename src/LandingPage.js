@@ -335,14 +335,6 @@ function LandingPage() {
                     </div>
                 </div>
             </div>
-
-            {/* Footer */}
-            <footer>
-                <p>
-                    {(new Date().getFullYear())}
-            &copy; Sharjeel Yunus
-          </p>
-            </footer>
         </div>
     )
 }
