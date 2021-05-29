@@ -6,10 +6,10 @@ import {
   Switch
 } from 'react-router-dom';
 import LandingPage from './LandingPage';
-import Certificates from './components/Certificates';
-import GraphicsDesign from './components/GraphicsDesign'
-import WebDev from './components/WebDev';
-import AppDev from './components/AppDev';
+import Certificates from './Pages/Certificates';
+import GraphicsDesign from './Pages/GraphicsDesign'
+import WebDev from './Pages/WebDev';
+import AppDev from './Pages/AppDev';
 
 function App() {
   return (
