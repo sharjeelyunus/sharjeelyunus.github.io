@@ -1,0 +1,14 @@
+.g_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.g_head div > header > h1 {
+  text-align: center;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
