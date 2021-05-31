@@ -2,61 +2,41 @@ import React from 'react';
 import {
   AppBar,
   Toolbar,
-  List,
-  ListItem,
-  ListItemText,
   makeStyles,
   Container,
+  IconButton,
   Hidden,
 } from '@material-ui/core';
+import { Home } from '@material-ui/icons';
+import SocialLinks from './SocialLinks';
 import SideDrawer from './SideDrawer';
 
 const useStyles = makeStyles({
-  navDisplayFlex: {
+  navbarDisplayFlex: {
     display: `flex`,
-    justifyContent: `center`,
-  },
-  linkText: {
-    textDecoration: `none`,
-    textTransform: `uppercase`,
-    color: `white`,
+    justifyContent: `space-between`,
   },
   navbar: {
     backgroundColor: `#141123`,
   },
 });
 
-const navLinks = [
-  { title: `Home`, path: `https://sharjeelyunus.github.io/#home` },
-  { title: `About`, path: `https://sharjeelyunus.github.io/#about` },
-  { title: `Portfolio`, path: `https://sharjeelyunus.github.io/#portfolio` },
-  { title: `Blogs`, path: `https://sharjeelyunus.github.io/#blogs` },
-  { title: `Contact`, path: `https://sharjeelyunus.github.io/#contact` },
-];
-
 const Header = () => {
   const classes = useStyles();
   return (
     <AppBar position='fixed' className={classes.navbar}>
       <Toolbar>
-        <Container maxWidth='md'>
+        <Container maxWidth='md' className={classes.navbarDisplayFlex}>
+          <a href='https://www.sharjeelyunus.me/'>
+            <IconButton edge='start' color='inherit' aria-label='home'>
+              <Home fontSize='large' />
+            </IconButton>
+          </a>
           <Hidden smDown>
-            <List
-              component='nav'
-              aria-labelledby='main navigation'
-              className={classes.navDisplayFlex}
-            >
-              {navLinks.map(({ title, path }) => (
-                <a href={path} key={title} className={classes.linkText}>
-                  <ListItem button>
-                    <ListItemText primary={title} />
-                  </ListItem>
-                </a>
-              ))}
-            </List>
+            <SocialLinks />
           </Hidden>
           <Hidden mdUp>
-            <SideDrawer navLinks={navLinks} />
+            <SideDrawer />
           </Hidden>
         </Container>
       </Toolbar>

@@ -1,11 +1,5 @@
 import React, { useState } from 'react';
-import {
-  IconButton,
-  List,
-  ListItem,
-  ListItemText,
-  Drawer,
-} from '@material-ui/core';
+import { IconButton, Drawer } from '@material-ui/core';
 import { Menu } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core/styles';
 import SocialLinks from './SocialLinks';
@@ -15,14 +9,20 @@ const useStyles = makeStyles({
   list: {
     width: 250,
   },
-  linkText: {
+  sidebarLinks: {
+    display: `flex`,
+    flexDirection: `column`,
+    margin: `20px`,
+    fontSize: `18px`,
+  },
+  sidebarLinksTag: {
+    color: `white`,
     textDecoration: `none`,
-    textTransform: `uppercase`,
-    color: `black`,
+    lineHeight: 1.8,
   },
 });
 
-const SideDrawer = ({ navLinks }) => {
+const SideDrawer = () => {
   const classes = useStyles();
   const [state, setState] = useState({ right: false });
 
@@ -43,15 +43,32 @@ const SideDrawer = ({ navLinks }) => {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List component='nav'>
-        {navLinks.map(({ title, path }) => (
-          <a href={path} key={title} className={classes.linkText}>
-            <ListItem button>
-              <ListItemText primary={title} />
-            </ListItem>
-          </a>
-        ))}
-      </List>
+      <div className={classes.sidebarLinks}>
+        <a
+          className={classes.sidebarLinksTag}
+          href='https://www.sharjeelyunus.me/Certificates'
+        >
+          Certificates
+        </a>
+        <a
+          className={classes.sidebarLinksTag}
+          href='https://www.sharjeelyunus.me/GraphicsDesign'
+        >
+          Graphics Design
+        </a>
+        <a
+          className={classes.sidebarLinksTag}
+          href='https://www.sharjeelyunus.me/WebDev'
+        >
+          Web Dev Projects
+        </a>
+        <a
+          className={classes.sidebarLinksTag}
+          href='https://www.sharjeelyunus.me/AppDev'
+        >
+          App Dev Projects
+        </a>
+      </div>
       <SocialLinks />
     </div>
   );
