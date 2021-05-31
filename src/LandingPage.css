@@ -124,12 +124,6 @@ body {
   color: white;
 }
 
-.grid__wrapper {
-  display: grid;
-  grid-gap: 20px;
-  grid-template: 300px/ 300px 300px 300px 300px;
-}
-
 .box {
   margin: 20px;
   border-radius: 10px;
@@ -146,7 +140,6 @@ body {
 
 .zone {
   font-size: 2em;
-  border-radius: 4px;
   transition: all 0.3s linear;
 }
 
@@ -241,10 +234,6 @@ body {
   font-size: 16px;
   padding: 16px;
   border-radius: 10px;
-}
-
-.main > img {
-  width: 100%;
 }
 
 .dev-language {
@@ -381,6 +370,10 @@ body {
     display: flex;
     flex-direction: column;
     grid-gap: 20px;
+  }
+
+  .box {
+    margin: 10px;
   }
 
   .spin {

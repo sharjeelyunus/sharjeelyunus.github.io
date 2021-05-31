@@ -45,10 +45,10 @@ class GraphicsDesign extends React.Component {
                     );
                 })}
 
-                <div class="grid-wrapper">
+                <div className="grid-wrapper">
                     {this.state.Portraits.map(data => {
                         return (
-                            <div class="box zone blue portrait">
+                            <div className="box zone blue portrait">
                                 <img src={data.imgUrl} title={data.title} alt={data.title} />
                             </div>
                         );

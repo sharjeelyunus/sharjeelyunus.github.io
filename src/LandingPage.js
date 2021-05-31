@@ -91,7 +91,7 @@ function LandingPage() {
                             <Link to="GraphicsDesign"><h3>Graphic Design</h3></Link>
                         </div>
                         <div>
-                            <div className="grid__wrapper">
+                            <div className="grid-wrapper">
                                 <div className="box zone">
                                     <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FJohn%20Wick.png?alt=media&token=395e7b66-0428-460e-b089-ab917c351c7d" title="John Wick" alt="John Wick" />
                                 </div>

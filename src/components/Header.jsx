@@ -27,11 +27,11 @@ const useStyles = makeStyles({
 });
 
 const navLinks = [
-  { title: `Home`, path: `http://localhost:3000/#home` },
-  { title: `About`, path: `http://localhost:3000/#about` },
-  { title: `Portfolio`, path: `http://localhost:3000/#portfolio` },
-  { title: `Blogs`, path: `http://localhost:3000/#blogs` },
-  { title: `Contact`, path: `http://localhost:3000/#contact` },
+  { title: `Home`, path: `https://sharjeelyunus.github.io/#home` },
+  { title: `About`, path: `https://sharjeelyunus.github.io/#about` },
+  { title: `Portfolio`, path: `https://sharjeelyunus.github.io/#portfolio` },
+  { title: `Blogs`, path: `https://sharjeelyunus.github.io/#blogs` },
+  { title: `Contact`, path: `https://sharjeelyunus.github.io/#contact` },
 ];
 
 const Header = () => {
