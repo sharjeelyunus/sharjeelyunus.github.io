@@ -70,13 +70,13 @@ const SideDrawer = () => {
         </a>
         <a
           className={classes.sidebarLinksTag}
-          href='https://www.sharjeelyunus.me/AppDev'
+          href='https://dev.to/sharjeelyunus'
         >
           Read Blogs on DEV
         </a>
         <a
           className={classes.sidebarLinksTag}
-          href='https://www.sharjeelyunus.me/AppDev'
+          href='https://medium.com/@sharjeelyunus'
         >
           Read Blogs on Medium
         </a>
