@@ -68,6 +68,18 @@ const SideDrawer = () => {
         >
           App Dev Projects
         </a>
+        <a
+          className={classes.sidebarLinksTag}
+          href='https://www.sharjeelyunus.me/AppDev'
+        >
+          Read Blogs on DEV
+        </a>
+        <a
+          className={classes.sidebarLinksTag}
+          href='https://www.sharjeelyunus.me/AppDev'
+        >
+          Read Blogs on Medium
+        </a>
       </div>
       <SocialLinks />
     </div>

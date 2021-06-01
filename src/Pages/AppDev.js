@@ -51,6 +51,7 @@ class AppDev extends React.Component {
                                     <img src={data.appImg} className="image" alt="" />
                                 </div>
                                 <div className="middle">
+                                    <p>{data.appDesc}</p>
                                     <div className="text">
                                         <a href={data.sourceCode} target="_blank" rel="noreferrer">SOURCE CODE</a>
                                     </div>

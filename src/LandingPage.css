@@ -193,7 +193,7 @@ body {
 }
 
 .box-web:hover .image {
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .box-web:hover .middle {
@@ -228,12 +228,17 @@ body {
   text-align: center;
 }
 
-.text a {
+.middle > p {
+  font-size: 18px;
+}
+
+.text > a {
   background-color: #2b2f33;
   color: white;
   font-size: 16px;
-  padding: 16px;
+  padding: 12px;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .dev-language {
