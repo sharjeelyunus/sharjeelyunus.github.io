@@ -133,6 +133,22 @@ class LandingPage extends React.Component {
                             <div className="dev">
                                 <ul className="grid-wrapper-developer">
                                     <li className="box-web zone-web">
+                                        <p>PEEK</p>
+                                        <div className="main">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fpeek.jpg?alt=media&token=593d2461-cc03-427d-aaf9-831eee428102" className="image" alt="PEEK" />
+                                        </div>
+                                        <div className="middle">
+                                            <div className="text">
+                                                <a href="https://github.com/sharjeelyunus/peek-mern" target="_blank" rel="noreferrer">SOURCE CODE</a>
+                                            </div>
+                                        </div>
+                                        <div className="dev-language">
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2FMERN-logo.png?alt=media&token=aee49d64-950b-48dd-bf39-3846c33aaa78" alt="MERN" />
+                                            <p>MERN</p>
+                                        </div>
+                                    </li>
+
+                                    <li className="box-web zone-web">
                                         <p>SMART BRAIN</p>
                                         <div className="main">
                                             <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fsmart-brain.jpg?alt=media&token=694bc634-806d-47d8-94e7-5a2c22823b72" className="image" alt="Smart Brain" />
@@ -149,31 +165,19 @@ class LandingPage extends React.Component {
                                     </li>
 
                                     <li className="box-web zone-web">
-                                        <p>PEEK</p>
+                                        <p>Instagram Clone</p>
                                         <div className="main">
-                                            <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fpeek.jpg?alt=media&token=593d2461-cc03-427d-aaf9-831eee428102" className="image" alt="PEEK" />
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Finstagram%20clone.jpg?alt=media&token=e2fe7895-75c4-4312-8bae-f5b532f4ff88" className="image" alt="PEEK" />
                                         </div>
                                         <div className="middle">
                                             <div className="text">
-                                                <a href="https://github.com/sharjeelyunus/peek-mern" target="_blank" rel="noreferrer">SOURCE CODE</a>
+                                                <a href="https://github.com/sharjeelyunus/instagram-clone" target="_blank" rel="noreferrer">SOURCE CODE</a>
                                             </div>
                                         </div>
                                         <div className="dev-language">
-                                            <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2FMERN-logo.png?alt=media&token=aee49d64-950b-48dd-bf39-3846c33aaa78" alt="MERN" />
-                                            <p>MERN</p>
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Freact-logo.png?alt=media&token=700ef1d5-3433-4072-8310-85e6d86c183a" alt="react-logo" />
+                                            <p>REACT</p>
                                         </div>
-                                    </li>
-
-                                    <li className="box-web zone-web box-js30">
-                                        <a href="/">
-                                            <p>JAVASCRIPT30</p>
-                                            <div className="main">
-                                                <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fjavascript30.jpg?alt=media&token=3aad848a-54b5-4bc1-9a64-1c8344020f86" className="image" alt="JavaScript30" />
-                                            </div>
-                                            <div className="dev-language">
-                                                <p>30 VANILLA JS CODING PROJECTS</p>
-                                            </div>
-                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -182,12 +186,6 @@ class LandingPage extends React.Component {
                             <p className="gihub__repos">
                                 <a href="https://github.com/sharjeelyunus/twitter-clone" target="_blank" rel="noreferrer">
                                     <img src="https://github-readme-stats.vercel.app/api/pin/?username=sharjeelyunus&repo=twitter-clone&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="" />
-                                </a>
-                                <a href="https://github.com/sharjeelyunus/instagram-clone" target="_blank" rel="noreferrer">
-                                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sharjeelyunus&repo=instagram-clone&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="" />
-                                </a>
-                                <a href="https://github.com/sharjeelyunus/Whatsapp-Clone-React" target="_blank" rel="noreferrer">
-                                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sharjeelyunus&repo=Whatsapp-Clone-React&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="" />
                                 </a>
                                 <a href="https://github.com/sharjeelyunus/slack-clone" target="_blank" rel="noreferrer">
                                     <img src="https://github-readme-stats.vercel.app/api/pin/?username=sharjeelyunus&repo=slack-clone&theme=react&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide_border=true&show_icons=false" alt="" />
@@ -272,37 +270,6 @@ class LandingPage extends React.Component {
                                 <Link to="/AppDev">
                                     <button className="button">Click here to see more Apps</button>
                                 </Link>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className="portfolio-grid">
-                        <div id="flex">
-                            <div className="grid-wrapper-mob">
-                                <div id="graphics-design">
-                                    <Link to="/GraphicsDesign">
-                                        <button className="spin">
-                                            <div>GRAGPHIC <br /> DESIGN</div>
-                                        </button>
-                                    </Link>
-                                </div>
-
-                                <div id="web-development">
-                                    <Link to="/WebDev">
-                                        <button className="spin">
-                                            <div> WEB <br />DEVELOPMENT</div>
-                                        </button>
-                                    </Link>
-                                </div>
-
-                                <div id="apps-development">
-                                    <Link to="/AppDev">
-                                        <button className="spin">
-                                            <div>APP <br />DEVELOPMENT</div>
-                                        </button>
-                                    </Link>
-                                </div>
                             </div>
                         </div>
                     </div>
