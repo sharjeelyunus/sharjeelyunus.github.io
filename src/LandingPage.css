@@ -167,6 +167,13 @@ body {
   cursor: pointer;
 }
 
+.github__stats {
+  display: grid;
+  grid-gap: 10px;
+  grid-template: auto/ 500px 500px;
+  justify-content: center;
+}
+
 .grid-wrapper-developer {
   display: grid;
   grid-gap: 20px;
@@ -256,6 +263,15 @@ body {
   padding: 2px;
 }
 
+.gihub__repos {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: auto/ 400px 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
 .portfolio-grid {
   display: none;
 }
@@ -264,6 +280,16 @@ body {
   display: grid;
   grid-gap: 40px;
   grid-template: 276px/ 276px 276px;
+}
+
+.github__contributionGraph {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.github__contributionGraph > a > img {
+  width: 100%;
 }
 
 #blogs {
@@ -345,6 +371,10 @@ body {
     width: 300px;
   }
 
+  .header__info > img {
+    width: 320px;
+  }
+
   .about__container {
     margin-top: 50px;
   }
@@ -356,6 +386,12 @@ body {
   .about__details {
     max-width: 90%;
     font-size: 20px;
+  }
+
+  .github__stats {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .portfolio {
@@ -391,6 +427,10 @@ body {
     padding: 0px;
     line-height: 1.6;
     font-size: large;
+  }
+
+  .github__contributionGraph > a > img {
+    max-width: 350px;
   }
 
   .grid-wrapper-blogs {
