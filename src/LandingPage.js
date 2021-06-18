@@ -4,6 +4,7 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import { Link } from "react-router-dom";
 import Contact from './components/Contact';
+import DevArticles from './components/DevArticles';
 import './LandingPage.css';
 
 class LandingPage extends React.Component {
@@ -305,6 +306,8 @@ class LandingPage extends React.Component {
                         </div>
                     </div>
                 </div>
+
+                <DevArticles />
 
                 {/* Contact */}
                 <div id="contact">
