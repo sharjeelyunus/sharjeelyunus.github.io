@@ -5,6 +5,7 @@
   grid-template: auto/ 324px 324px 324px;
   padding: 20px;
   justify-content: center;
+  align-items: center;
 }
 
 .item {
@@ -14,7 +15,6 @@
   height: auto;
   border-radius: 5px;
   border: 2px solid #dedede;
-  margin-right: 15px;
   padding: 10px;
   box-shadow: 5px 5px 10px #78787888;
 }

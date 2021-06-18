@@ -93,34 +93,6 @@ class LandingPage extends React.Component {
                 <div id="portfolio" className="portfolio">
                     <h2>Portfolio</h2>
                     <div className="portfolio__web">
-                        <div className="graphic__design">
-                            <div className="header__card">
-                                <Link to="GraphicsDesign"><h3>Graphic Design</h3></Link>
-                            </div>
-                            <div>
-                                <div className="grid-wrapper">
-                                    <div className="box zone">
-                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FJohn%20Wick.png?alt=media&token=395e7b66-0428-460e-b089-ab917c351c7d" title="John Wick" alt="John Wick" />
-                                    </div>
-                                    <div className="box zone">
-                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FMinal.png?alt=media&token=65426863-4f5c-44ac-9232-8ff2e6a25f8e" title="Minal" alt="Minal" />
-                                    </div>
-                                    <div className="box zone">
-                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FShahveer%20J.png?alt=media&token=480a5f57-ec87-4675-b368-f647fdc4d13d" title="Shahveer Jafary" alt="Shahveer Jafary" />
-                                    </div>
-                                    <div className="box zone">
-                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FBerlin.png?alt=media&token=4fdb080a-697b-4fef-90e4-8dba9c56cb29" title="Berlin" alt="Berlin" />
-                                    </div>
-                                </div>
-                                <div>
-                                    <Link to="/GraphicsDesign">
-                                        <button className="button">Click here to see more Graphics</button>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-
 
                         <div id="web-dev">
                             <div className="header__card">
@@ -270,6 +242,33 @@ class LandingPage extends React.Component {
                                 <Link to="/AppDev">
                                     <button className="button">Click here to see more Apps</button>
                                 </Link>
+                            </div>
+                        </div>
+
+                        <div className="graphic__design">
+                            <div className="header__card">
+                                <Link to="GraphicsDesign"><h3>Graphic Design</h3></Link>
+                            </div>
+                            <div>
+                                <div className="grid-wrapper graphics_grid">
+                                    <div className="box zone">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FJohn%20Wick.png?alt=media&token=395e7b66-0428-460e-b089-ab917c351c7d" title="John Wick" alt="John Wick" />
+                                    </div>
+                                    <div className="box zone">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FMinal.png?alt=media&token=65426863-4f5c-44ac-9232-8ff2e6a25f8e" title="Minal" alt="Minal" />
+                                    </div>
+                                    <div className="box zone">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FShahveer%20J.png?alt=media&token=480a5f57-ec87-4675-b368-f647fdc4d13d" title="Shahveer Jafary" alt="Shahveer Jafary" />
+                                    </div>
+                                    <div className="box zone">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Graphics%2FBerlin.png?alt=media&token=4fdb080a-697b-4fef-90e4-8dba9c56cb29" title="Berlin" alt="Berlin" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <Link to="/GraphicsDesign">
+                                        <button className="button">Click here to see more Graphics</button>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>

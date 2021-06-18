@@ -394,6 +394,13 @@ body {
     margin-top: 50px;
   }
 
+  .graphics_grid {
+    display: flex !important;
+    flex-direction: column;
+    padding: 20px !important;
+    justify-content: center;
+  }
+
   .grid-wrapper-developer {
     display: flex;
     flex-direction: column;
