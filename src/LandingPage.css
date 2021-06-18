@@ -167,6 +167,11 @@ body {
   cursor: pointer;
 }
 
+.button__certificates {
+  display: flex;
+  justify-content: center;
+}
+
 .github__stats {
   display: grid;
   grid-gap: 10px;
