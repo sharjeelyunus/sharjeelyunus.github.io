@@ -1,10 +1,9 @@
 import React from 'react';
-import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
-import SocialLinks from './components/SocialLinks';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import { Link } from "react-router-dom";
+import Contact from './components/Contact';
 import './LandingPage.css';
 
 class LandingPage extends React.Component {
@@ -310,24 +309,18 @@ class LandingPage extends React.Component {
                 {/* Contact */}
                 <div id="contact">
                     <h2>Contact Me</h2>
-                    <div className="grid-wrapper-contact">
-                        <div className="box zone">
-                            <div className="contact-box">
-                                <div className="box__contactInfo">
-                                    <div>
-                                        <ul className="info contact-box-items">
-                                            <li className="info-items" title="Email">
-                                                <EmailIcon />
-                                                <a href="mailto:sharjeel924@gmail.com">sharjeel924@gmail.com</a>
-                                            </li>
-                                            <li className="info-items" title="Call me">
-                                                <PhoneIcon />
-                                                <a href="callto:+923097574574">+92 308 7574574</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <SocialLinks />
-
+                    <div className="contact">
+                        <div className="contact-box">
+                            <div className="box__contactInfo">
+                                <div>
+                                    <Contact />
+                                    <ul className="info contact-box-items">
+                                        <li className="info-items" title="Email">
+                                            Email me: &nbsp;
+                                            <EmailIcon />
+                                            <a href="mailto:sharjeel924@gmail.com">sharjeel924@gmail.com</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

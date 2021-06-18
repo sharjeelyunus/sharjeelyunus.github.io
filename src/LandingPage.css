@@ -313,25 +313,24 @@ body {
   margin: 0px;
 }
 
-.grid-wrapper-contact {
-  text-align: center;
+.contact {
+  display: flex;
   justify-content: center;
-  color: white;
-  display: grid;
-  grid-gap: 20px;
-  grid-template: 400px/ 550px;
+}
+
+.contact-box {
+  justify-content: center;
+  background-color: #1f222e;
+  color: white !important;
+  border: 1px solid rgb(48, 44, 44);
+  border-radius: 6px;
+  padding: 20px;
 }
 
 #contact > h2 {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 50px;
-}
-
-.contact-box {
-  margin-top: 20%;
-  justify-content: center;
-  align-items: center;
 }
 
 .info {
@@ -441,31 +440,21 @@ body {
     grid-gap: 20px;
   }
 
-  #contact {
-    padding: 10px;
-  }
-
-  #contact > h2 {
-    margin-top: 50px;
-    margin-bottom: 0px;
-  }
-
   .info {
     padding: 0px;
   }
 
-  .contact-box {
-    margin-top: 20px;
-    height: 200px;
+  .info-items {
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .contact {
     padding: 20px;
   }
 
   .box__contactInfo {
     margin-top: 20px;
-  }
-
-  .grid-wrapper-contact {
-    display: unset;
   }
 
   footer {
