@@ -1,5 +1,6 @@
 import React from 'react';
 import firebase from '../firebase';
+import Project from '../components/Project';
 
 class AppDev extends React.Component {
     constructor(props) {
@@ -43,24 +44,13 @@ class AppDev extends React.Component {
                 <ul className="grid-wrapper-dev" id="app-dev">
                     {this.state.AppDevelopment.map(data => {
                         return (
-                            <li className="box-web zone-web">
-                                <div className="bar">
-                                    <p>{data.appName}</p>
-                                </div>
-                                <div className="main">
-                                    <img src={data.appImg} className="image" alt="" />
-                                </div>
-                                <div className="middle">
-                                    <p>{data.appDesc}</p>
-                                    <div className="text">
-                                        <a href={data.sourceCode} target="_blank" rel="noreferrer">SOURCE CODE</a>
-                                    </div>
-                                </div>
-                                <div className="dev-language">
-                                    <img src={data.TechImg} alt="" />
-                                    <p>{data.Technology}</p>
-                                </div>
-                            </li>
+                            <Project
+                                appName={data.appName}
+                                devLang={data.Technology}
+                                devLangImg={data.TechImg}
+                                sourceCode={data.sourceCode}
+                                webImg={data.appImg}
+                            />
                         );
                     })}
                 </ul>
