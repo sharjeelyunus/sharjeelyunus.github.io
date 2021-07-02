@@ -7,8 +7,31 @@ import Contact from './components/Contact';
 import DevArticles from './components/DevArticles';
 import './LandingPage.css';
 import Project from './components/Project';
+import firebase from './firebase';
 
 class LandingPage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { WebFeatured: [], AppFeatured: [] }
+    }
+
+    componentDidMount() {
+        firebase.database().ref("WebFeatured").on("value", snapshot => {
+            let WebFeatured = [];
+            snapshot.forEach(snap => {
+                WebFeatured.push(snap.val());
+            });
+            this.setState({ WebFeatured: WebFeatured });
+        });
+        firebase.database().ref("AppFeatured").on("value", snapshot => {
+            let AppFeatured = [];
+            snapshot.forEach(snap => {
+                AppFeatured.push(snap.val());
+            });
+            this.setState({ AppFeatured: AppFeatured });
+        });
+    }
+
     render() {
         return (
             <div className="LandingPage">
@@ -105,38 +128,20 @@ class LandingPage extends React.Component {
                             </div>
                             <div className="dev">
                                 <ul className="grid-wrapper-developer">
-                                    <Project
-                                        appName="PEEK"
-                                        live="https://peek-mern.web.app/"
-                                        liveSvg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Flive.svg?alt=media&token=e495954a-7887-41ee-a880-a3eb31f4e70f"
-                                        devLang="MERN"
-                                        devLangImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2FMERN-logo.png?alt=media&token=aee49d64-950b-48dd-bf39-3846c33aaa78"
-                                        sourceCode="https://github.com/sharjeelyunus/peek-mern"
-                                        webDesc="A social platform, where users can share places (with images and location) with other users."
-                                        webImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fpeek.jpg?alt=media&token=593d2461-cc03-427d-aaf9-831eee428102"
-                                    />
-
-                                    <Project
-                                        appName="SMART BRAIN"
-                                        live="https://sharjeelyunus.github.io/Smart-Brain/"
-                                        liveSvg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Flive.svg?alt=media&token=e495954a-7887-41ee-a880-a3eb31f4e70f"
-                                        devLang="REACT"
-                                        devLangImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Freact-logo.png?alt=media&token=700ef1d5-3433-4072-8310-85e6d86c183a"
-                                        sourceCode="https://github.com/sharjeelyunus/Smart-Brain"
-                                        webDesc="Detects Faces from images using face recognition API"
-                                        webImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Fsmart-brain.jpg?alt=media&token=694bc634-806d-47d8-94e7-5a2c22823b72"
-                                    />
-
-                                    <Project
-                                        appName="Instagram Clone"
-                                        live="https://instagrambysharjeel.web.app/"
-                                        liveSvg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Flive.svg?alt=media&token=e495954a-7887-41ee-a880-a3eb31f4e70f"
-                                        devLang="REACT"
-                                        devLangImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Freact-logo.png?alt=media&token=700ef1d5-3433-4072-8310-85e6d86c183a"
-                                        sourceCode="https://github.com/sharjeelyunus/instagram-clone"
-                                        webDesc="Instagram Clone (Replica of Instagram)"
-                                        webImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/Web%20Dev%2Finstagram%20clone.jpg?alt=media&token=e2fe7895-75c4-4312-8bae-f5b532f4ff88"
-                                    />
+                                    {this.state.WebFeatured.map(data => {
+                                        return (
+                                            <Project
+                                                appName={data.name}
+                                                live={data.live}
+                                                liveSvg={data.liveSvg}
+                                                devLang={data.devLang}
+                                                devLangImg={data.devLangImg}
+                                                sourceCode={data.sourceCode}
+                                                webDesc={data.webDesc}
+                                                webImg={data.webImg}
+                                            />
+                                        );
+                                    })}
                                 </ul>
                             </div>
 
@@ -166,32 +171,18 @@ class LandingPage extends React.Component {
                             </div>
                             <div className="dev apps-dev">
                                 <ul className="grid-wrapper-developer">
-                                    <Project
-                                        appName="FLASH CHAT"
-                                        devLang="FLUTTER"
-                                        devLangImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflutter-logo.png?alt=media&token=701b89ad-3d40-45ba-ab70-7db99a5b0ef6"
-                                        sourceCode="https://github.com/sharjeelyunus/flash-chat-flutter"
-                                        webDesc="Realtime Messaging APP"
-                                        webImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflash%20chat.png?alt=media&token=91b134f6-d2e0-47ab-af6e-6ae5850ba902"
-                                    />
-
-                                    <Project
-                                        appName="COVID TRACKER"
-                                        devLang="FLUTTER"
-                                        devLangImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflutter-logo.png?alt=media&token=701b89ad-3d40-45ba-ab70-7db99a5b0ef6"
-                                        sourceCode="https://github.com/sharjeelyunus/covid19_tracker"
-                                        webDesc="Realtime Covid 19 Tracker"
-                                        webImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2FCorona%20tracker.jpg?alt=media&token=9f40d54d-4a97-476b-b7c3-6fd92b981bfa"
-                                    />
-
-                                    <Project
-                                        appName="BMI CALCULATOR"
-                                        devLang="FLUTTER"
-                                        devLangImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2Fflutter-logo.png?alt=media&token=701b89ad-3d40-45ba-ab70-7db99a5b0ef6"
-                                        sourceCode="https://github.com/sharjeelyunus/bmi-calculator-flutter"
-                                        webDesc="Check Your BMI"
-                                        webImg="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/App%20Development%2FBMI%20Calculator.jpg?alt=media&token=f8e2bae9-0c8d-4f06-96fa-fc21237aaf60"
-                                    />
+                                    {this.state.AppFeatured.map(data => {
+                                        return (
+                                            <Project
+                                                appName={data.appName}
+                                                devLang={data.Technology}
+                                                devLangImg={data.TechImg}
+                                                sourceCode={data.sourceCode}
+                                                webDesc={data.appDesc}
+                                                webImg={data.appImg}
+                                            />
+                                        );
+                                    })}
                                 </ul>
                             </div>
                             <div>

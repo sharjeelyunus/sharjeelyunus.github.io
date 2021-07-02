@@ -49,6 +49,7 @@ class AppDev extends React.Component {
                                 devLang={data.Technology}
                                 devLangImg={data.TechImg}
                                 sourceCode={data.sourceCode}
+                                webDesc={data.appDesc}
                                 webImg={data.appImg}
                             />
                         );
