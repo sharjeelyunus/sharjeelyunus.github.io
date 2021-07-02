@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from '../components/Project';
 import firebase from '../firebase';
 import './WebDev.css';
 
@@ -51,40 +52,28 @@ class WebDev extends React.Component {
                 <ul className="grid-wrapper-dev" id="web-dev">
                     {this.state.WebDevLive.map(data => {
                         return (
-                            <li className='box-web zone-web'>
-                                <div className='live'>
-                                    <a href={data.live} target='_blank' rel="noreferrer">
-                                        <img src={data.liveSvg} alt="" />
-                                    </a>
-                                </div>
-                                <div className='bar'><p>{data.name}</p></div>
-                                <div className='main'>
-                                    <img src={data.webImg} className='image' alt="" /></div>
-                                <div className='middle'>
-                                    <p>{data.webDesc}</p>
-                                    <div className='text'><a href={data.sourceCode} target='_blank' rel="noreferrer">SOURCE CODE</a></div>
-                                </div>
-                                <div className='dev-language'><img src={data.devLangImg} alt="" />
-                                    <p>{data.devLang}</p>
-                                </div>
-                            </li>
+                            <Project
+                                appName={data.name}
+                                live={data.live}
+                                liveSvg={data.liveSvg}
+                                devLang={data.devLang}
+                                devLangImg={data.devLangImg}
+                                sourceCode={data.sourceCode}
+                                webDesc={data.webDesc}
+                                webImg={data.webImg}
+                            />
                         );
                     })}
                     {this.state.WebDev.map(data => {
                         return (
-                            <li className='box-web zone-web'>
-                                <div className='bar'><p>{data.name}</p></div>
-                                <div className='main'>
-                                    <img src={data.webImg} className='image' alt="" /></div>
-                                <div className='middle'>
-                                    <p>{data.webDesc}</p>
-                                    <div className='text'><a href={data.sourceCode} target='_blank' rel="noreferrer">SOURCE CODE</a>
-                                    </div>
-                                </div>
-                                <div className='dev-language'><img src={data.devLangImg} alt="" />
-                                    <p>{data.devLang}</p>
-                                </div>
-                            </li>
+                            <Project
+                                appName={data.name}
+                                devLang={data.devLang}
+                                devLangImg={data.devLangImg}
+                                sourceCode={data.sourceCode}
+                                webDesc={data.webDesc}
+                                webImg={data.webImg}
+                            />
                         );
                     })}
                 </ul>
