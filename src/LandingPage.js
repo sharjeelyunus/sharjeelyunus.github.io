@@ -58,7 +58,6 @@ class LandingPage extends React.Component {
                             &nbsp; Hobby: <span className="blue">Designer;</span> <br />
                             <span className="yellow">{"}"}</span>
                         </div>
-
                     </div>
                 </div>
 
