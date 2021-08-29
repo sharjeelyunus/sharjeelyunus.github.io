@@ -68,12 +68,14 @@ class LandingPage extends React.Component {
                         <div className="about__details">
                             <h2 title="Who I am?">About Me</h2>
                             <p id="about-para">
-                                Hi, I’m Sharjeel Yunus, a&nbsp;
-                                <span title="at Islamia University of Bahwalpur">
-                                    Computer Science Student.</span>
-                                &nbsp; I have serious passion for modren looking websites with a little
-                                bit of animation.
+                                Hi, I’m Sharjeel Yunus, a Computer Science Student at The Islamia University of Bahawalpur.
+                                <br />🙌 Google Developers Student Clubs Lead
+                                <br />⚙️ IEEE Joint Secretary (Faculty of Computing)
+                                <br />🚀 Hack Club Leader
+                                <br />⚡ JavaScript Enthusiast
+                                <br />🦉 Open-Source Contributor
                             </p>
+                            <br />
                             <div className="technologies">Technologies that I use:</div>
                             <div className="display__skills">
                                 <ul className="left__skills">
