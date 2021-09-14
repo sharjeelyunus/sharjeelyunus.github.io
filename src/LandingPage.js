@@ -8,6 +8,7 @@ import DevArticles from './components/DevArticles';
 import './LandingPage.css';
 import Project from './components/Project';
 import firebase from './firebase';
+import sharjeel from './assets/sharjeel-sq.png';
 
 class LandingPage extends React.Component {
     constructor(props) {
@@ -37,7 +38,7 @@ class LandingPage extends React.Component {
             <div className="LandingPage">
                 {/* Profile Section */}
                 <div id="home" className="profile">
-                    <img className="profile__pic" src="https://firebasestorage.googleapis.com/v0/b/sharjeel-portfolio.appspot.com/o/sharjeel-cover.png?alt=media&token=52e2228a-e5e5-4aa3-b87c-afedd11f1ea3" alt="Sharjeel Yunus | Web Developer & Graphic Designer" title="Sharjeel Yunus | Web Developer & Graphic Designer" />
+                    <img className="profile__pic" src={sharjeel} alt="Sharjeel Yunus | Web Developer & Graphic Designer" title="Sharjeel Yunus | Web Developer & Graphic Designer" />
                     <div className="header__info">
                         <div>
                             <b><span className="hello">Hello.👋</span></b>

@@ -21,6 +21,8 @@ body {
   border-radius: 50%;
   width: 500px;
   height: 500px;
+  filter: grayscale(100%);
+  margin-right: 20px;
 }
 
 .hello {
