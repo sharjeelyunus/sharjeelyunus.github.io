@@ -1,5 +1,6 @@
 .MuiPaper-root {
-  background-color: #151225 !important;
+  background-color: #100e17 !important;
+  backdrop-filter: blur(20px) !important;
 }
 
 .MuiButtonBase-root {

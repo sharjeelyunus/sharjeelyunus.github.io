@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  AppBar,
-  Toolbar,
-  makeStyles,
-  Container,
-  IconButton,
-  Hidden,
-} from '@material-ui/core';
-import { Home } from '@material-ui/icons';
-import SocialLinks from './SocialLinks';
+import { AppBar, Toolbar, makeStyles, Container } from '@material-ui/core';
 import SideDrawer from './SideDrawer';
 
 const useStyles = makeStyles({
@@ -17,7 +8,7 @@ const useStyles = makeStyles({
     justifyContent: `space-between`,
   },
   navbar: {
-    backgroundColor: `#141123`,
+    backgroundColor: `#100E17`,
   },
 });
 
@@ -27,17 +18,8 @@ const Header = () => {
     <AppBar position='fixed' className={classes.navbar}>
       <Toolbar>
         <Container maxWidth='md' className={classes.navbarDisplayFlex}>
-          <a href='https://www.sharjeelyunus.me/'>
-            <IconButton edge='start' color='inherit' aria-label='home'>
-              <Home fontSize='large' />
-            </IconButton>
-          </a>
-          <Hidden smDown>
-            <SocialLinks />
-          </Hidden>
-          <Hidden mdUp>
-            <SideDrawer />
-          </Hidden>
+          <h1 className='header__sign'>SharjeelYunus</h1>
+          <SideDrawer />
         </Container>
       </Toolbar>
     </AppBar>

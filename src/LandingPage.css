@@ -7,6 +7,17 @@ body {
   color: white;
 }
 
+@font-face {
+  font-family: 'BestermindRegular';
+  src: local('BestermindRegular'),
+    url(./assets/BestermindRegular.ttf) format('truetype');
+}
+
+.header__sign {
+  font-family: 'BestermindRegular';
+  padding: 20px;
+}
+
 .LandingPage {
   margin-top: 70px;
 }

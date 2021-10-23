@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import { IconButton, Drawer } from '@material-ui/core';
 import { Menu } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core/styles';
-import SocialLinks from './SocialLinks';
 import './SideDrawer.css';
 
 const useStyles = makeStyles({
   list: {
-    width: 250,
+    width: 280,
   },
   sidebarLinks: {
     display: `flex`,
@@ -19,6 +18,16 @@ const useStyles = makeStyles({
     color: `white`,
     textDecoration: `none`,
     lineHeight: 1.8,
+    border: `1px solid white`,
+    padding: `10px`,
+    margin: `10px`,
+    textAlign: `center`,
+    borderRadius: `78.8418px`,
+    fontWeight: 'bold',
+    '&:hover': {
+      background: 'white',
+      color: `#100e17`,
+    },
   },
 });
 
@@ -45,27 +54,21 @@ const SideDrawer = () => {
     >
       <div className={classes.sidebarLinks}>
         <a
+          href='https://www.sharjeelyunus.me/'
           className={classes.sidebarLinksTag}
-          href='https://www.sharjeelyunus.me/Certificates'
         >
+          Home
+        </a>
+        <a className={classes.sidebarLinksTag} href='/Certificates'>
           Certificates
         </a>
-        <a
-          className={classes.sidebarLinksTag}
-          href='https://www.sharjeelyunus.me/GraphicsDesign'
-        >
+        <a className={classes.sidebarLinksTag} href='/GraphicsDesign'>
           Graphics Design
         </a>
-        <a
-          className={classes.sidebarLinksTag}
-          href='https://www.sharjeelyunus.me/WebDev'
-        >
+        <a className={classes.sidebarLinksTag} href='/WebDev'>
           Web Dev Projects
         </a>
-        <a
-          className={classes.sidebarLinksTag}
-          href='https://www.sharjeelyunus.me/AppDev'
-        >
+        <a className={classes.sidebarLinksTag} href='/AppDev'>
           App Dev Projects
         </a>
         <a
@@ -80,8 +83,10 @@ const SideDrawer = () => {
         >
           Read Blogs on Medium
         </a>
+        <a className={classes.sidebarLinksTag} href='/#contact'>
+          Contact
+        </a>
       </div>
-      <SocialLinks />
     </div>
   );
 
@@ -92,7 +97,7 @@ const SideDrawer = () => {
         aria-label='menu'
         onClick={toggleDrawer('right', true)}
       >
-        <Menu fontSize='large' style={{ color: `rgba(255, 255, 255, 0.5)` }} />
+        <Menu fontSize='large' style={{ color: `rgba(255, 255, 255)` }} />
       </IconButton>
 
       <Drawer
