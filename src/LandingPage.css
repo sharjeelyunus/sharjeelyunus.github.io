@@ -19,7 +19,7 @@ body {
 }
 
 .LandingPage {
-  margin-top: 70px;
+  margin-top: 120px;
 }
 
 .profile {
@@ -28,11 +28,18 @@ body {
   align-items: center;
 }
 
+.profile__social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
 .profile__pic {
   border-radius: 50%;
-  width: 500px;
-  height: 500px;
-  filter: grayscale(100%);
+  width: 400px;
+  height: 400px;
   margin-right: 20px;
 }
 
@@ -376,9 +383,14 @@ body {
     flex-direction: column;
   }
 
+  .profile__social {
+    margin-right: 0px;
+  }
+
   .profile__pic {
     width: 300px;
     height: 300px;
+    margin-right: 0px;
     margin-bottom: 20px;
   }
 

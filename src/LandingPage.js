@@ -9,6 +9,7 @@ import './LandingPage.css';
 import Project from './components/Project';
 import firebase from './firebase';
 import sharjeel from './assets/sharjeel-sq.png';
+import SocialLinks from './components/SocialLinks';
 
 class LandingPage extends React.Component {
     constructor(props) {
@@ -38,7 +39,10 @@ class LandingPage extends React.Component {
             <div className="LandingPage">
                 {/* Profile Section */}
                 <div id="home" className="profile">
-                    <img className="profile__pic" src={sharjeel} alt="Sharjeel Yunus | Web Developer & Graphic Designer" title="Sharjeel Yunus | Web Developer & Graphic Designer" />
+                    <div className="profile__social">
+                        <img className="profile__pic" src={sharjeel} alt="Sharjeel Yunus | Web Developer & Graphic Designer" title="Sharjeel Yunus | Web Developer & Graphic Designer" />
+                        <SocialLinks />
+                    </div>
                     <div className="header__info">
                         <div>
                             <b><span className="hello">Hello.👋</span></b>

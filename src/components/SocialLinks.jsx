@@ -12,7 +12,7 @@ function SocialLinks() {
       <ul className='social-icon'>
         <li>
           <a
-            href='https://www.facebook.com/aslisharjeel'
+            href='https://www.facebook.com/sharjeelyunus1'
             target='_blank'
             title='Like me on Facebook'
             rel='noreferrer'
@@ -22,7 +22,7 @@ function SocialLinks() {
         </li>
         <li>
           <a
-            href='https://www.instagram.com/sharjeel_arts/'
+            href='https://www.instagram.com/sharjeelyunus/'
             target='_blank'
             rel='noreferrer'
             title='Follow me on Instagram'
