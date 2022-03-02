@@ -18,6 +18,8 @@
   --color-button-text: rgb(255, 255, 255);
   --color-background: #fff;
   --color-anchor: #242734;
+  --color-anchor-hover: #313bac;
+  --nav-bg-color: rgba(225, 225, 225, 0.4);
 }
 
 [data-theme='dark'] {
@@ -28,6 +30,8 @@
   --color-button-text: rgb(0, 0, 0);
   --color-background: #323647;
   --color-anchor: #ffffff;
+  --color-anchor-hover: orangered;
+  --nav-bg-color: rgba(14, 14, 14, 0.4);
 }
 
 body {
