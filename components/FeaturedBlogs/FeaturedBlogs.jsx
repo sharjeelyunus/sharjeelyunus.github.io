@@ -2,7 +2,7 @@ import React from 'react';
 import './featuredblogs.module.css';
 
 const FeaturedBlogs = () => {
-  return <div>Featured Blogs</div>;
+  return <section id='Blogs'>Featured Blogs</section>;
 };
 
 export default FeaturedBlogs;

@@ -20,6 +20,7 @@
   --color-anchor: #242734;
   --color-anchor-hover: #313bac;
   --nav-bg-color: rgba(225, 225, 225, 0.4);
+  --color-nav-bg: rgba(0, 0, 0, 0.2);
 }
 
 [data-theme='dark'] {
@@ -32,6 +33,7 @@
   --color-anchor: #ffffff;
   --color-anchor-hover: orangered;
   --nav-bg-color: rgba(14, 14, 14, 0.4);
+  --color-nav-bg: rgba(0, 0, 0, 0.4);
 }
 
 body {
@@ -44,4 +46,8 @@ body {
 a {
   color: var(--color-anchor);
   text-decoration: none;
+}
+
+section {
+  height: 100vh;
 }
