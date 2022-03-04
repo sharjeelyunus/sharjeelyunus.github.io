@@ -1,0 +1,138 @@
+#Home {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__cover {
+  flex: 1;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  padding: 6rem 2rem 0;
+}
+.app__cover_info {
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+}
+.app__cover_badge {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.badge_cmp,
+.tag_cmp {
+  display: flex;
+  padding: 1rem 2rem;
+  border: var(--color-primary);
+  border-radius: 15px;
+  flex-direction: row;
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.badge_cmp > span {
+  font-size: 2.5rem;
+}
+.tag_cmp {
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.tag_cmp > p {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: right;
+}
+.icons_cmp {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  margin-top: 3rem;
+}
+.align_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app__cover_circles {
+  flex: 0.75;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 100%;
+  margin-left: 1rem;
+}
+.app__cover_circles > div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__cover_circles > div:nth-child(1) {
+  width: 100px;
+  height: 100px;
+}
+.app__cover_circles > div:nth-child(2) {
+  margin: 1.7rem;
+  width: 150px;
+  height: 150px;
+}
+.app__cover_circles > div:nth-child(3) {
+  width: 80px;
+  height: 80px;
+}
+.app__cover_img {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+.profile_image {
+  z-index: 1;
+  max-width: 500px;
+  max-height: 500px;
+}
+.overlay_circle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .app__cover {
+    flex-direction: column;
+    padding: 6rem 1rem 2rem;
+  }
+  .app__cover_circles {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+  .tag_cmp,
+  .icons_cmp {
+    margin-top: 2rem;
+  }
+  .icons_cmp {
+    flex-direction: row;
+  }
+  .icons_cmp > a {
+    padding: 0 5px;
+  }
+  .app__cover_circles > div:nth-child(2) {
+    margin: 0.3rem;
+  }
+}

@@ -47,6 +47,9 @@ a {
   color: var(--color-anchor);
   text-decoration: none;
 }
+a:hover {
+  color: var(--color-anchor-hover);
+}
 
 section {
   height: 100vh;
