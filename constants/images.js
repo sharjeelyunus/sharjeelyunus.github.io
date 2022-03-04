@@ -13,6 +13,9 @@ import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import Nextjs from '../assets/Nextjs.png';
+import ExpressJS from '../assets/Expressjs.png';
+import mongodb from '../assets/mongodb.png';
+import firebase from '../assets/firebase.png';
 
 export default {
     ProfilePic,
@@ -29,5 +32,8 @@ export default {
     react,
     redux,
     sass,
-    Nextjs
+    Nextjs,
+    ExpressJS,
+    mongodb,
+    firebase
 }

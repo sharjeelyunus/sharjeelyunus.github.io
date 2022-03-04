@@ -1,0 +1,96 @@
+.about {
+  padding: 6rem 2rem 0;
+  text-align: center;
+}
+.AboutCard {
+  margin: 10px;
+}
+.AboutCard > a {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.AboutCard > a.active {
+  text-decoration: underline;
+}
+.about__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AboutMeCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutMeImageContatiner {
+  width: 400px;
+}
+.AboutMeTextContatiner,
+.skills__card {
+  background-color: var(--nav-bg-color);
+  text-align: left;
+  padding: 50px;
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.skills__card {
+  width: 70%;
+  height: auto;
+}
+.techcard {
+  text-align: left;
+  background-color: var(--nav-bg-color);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.techData {
+  width: 100%;
+}
+.techImg {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.techLevel {
+  background-color: rgb(82, 82, 82);
+  border-radius: 10px;
+}
+.level {
+  background-color: var(--color-anchor-hover);
+  height: 10px;
+  border-radius: 10px;
+}
+.skills__grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.more__skills__container {
+  display: flex;
+  justify-content: center;
+}
+.more__skills {
+  width: 50px;
+}
+
+@media screen and (max-width: 450px) {
+  .AboutMeCard {
+    flex-direction: column-reverse;
+  }
+  .AboutMeTextContatiner,
+  .skills__card {
+    width: 80%;
+    padding: 40px 20px;
+  }
+  .skills__grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
