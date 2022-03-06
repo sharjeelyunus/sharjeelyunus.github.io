@@ -1,6 +1,7 @@
 .about {
   padding: 6rem 2rem 0;
   text-align: center;
+  background-color: var(--nav-bg-color);
 }
 .AboutCard {
   margin: 10px;
@@ -107,7 +108,8 @@
 
 @media screen and (max-width: 450px) {
   .about {
-    margin-top: 120px;
+    height: auto;
+    padding-bottom: 6rem;
   }
   .AboutMeCard {
     flex-direction: column-reverse;
@@ -118,7 +120,7 @@
     padding: 40px 20px;
   }
   .AboutMeTextContatiner {
-    width: 80%;
+    width: 95%;
   }
   .skills__grid {
     display: flex;

@@ -1,9 +1,3 @@
-#Home {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .app__cover {
   flex: 1;
   height: 85vh;
@@ -115,6 +109,7 @@
   .app__cover {
     flex-direction: column;
     padding: 6rem 1rem 2rem;
+    height: auto;
   }
   .app__cover_circles {
     width: 100%;
