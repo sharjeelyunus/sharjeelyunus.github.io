@@ -6,11 +6,14 @@
   margin: 10px;
 }
 .AboutCard > a {
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-size: 20px;
+  border-bottom: 1px solid var(--color-primary);
+  text-transform: uppercase;
+  font-weight: 400;
 }
 .AboutCard > a.active {
-  text-decoration: underline;
+  border-bottom: 3px solid var(--color-primary);
 }
 .about__container {
   display: flex;
@@ -22,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 .AboutMeImageContatiner {
   width: 400px;
@@ -39,8 +43,10 @@
 .skills__card {
   width: 70%;
   height: auto;
+  margin-top: 10px;
 }
-.techcard {
+.techcard,
+.certificatescard {
   text-align: left;
   background-color: var(--nav-bg-color);
   padding: 10px;
@@ -50,6 +56,9 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.certificatescard {
+  margin-top: 10px;
 }
 .techData {
   width: 100%;
@@ -79,15 +88,37 @@
 .more__skills {
   width: 50px;
 }
+.certificatescard {
+  flex-direction: column;
+}
+.certificate__data {
+  display: flex;
+  align-items: center;
+}
+.certificate__name {
+  font-size: 14px;
+}
+.certificate__platform {
+  font-size: 14px;
+}
+.certificate__verify {
+  margin-left: 10px;
+}
 
 @media screen and (max-width: 450px) {
+  .about {
+    margin-top: 120px;
+  }
   .AboutMeCard {
     flex-direction: column-reverse;
   }
   .AboutMeTextContatiner,
   .skills__card {
-    width: 80%;
+    width: 100%;
     padding: 40px 20px;
+  }
+  .AboutMeTextContatiner {
+    width: 80%;
   }
   .skills__grid {
     display: flex;
