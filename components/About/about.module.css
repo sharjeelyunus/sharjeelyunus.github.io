@@ -109,7 +109,6 @@
 @media screen and (max-width: 450px) {
   .about {
     height: auto;
-    padding-bottom: 6rem;
   }
   .AboutMeCard {
     flex-direction: column-reverse;

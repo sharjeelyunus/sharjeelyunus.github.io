@@ -1,0 +1,127 @@
+.Portfolio {
+  padding: 6rem 2rem 0;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  height: auto;
+}
+.work__filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0 0.5rem;
+}
+.work__filter__item {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: val(--color-nav-bg);
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0.5rem;
+}
+.work__filter__item:hover {
+  background-color: var(--color-anchor-hover);
+}
+.item__active {
+  background-color: var(--color-anchor-hover);
+}
+.work__portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.work_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-primary-accent);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.work_item:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-anchor-hover);
+}
+.work_img {
+  width: 100%;
+  height: 230px;
+  position: relative;
+}
+.work_img > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+.work__hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.projectLink {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectLink > svg {
+  width: 50%;
+  height: 50%;
+}
+.work__content {
+  padding: 0.5rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.work__content > h4 {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+.work__tag {
+  position: absolute;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: var(--color-div);
+  top: -25px;
+  right: 7px;
+}
+
+@media screen and (max-width: 450px) {
+  .work_item {
+    width: 100%;
+    margin: 1rem;
+  }
+}

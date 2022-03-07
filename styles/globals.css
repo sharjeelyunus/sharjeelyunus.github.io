@@ -11,10 +11,11 @@
 }
 /* declaring the css variables colors */
 :root {
-  --color-primary-accent: #ffffff;
+  --color-primary-accent: #f3f3f3;
   --color-primary: #000;
   --color-button: #3d486c;
   --color-paragraph: #797979;
+  --color-div: #e0e0e0;
   --color-button-text: rgb(255, 255, 255);
   --color-background: #fff;
   --color-anchor: #242734;
@@ -28,6 +29,7 @@
   --color-primary: #fff;
   --color-button: #242734;
   --color-paragraph: #8a8a8a;
+  --color-div: #1b1d27;
   --color-button-text: rgb(0, 0, 0);
   --color-background: #323647;
   --color-anchor: #ffffff;
