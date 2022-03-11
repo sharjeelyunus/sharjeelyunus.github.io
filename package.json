@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@portabletext/react": "^1.0.3",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^6.2.8",
     "next": "12.1.0",
     "next-pwa": "^5.4.4",
