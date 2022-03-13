@@ -131,7 +131,7 @@ const Portfolio = () => {
 
 export default Portfolio;
 
-function LinkDiv({ link, style, Icon }) {
+function LinkDiv({ link, Icon }) {
   return (
     <Link href={link}>
       <a target='_blank'>

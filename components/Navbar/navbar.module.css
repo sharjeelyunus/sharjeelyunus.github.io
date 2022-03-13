@@ -25,5 +25,5 @@
 }
 .nav > a.active {
   background: var(--color-nav-bg);
-  color: var(--color-primary);
+  color: var(--color-anchor-hover);
 }

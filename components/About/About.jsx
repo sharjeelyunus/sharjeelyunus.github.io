@@ -5,7 +5,7 @@ import AboutCard from './AboutCard';
 const About = () => {
   return (
     <section id='About' className={styles.about}>
-      <h2>Get To Know</h2>
+      <h3>Get To Know Me</h3>
       <AboutCard />
     </section>
   );

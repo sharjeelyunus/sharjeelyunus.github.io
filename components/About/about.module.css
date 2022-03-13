@@ -14,7 +14,9 @@
   font-weight: 400;
 }
 .AboutCard > a.active {
-  border-bottom: 3px solid var(--color-primary);
+  color: var(--color-anchor-hover);
+  border-bottom: 3px solid var(--color-anchor-hover);
+  font-weight: 700;
 }
 .about__container {
   display: flex;
@@ -57,17 +59,22 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  height: 30px;
 }
 .certificatescard {
   margin-top: 10px;
+  height: 40px;
 }
 .techData {
   width: 100%;
 }
 .techImg {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
+}
+.tech {
+  font-size: 14px;
 }
 .techLevel {
   background-color: rgb(82, 82, 82);
@@ -75,7 +82,7 @@
 }
 .level {
   background-color: var(--color-anchor-hover);
-  height: 10px;
+  height: 8px;
   border-radius: 10px;
 }
 .skills__grid {
@@ -87,7 +94,7 @@
   justify-content: center;
 }
 .more__skills {
-  width: 50px;
+  width: 35px;
 }
 .certificatescard {
   flex-direction: column;
@@ -96,11 +103,9 @@
   display: flex;
   align-items: center;
 }
-.certificate__name {
-  font-size: 14px;
-}
+.certificate__name,
 .certificate__platform {
-  font-size: 14px;
+  font-size: 12px;
 }
 .certificate__verify {
   margin-left: 10px;

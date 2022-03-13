@@ -24,9 +24,11 @@
 }
 .work__filter__item:hover {
   background-color: var(--color-anchor-hover);
+  color: #fff;
 }
 .item__active {
   background-color: var(--color-anchor-hover);
+  color: #fff;
 }
 .work__portfolio {
   display: flex;
@@ -97,6 +99,9 @@
   width: 50%;
   height: 50%;
 }
+.projectLink > svg:hover {
+  color: var(--color-anchor-hover);
+}
 .work__content {
   padding: 0.5rem;
   width: 100%;
@@ -109,6 +114,9 @@
 .work__content > h4 {
   margin-top: 1rem;
   line-height: 1.5;
+}
+.work__title:hover {
+  color: var(--color-anchor-hover);
 }
 .work__tag {
   position: absolute;

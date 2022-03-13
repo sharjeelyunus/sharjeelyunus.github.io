@@ -19,7 +19,7 @@
   --color-button-text: rgb(255, 255, 255);
   --color-background: #fff;
   --color-anchor: #242734;
-  --color-anchor-hover: #313bac;
+  --color-anchor-hover: #864879;
   --nav-bg-color: rgba(225, 225, 225, 0.4);
   --color-nav-bg: rgba(0, 0, 0, 0.2);
 }
@@ -33,7 +33,7 @@
   --color-button-text: rgb(0, 0, 0);
   --color-background: #323647;
   --color-anchor: #ffffff;
-  --color-anchor-hover: orangered;
+  --color-anchor-hover: #72147e;
   --nav-bg-color: rgba(14, 14, 14, 0.4);
   --color-nav-bg: rgba(0, 0, 0, 0.4);
 }
