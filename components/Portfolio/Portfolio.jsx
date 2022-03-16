@@ -17,11 +17,6 @@ const Portfolio = () => {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
   const [selected, setSelected] = useState('featured');
   const [data, setData] = useState([]);
-  const projectLinkExist = () => {
-    if (data.projectLink) {
-      return;
-    }
-  };
 
   const list = [
     {
