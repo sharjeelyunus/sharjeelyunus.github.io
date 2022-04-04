@@ -1,7 +1,7 @@
 {
   "theme_color": "#27292D",
   "background_color": "#2D2F33",
-  "display": "browser",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "name": "Sharjeel Yunus Portfolio Website | NextJS",
