@@ -159,3 +159,50 @@ export const web_3 = [
         codeLink: 'https://github.com/sharjeelyunus/Krypt'
     }
 ];
+
+export const webinars = [
+    {
+        id: 1,
+        title: "UNDP: Sustainable Development Goals",
+        link: 'https://youtu.be/H1zTELXc7og',
+        date: "Feb 25: 2022",
+        platform: 'SolutionFest'
+    },
+    {
+        id: 2,
+        title: "Introduction to Flutter",
+        link: 'https://youtu.be/iv2eVi8AqOs',
+        date: "Jan 19, 2022",
+        platform: 'GDSC IUB'
+    },
+    {
+        id: 3,
+        title: "Git and GitHub",
+        date: "Dec 26, 2021",
+        platform: 'Hack Club IUB'
+    },
+    {
+        id: 4,
+        title: "Build simple a game with JS",
+        date: "Nov 19, 2021",
+        platform: 'GDSC IUB'
+    },
+    {
+        id: 5,
+        title: "Getting Started with HTML and CSS",
+        date: "Oct 31, 2021",
+        platform: 'GDSC IUB'
+    },
+    {
+        id: 6,
+        title: "#AndoidSeekho Informantion Session",
+        date: "Oct 23, 2021",
+        platform: 'GDSC IUB'
+    },
+    {
+        id: 7,
+        title: "Hack The Hacktoberfest",
+        date: "Oct 9, 2021",
+        platform: 'Hack Club IUB'
+    }
+];

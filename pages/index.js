@@ -7,6 +7,7 @@ import FeaturedBlogs from "../components/FeaturedBlogs/FeaturedBlogs";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import Head from "next/head";
+import Webinar from "../components/Webinar/Webinar";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <About />
       <Portfolio />
       <FeaturedBlogs />
+      <Webinar />
       <Contact />
       <Footer />
     </>
