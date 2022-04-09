@@ -8,6 +8,7 @@ import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import Head from "next/head";
 import Webinar from "../components/Webinar/Webinar";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Portfolio />
       <FeaturedBlogs />
       <Webinar />
+      <Testimonials />
       <Contact />
       <Footer />
     </>

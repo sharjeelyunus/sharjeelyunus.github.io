@@ -206,3 +206,27 @@ export const webinars = [
         platform: 'Hack Club IUB'
     }
 ];
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "Rashid Wassan",
+        jobTitle: 'Founder & CEO KaamSay',
+        img: "https://github.com/rashidwassan.png",
+        recomendation: 'The smart & multitalented guy and a genuine person. Sharjeel is the person to reach out for the technical help or tasks. I was really inspired to see the work of this person on GitHub and got very inspired. Highly recommended person to work with!'
+    },
+    {
+        id: 2,
+        name: "Ehmad Saeed",
+        jobTitle: 'β MLSA || Full Stack Developer',
+        img: "https://github.com/justEhmadSaeed.png",
+        recomendation: "Sharjeel has been working with different tech communities, on a mission to spread the knowledge and hands-on experience with students. His leadership skills are quite exceptional and he's a guy to look on to if you're planning on conducting a successful event."
+    },
+    {
+        id: 3,
+        name: "Meer Hamza",
+        jobTitle: 'Google DSC Lead || β MLSA',
+        img: "https://github.com/meerhamzadev.png",
+        recomendation: "Being Sharjeel's fellow Lead in the Google Developer Student Clubs program was really a pleasure, he always went beyond the recommendations. He was always very open to discussion and feedback and had a very clear way to communicate his ideas. Sharjeel is very organized with his work, which helped him on developing solutions to the problems and made him excellent in executing his strategies. He is also technically sound which makes him an admirable professional."
+    }
+];

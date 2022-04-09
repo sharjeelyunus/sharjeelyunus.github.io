@@ -56,6 +56,13 @@ a:hover {
 section {
   height: 100vh;
 }
+.MuiAvatar-root {
+  width: 80px !important;
+  height: 80px !important;
+  margin-top: -55px;
+  margin-bottom: 10px;
+  border: 2px solid var(--color-anchor-hover) !important;
+}
 
 @media screen and (max-width: 450px) {
   section {
