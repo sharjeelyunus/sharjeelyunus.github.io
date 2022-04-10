@@ -23,12 +23,3 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
-
-// Rashid Wassan profile picture
-// Rashid WassanRashid Wassan
-// · 1stFirst degree connection
-// Founder & CEO KaamSay | Flutter Dev | GDSC Lead | MLSA | Blockchain Geek & Cryptomaniac | Community Builder | Tech EvangelistFounder & CEO KaamSay | Flutter Dev | GDSC Lead | MLSA | Blockchain Geek & Cryptomaniac | Community Builder | Tech Evangelist
-// April 25, 2022, Rashid worked with Sharjeel on the same teamApril 25, 2022, Rashid worked with Sharjeel on the same team
-// All LinkedIn members
-
-// The smart & multitalented guy and a genuine person. Sharjeel is the person to reach out for the technical help or tasks. I was really inspired to see the work of this person on GitHub and got very inspired. Highly recommended person to work with!
