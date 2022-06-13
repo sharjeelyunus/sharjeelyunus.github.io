@@ -9,6 +9,7 @@ import Footer from "../components/Footer/Footer";
 import Head from "next/head";
 import Webinar from "../components/Webinar/Webinar";
 import Testimonials from "../components/Testimonials/Testimonials";
+import Experience from "../components/Experience/Experience";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Navbar />
       <Cover />
       <About />
+      <Experience />
       <Portfolio />
       <FeaturedBlogs />
       <Webinar />

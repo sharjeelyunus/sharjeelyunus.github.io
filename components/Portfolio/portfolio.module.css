@@ -1,5 +1,6 @@
 .Portfolio {
   padding: 6rem 2rem 0;
+  background-color: var(--nav-bg-color);
   flex: 1;
   flex-direction: column;
   text-align: center;
@@ -16,7 +17,7 @@
 .work__filter__item {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  background-color: val(--color-nav-bg);
+  background-color: var(--color-nav-bg);
   font-weight: 800;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -46,7 +47,7 @@
   margin: 2rem;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: var(--color-primary-accent);
+  background-color: var(--nav-bg-color);
   cursor: pointer;
   transition: all 0.3s ease;
 }

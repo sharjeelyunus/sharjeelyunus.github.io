@@ -1,7 +1,6 @@
 .testimonials__comp {
   padding: 6rem 2rem 6rem;
   text-align: center;
-  background-color: var(--nav-bg-color);
   height: auto;
 }
 .testimonials__grid {
@@ -15,7 +14,7 @@
   align-items: center;
   width: 350px;
   height: 280px;
-  background-color: var(--color-background);
+  background-color: var(--nav-bg-color);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
