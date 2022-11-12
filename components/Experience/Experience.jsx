@@ -49,7 +49,7 @@ const Experience = () => {
               </ul>
             </div>
             <div className={styles.exp_timeline}>
-              <div>06/2022 - Present</div>
+              <div>06/2022 - 09/2022</div>
               <div>Singapore, Remote</div>
             </div>
           </div>
