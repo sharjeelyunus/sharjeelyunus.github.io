@@ -10,6 +10,7 @@ import Head from "next/head";
 import Webinar from "../components/Webinar/Webinar";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Experience from "../components/Experience/Experience";
+import Highlights from "../components/Highlights/Highlights";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <Portfolio />
       <FeaturedBlogs />
       <Webinar />
+      <Highlights />
       <Testimonials />
       <Contact />
       <Footer />

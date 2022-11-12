@@ -2,6 +2,7 @@
   padding: 6rem 2rem 6rem;
   text-align: center;
   height: auto;
+  background-color: var(--nav-bg-color);
 }
 .testimonials__grid {
   display: flex;
