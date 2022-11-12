@@ -175,6 +175,12 @@ export const webinars = [
     },
     {
         id: 3,
+        title: "The Web Ecosystem",
+        date: "Sep 23, 2022",
+        platform: 'MetaBlocks'
+    },
+    {
+        id: 3,
         title: "UNDP: Sustainable Development Goals",
         link: 'https://youtu.be/H1zTELXc7og',
         date: "Feb 25, 2022",
