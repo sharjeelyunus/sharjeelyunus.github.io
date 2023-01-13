@@ -30,6 +30,21 @@
   align-items: center;
   margin-top: 10px;
 }
+.resumeDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+.resumeBtn {
+  padding: 10px 20px;
+  background-color: var(--nav-bg-color);
+  color: var(--color-primary);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .AboutMeImageContatiner {
   width: 400px;
 }

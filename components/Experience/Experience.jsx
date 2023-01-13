@@ -11,7 +11,7 @@ const Experience = () => {
         <div className={styles.exp_container}>
           <div className={styles.exp_comp}>
             <div>
-              <h3>Software Engineer (Fullstack)</h3>
+              <h3>Software Engineer</h3>
               <p>CareerNetwork</p>
             </div>
             <div>

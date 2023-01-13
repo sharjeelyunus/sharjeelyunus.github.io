@@ -19,17 +19,27 @@ const AboutMeCard = () => {
       </div>
       <div className={styles.AboutMeTextContatiner}>
         <p className={styles.AboutMeInfo}>
-          Hi, I’m Sharjeel Yunus, a React, NextJS developer and a Technical
-          Writer. I’m currently pursuing Computer Science Major at The Islamia
-          University of Bahawalpur.
+          Hi, I’m Sharjeel Yunus, a Software Engineer, React - NextJS developer
+          and a Technical Writer. I’m a former Google DSC Lead and also worked
+          with multiple tech communities. I’m currently pursuing Computer
+          Science Major at The Islamia University of Bahawalpur.
           <br />
-          <br />
-          🙌 Google Developers Student Clubs Lead
-          <br /> ⚙️IEEE Joint Secretary (Faculty of Computing)
-          <br /> 🚀 Hack Club Leader
-          <br /> ⚡JavaScript Enthusiast
+          <br /> 💻 Software Engineer at CareerNetwork
+          <br /> &nbsp;☁ &nbsp;Community Manager at GDG Cloud Lahore
+          <br /> 🙌 Former Google DSC Lead
+          <br /> ⚡ JavaScript Enthusiast
           <br /> 🦉 Open-Source Contributor
         </p>
+        <div className={styles.resumeDiv}>
+          <a
+            className={styles.resumeBtn}
+            href='https://drive.google.com/file/d/1j7XJT8H30Not-d8WYmqXCgNPzdGm6kbP/view?usp=sharing'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Downlod Resume
+          </a>
+        </div>
       </div>
     </div>
   );
