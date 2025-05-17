@@ -67,23 +67,21 @@ const Cover = () => {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                  <Link href={coverContent.cta.primary.href}>
-                    <a 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center px-6 py-3 bg-[#6366f1] text-white rounded-lg hover:bg-[#6366f1]/90 transition-all duration-300 gap-2 hover:scale-[1.02] focus:ring-2 focus:ring-[#6366f1]/50 focus:outline-none text-base md:text-lg"
-                    >
-                      <HiDownload className="w-5 h-5" />
-                      Download Resume
-                    </a>
+                  <Link 
+                    href={coverContent.cta.primary.href}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-6 py-3 bg-[#6366f1] text-white rounded-lg hover:bg-[#6366f1]/90 transition-all duration-300 gap-2 hover:scale-[1.02] focus:ring-2 focus:ring-[#6366f1]/50 focus:outline-none text-base md:text-lg"
+                  >
+                    <HiDownload className="w-5 h-5" />
+                    Download Resume
                   </Link>
-                  <Link href={coverContent.cta.secondary.href}>
-                    <a 
-                      className="inline-flex items-center justify-center px-6 py-3 border border-[#6366f1] text-white rounded-lg hover:bg-[#6366f1]/10 transition-all duration-300 gap-2 hover:scale-[1.02] focus:ring-2 focus:ring-[#6366f1]/50 focus:outline-none text-base md:text-lg"
-                    >
-                      <HiMail className="w-5 h-5" />
-                      Get in Touch
-                    </a>
+                  <Link 
+                    href={coverContent.cta.secondary.href}
+                    className="inline-flex items-center justify-center px-6 py-3 border border-[#6366f1] text-white rounded-lg hover:bg-[#6366f1]/10 transition-all duration-300 gap-2 hover:scale-[1.02] focus:ring-2 focus:ring-[#6366f1]/50 focus:outline-none text-base md:text-lg"
+                  >
+                    <HiMail className="w-5 h-5" />
+                    Get in Touch
                   </Link>
                 </div>
 
@@ -91,15 +89,15 @@ const Cover = () => {
                   {coverContent.socialLinks.map((link, index) => {
                     const Icon = iconComponents[link.icon];
                     return (
-                      <Link key={index} href={link.url}>
-                        <a 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          aria-label={`Visit ${link.platform} profile`}
-                          className="text-white/60 hover:text-white text-2xl transition-all duration-300 hover:scale-110"
-                        >
-                          <Icon />
-                        </a>
+                      <Link 
+                        key={index} 
+                        href={link.url}
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        aria-label={`Visit ${link.platform} profile`}
+                        className="text-white/60 hover:text-white text-2xl transition-all duration-300 hover:scale-110"
+                      >
+                        <Icon />
                       </Link>
                     );
                   })}

@@ -41,24 +41,27 @@ const Navbar = () => {
       <div className='container mx-auto px-4'>
         <div className='flex justify-between items-center h-16'>
           {/* Logo */}
-          <Link href='/'>
-            <a className='flex items-center gap-1'>
-              <span className="font-['BestermindRegular'] text-2xl tracking-wider hover:text-[#4F46E5] transition-colors duration-300">
-                Sharjeel
-              </span>
-              <span className="font-['BestermindRegular'] text-2xl tracking-wider text-[#4F46E5]">
-                Yunus
-              </span>
-            </a>
+          <Link 
+            href='/'
+            className='flex items-center gap-1'
+          >
+            <span className="font-['BestermindRegular'] text-2xl tracking-wider hover:text-[#4F46E5] transition-colors duration-300">
+              Sharjeel
+            </span>
+            <span className="font-['BestermindRegular'] text-2xl tracking-wider text-[#4F46E5]">
+              Yunus
+            </span>
           </Link>
 
           {/* Desktop Menu */}
           <div className='hidden md:flex items-center space-x-8'>
             {menuItems.map((item) => (
-              <Link key={item.href} href={item.href}>
-                <a className='text-sm font-medium text-foreground/80 hover:text-primary transition-colors'>
-                  {item.label}
-                </a>
+              <Link 
+                key={item.href} 
+                href={item.href}
+                className='text-sm font-medium text-foreground/80 hover:text-primary transition-colors'
+              >
+                {item.label}
               </Link>
             ))}
           </div>
@@ -75,13 +78,13 @@ const Navbar = () => {
           >
             <div className='py-2'>
               {menuItems.map((item) => (
-                <Link key={item.href} href={item.href}>
-                  <a
-                    className='block px-4 py-3 text-foreground/80 hover:text-primary hover:bg-foreground/5 transition-colors'
-                    onClick={() => setToggleMenu(false)}
-                  >
-                    {item.label}
-                  </a>
+                <Link 
+                  key={item.href} 
+                  href={item.href}
+                  className='block px-4 py-3 text-foreground/80 hover:text-primary hover:bg-foreground/5 transition-colors'
+                  onClick={() => setToggleMenu(false)}
+                >
+                  {item.label}
                 </Link>
               ))}
             </div>

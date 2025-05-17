@@ -14,10 +14,12 @@ const CertificatesCard = ({ certificates }) => {
           <p>{certificates.platform}</p>
         </div>
         <div className={styles.certificate__verify}>
-          <Link href={certificates.verify}>
-            <a target='_blank'>
-              <AiOutlineLink />
-            </a>
+          <Link 
+            href={certificates.verify}
+            target='_blank'
+            className={styles.certificate__verify}
+          >
+            <AiOutlineLink />
           </Link>
         </div>
       </div>

@@ -46,11 +46,9 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
             className="lg:col-span-2"
           >
-            <Link href="/">
-              <a className="text-2xl font-bold text-white mb-4 block">
-                <span className="font-['BestermindRegular'] text-3xl tracking-wider hover:text-[#4F46E5] transition-colors duration-300">Sharjeel</span>
-                <span className="font-['BestermindRegular'] text-3xl tracking-wider text-[#4F46E5]">Yunus</span>
-              </a>
+            <Link href="/" className="text-2xl font-bold text-white mb-4 block">
+              <span className="font-['BestermindRegular'] text-3xl tracking-wider hover:text-[#4F46E5] transition-colors duration-300">Sharjeel</span>
+              <span className="font-['BestermindRegular'] text-3xl tracking-wider text-[#4F46E5]">Yunus</span>
             </Link>
             <p className="text-[#8B8B8B] text-sm leading-relaxed max-w-md">
               A passionate Full Stack Developer crafting beautiful web experiences with modern technologies.
@@ -68,10 +66,8 @@ const Footer = () => {
             <ul className="space-y-3">
               {menuItems.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href}>
-                    <a className="text-[#8B8B8B] text-sm hover:text-[#4F46E5] transition-colors duration-300">
-                      {item.label}
-                    </a>
+                  <Link href={item.href} className="text-[#8B8B8B] text-sm hover:text-[#4F46E5] transition-colors duration-300">
+                    {item.label}
                   </Link>
                 </li>
               ))}
@@ -87,15 +83,15 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Connect</h3>
             <div className="flex flex-wrap gap-4">
               {socialLinks.map((link) => (
-                <Link key={link.href} href={link.href}>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    className="w-10 h-10 rounded-xl bg-[#1a1f2e] text-[#8B8B8B] hover:bg-[#4F46E5]/10 hover:text-[#4F46E5] flex items-center justify-center transition-all duration-300"
-                    aria-label={link.label}
-                  >
-                    {link.icon}
-                  </a>
+                <Link 
+                  key={link.href} 
+                  href={link.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-10 h-10 rounded-xl bg-[#1a1f2e] text-[#8B8B8B] hover:bg-[#4F46E5]/10 hover:text-[#4F46E5] flex items-center justify-center transition-all duration-300"
+                  aria-label={link.label}
+                >
+                  {link.icon}
                 </Link>
               ))}
             </div>

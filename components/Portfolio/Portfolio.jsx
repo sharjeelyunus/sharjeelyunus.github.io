@@ -176,29 +176,27 @@ const Portfolio = () => {
                       {/* Links */}
                       <div className='flex items-center justify-between pt-4 mt-4 border-t border-[#232936]'>
                         {project.codeLink && (
-                          <Link href={project.codeLink}>
-                            <a
-                              target='_blank'
-                              rel='noopener noreferrer'
-                              className='flex items-center gap-2 text-sm text-[#8B8B8B] hover:text-[#00A6ED] transition-colors'
-                              aria-label={`View source code for ${project.title}`}
-                            >
-                              <BsGithub className='w-4 h-4' />
-                              Source Code
-                            </a>
+                          <Link 
+                            href={project.codeLink}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='flex items-center gap-2 text-sm text-[#8B8B8B] hover:text-[#00A6ED] transition-colors'
+                            aria-label={`View source code for ${project.title}`}
+                          >
+                            <BsGithub className='w-4 h-4' />
+                            Source Code
                           </Link>
                         )}
                         {project.projectLink && (
-                          <Link href={project.projectLink}>
-                            <a
-                              target='_blank'
-                              rel='noopener noreferrer'
-                              className='flex items-center gap-2 text-sm text-[#8B8B8B] hover:text-[#00A6ED] transition-colors'
-                              aria-label={`View live demo for ${project.title}`}
-                            >
-                              Live Demo
-                              <BsArrowUpRight className='w-4 h-4' />
-                            </a>
+                          <Link 
+                            href={project.projectLink}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='flex items-center gap-2 text-sm text-[#8B8B8B] hover:text-[#00A6ED] transition-colors'
+                            aria-label={`View live demo for ${project.title}`}
+                          >
+                            Live Demo
+                            <BsArrowUpRight className='w-4 h-4' />
                           </Link>
                         )}
                       </div>
@@ -217,15 +215,14 @@ const Portfolio = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className='flex justify-center mt-12'
         >
-          <Link href='https://github.com/sharjeelyunus?tab=repositories'>
-            <a
-              target='_blank'
-              rel='noopener noreferrer'
-              className='group inline-flex items-center gap-2 px-8 py-3 rounded-full bg-[#00A6ED] text-white hover:bg-[#0090d1] transition-all duration-300 shadow-lg shadow-[#00A6ED]/25 hover:shadow-xl hover:shadow-[#00A6ED]/30'
-            >
-              View All Projects
-              <BsArrowUpRight className='w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1' />
-            </a>
+          <Link 
+            href='https://github.com/sharjeelyunus?tab=repositories'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='group inline-flex items-center gap-2 px-8 py-3 rounded-full bg-[#00A6ED] text-white hover:bg-[#0090d1] transition-all duration-300 shadow-lg shadow-[#00A6ED]/25 hover:shadow-xl hover:shadow-[#00A6ED]/30'
+          >
+            View All Projects
+            <BsArrowUpRight className='w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1' />
           </Link>
         </motion.div>
       </div>
