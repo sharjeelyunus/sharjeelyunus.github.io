@@ -4,41 +4,35 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image';
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
-import one from '../../assets/highlights/1.jpg';
-import two from '../../assets/highlights/2.jpeg';
-import three from '../../assets/highlights/3.jpg';
-import four from '../../assets/highlights/4.jpeg';
-import five from '../../assets/highlights/5.jpeg';
-import six from '../../assets/highlights/6.jpeg';
 
 const highlights = [
   {
-    image: one,
+    image: '/highlights/1.jpg',
     title: 'Cloud Study Jams at 10Pearls by GDG Cloud Lahore',
     alt: 'Sharjeel Yunus at 10Pearls Lahore'
   },
   {
-    image: two,
+    image: '/highlights/2.jpeg',
     title: 'HacktobestFest workshop at The Islamia University of Bahawalpur',
     alt: 'Sharjeel Yunus at The Islamia University of Bahawalpur'
   },
   {
-    image: three,
+    image: '/highlights/3.jpg',
     title: 'Cloud Study Jams at 10Pearls by GDG Cloud Lahore',
     alt: 'Sharjeel Yunus at 10Pearls Lahore with GDG Cloud Lahore team'
   },
   {
-    image: four,
+    image: '/highlights/4.jpeg',
     title: 'AWS Community Day - Lahore',
     alt: 'Sharjeel Yunus at AWS Community Day 2022'
   },
   {
-    image: five,
+    image: '/highlights/5.jpeg',
     title: 'HacktobestFest workshop at The Islamia University of Bahawalpur',
     alt: 'Sharjeel Yunus at The Islamia University of Bahawalpur'
   },
   {
-    image: six,
+    image: '/highlights/6.jpeg',
     title: 'AWS Community Day - Lahore',
     alt: 'Sharjeel Yunus at AWS Community Day with AWS Community Day team'
   }
