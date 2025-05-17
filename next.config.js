@@ -4,11 +4,13 @@ const runtimeCaching = require('next-pwa/cache');
 
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: ['raw.githubusercontent.com', 'firebasestorage.googleapis.com', 'github.com', 'camo.githubusercontent.com', 'media2.dev.to'],
+  },
 }
 
-module.exports = nextConfig;
-
 module.exports = withPWA({
+  ...nextConfig,
   pwa: {
     dest: "public",
     register: true,

@@ -1,71 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Theme Variables */
+:root {
+  /* Modern Theme Colors */
+  --primary: #0EA5E9;
+  --secondary: #6366F1;
+  --accent: #F472B6;
+  --background: #0F172A;
+  --foreground: #F8FAFC;
+  
+  /* UI Elements */
+  --nav-bg: rgba(15, 23, 42, 0.8);
+  --card-bg: rgba(255, 255, 255, 0.1);
+  --card-border: rgba(255, 255, 255, 0.2);
+  
+  /* Typography */
+  --font-sans: 'Inter', 'Poppins', system-ui, sans-serif;
+}
+
+/* Custom Font */
 @font-face {
   font-family: 'BestermindRegular';
-  src: url('/fonts/BestermindRegular.ttf');
+  src: url('/fonts/BestermindRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-/* declaring the css variables colors */
-:root {
-  --color-primary-accent: #f3f3f3;
-  --color-primary: #000;
-  --color-button: #3d486c;
-  --color-paragraph: #797979;
-  --color-div: #e0e0e0;
-  --color-button-text: rgb(255, 255, 255);
-  --color-background: #fff;
-  --color-anchor: #242734;
-  --color-anchor-hover: #864879;
-  --nav-bg-color: rgba(225, 225, 225, 0.4);
-  --color-nav-bg: rgba(0, 0, 0, 0.2);
-}
-
-[data-theme='dark'] {
-  --color-primary-accent: #242734;
-  --color-primary: #fff;
-  --color-button: #242734;
-  --color-paragraph: #8a8a8a;
-  --color-div: #1b1d27;
-  --color-button-text: rgb(0, 0, 0);
-  --color-background: #323647;
-  --color-anchor: #ffffff;
-  --color-anchor-hover: #72147e;
-  --nav-bg-color: rgba(14, 14, 14, 0.4);
-  --color-nav-bg: rgba(0, 0, 0, 0.4);
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
 }
 
 body {
-  background-color: var(--color-background);
-  color: var(--color-primary);
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-}
-
-a {
-  color: var(--color-anchor);
-  text-decoration: none;
-}
-a:hover {
-  color: var(--color-anchor-hover);
-}
-
-section {
-  height: 100vh;
-}
-.MuiAvatar-root {
-  width: 80px !important;
-  height: 80px !important;
-  margin-top: -55px;
-  margin-bottom: 10px;
-  border: 2px solid var(--color-anchor-hover) !important;
-}
-
-@media screen and (max-width: 450px) {
-  section {
-    width: 100vw;
+    @apply bg-background text-foreground antialiased overflow-x-hidden;
+    font-family: var(--font-sans);
   }
+
+  ::selection {
+    @apply bg-primary/20 text-primary;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-lg bg-white/10 border border-white/20 rounded-2xl shadow-xl;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent animate-gradient;
+  }
+
+  .hover-scale {
+    @apply transition-transform duration-300 hover:scale-105;
+}
+
+  .section-padding {
+    @apply py-24 px-4 md:px-8 lg:px-16;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto w-full;
+  }
+}
+
+/* Grid Background Pattern */
+.bg-grid-white {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/50 rounded-full transition-colors;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary/70;
+}
+
+/* Animation Classes */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Glass Effect */
+.glass {
+  @apply backdrop-blur-lg bg-white/10 border border-white/20 transition-all duration-300;
+}
+
+.glass:hover {
+  @apply backdrop-blur-lg bg-white/20 border-white/30 shadow-lg;
+}
+
+/* Responsive Typography */
+@screen sm {
+  html { font-size: 14px; }
+}
+
+@screen md {
+  html { font-size: 16px; }
+}
+
+@screen lg {
+  html { font-size: 18px; }
+}
+
+/* Section Base Styles */
+section {
+  @apply relative min-h-screen w-full overflow-hidden;
+  }
+
+/* Container Styles */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }

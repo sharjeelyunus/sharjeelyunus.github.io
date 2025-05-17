@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react';
 import { images } from '../../constants';
 import { motion } from 'framer-motion';
 import styles from './about.module.css';
@@ -19,15 +18,18 @@ const AboutMeCard = () => {
       </div>
       <div className={styles.AboutMeTextContatiner}>
         <p className={styles.AboutMeInfo}>
-          Hi, I’m Sharjeel Yunus, a Software Engineer, React - NextJS developer
-          and a Technical Writer. I’m a former Google DSC Lead and also worked
-          with multiple tech communities. I’m currently pursuing Computer
-          Science Major at The Islamia University of Bahawalpur.
+          Hi, I’m Sharjeel Yunus, a Senior Software Engineer specializing in
+          full‑stack development. I’ve been deeply involved in tech communities
+          – I served as a Google Developer Student Clubs Lead and even founded a
+          Hack Club chapter at my university – where I organized workshops and
+          hackathons to empower fellow students. I’m passionate about mentoring,
+          open-source, and staying at the forefront of emerging tech.
           <br />
-          <br /> 💻 Software Engineer at CareerNetwork
-          <br /> &nbsp;☁ &nbsp;Community Manager at GDG Cloud Lahore
-          <br /> 🙌 Former Google DSC Lead
-          <br /> ⚡ JavaScript Enthusiast
+          <br /> 💼 Senior Software Engineer @ Ensemble Technologies
+          (2024–Present)
+          <br /> 🙌 Former Google DSC Lead, IUB (2021–2022)
+          <br /> 🚀 Founder & President, Hack Club IUB (2021–2022)
+          <br /> ⚡ JavaScript Enthusiast & AI Learner
           <br /> 🦉 Open-Source Contributor
         </p>
         <div className={styles.resumeDiv}>
@@ -37,7 +39,7 @@ const AboutMeCard = () => {
             target='_blank'
             rel='noreferrer'
           >
-            Downlod Resume
+            Download Résumé
           </a>
         </div>
       </div>

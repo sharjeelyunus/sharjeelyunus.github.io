@@ -1,10 +1,13 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import { Html, Head, Main, NextScript } from 'next/document';
 
-class MyDocument extends Document {
-    render() {
+export default function Document() {
         return (
-            <Html>
+        <Html lang="en">
                 <Head>
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+                    rel="stylesheet"
+                />
                     <link rel="manifest" href="/manifest.json" />
                     <link rel="apple-touch-icon" href="/logo.png"></link>
                 </Head>
@@ -19,7 +22,6 @@ class MyDocument extends Document {
                 </body>
             </Html>
         );
-    }
 }
 
 // This function needs to be a String
@@ -58,5 +60,3 @@ function setInitialColorMode() {
     if (currentColorMode === 'dark')
         document.documentElement.setAttribute('data-theme', 'dark');
 }
-
-export default MyDocument;

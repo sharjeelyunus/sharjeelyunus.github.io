@@ -1,4 +1,72 @@
+
 import { images } from '.';
+
+export const coverContent = {
+    greeting: {
+        emoji: "👋",
+        text: "Hello, I am"
+    },
+    name: "Sharjeel Yunus",
+    title: "Senior Software Engineer",
+    currentRole: {
+        position: "Senior Software Engineer",
+        company: "Ensemble Technologies",
+        companyUrl: "https://ensembleui.com",
+        location: "Remote"
+    },
+    description: "I’m a Senior Software Engineer passionate about building intuitive developer tools, cross-platform apps, and AI-powered solutions. I focus on delivering clean, scalable systems that enhance user and developer experiences.",
+    availability: {
+        status: "Open to opportunities",
+        type: "Remote / Hybrid"
+    },
+    cta: {
+        primary: {
+            text: "Download Resume",
+            href: "https://drive.google.com/file/d/1j7XJT8H30Not-d8WYmqXCgNPzdGm6kbP/view?usp=sharing",
+            icon: "HiDownload"
+        },
+        secondary: {
+            text: "Get in Touch",
+            href: "#Contact",
+            icon: "HiMail"
+        }
+    },
+    socialLinks: [
+        {
+            platform: "LinkedIn",
+            url: "https://www.linkedin.com/in/sharjeel-yunus",
+            icon: "BsLinkedin"
+        },
+        {
+            platform: "GitHub",
+            url: "https://github.com/sharjeelyunus",
+            icon: "BsGithub"
+        },
+        {
+            platform: "Twitter",
+            url: "https://twitter.com/sharjeelyunus",
+            icon: "BsTwitter"
+        }
+    ],
+    backgroundEffects: {
+        gradientOrbs: [
+            {
+                position: "-top-40 -left-40",
+                size: "w-80 h-80",
+                color: "bg-primary/20"
+            },
+            {
+                position: "-bottom-40 -right-40",
+                size: "w-80 h-80",
+                color: "bg-secondary/20"
+            }
+        ],
+        gridPattern: {
+            opacity: "0.02",
+            className: "bg-grid-white"
+        }
+    }
+};
 
 export const techStack = [
     { img: images.react, tech: "ReactJS", level: "90" },
@@ -149,17 +217,6 @@ export const designPortfolio = [
     }
 ];
 
-export const web_3 = [
-    {
-        id: 1,
-        title: "Krypt",
-        img: "https://camo.githubusercontent.com/b61e5e14fa54284302665905b7548c96dc36a81c500fbda2172f0ce95ce8302a/68747470733a2f2f692e6962622e636f2f44564634744e572f696d6167652e706e67",
-        description: 'Web 3.0 React Solidity Blockchain Application',
-        tags: ['WEB 3.0'],
-        codeLink: 'https://github.com/sharjeelyunus/Krypt'
-    }
-];
-
 export const webinars = [
     {
         id: 1,
@@ -248,3 +305,182 @@ export const testimonials = [
         recomendation: "Being Sharjeel's fellow Lead in the Google Developer Student Clubs program was really a pleasure, he always went beyond the recommendations. He was always very open to discussion and feedback and had a very clear way to communicate his ideas. Sharjeel is very organized with his work, which helped him on developing solutions to the problems and made him excellent in executing his strategies. He is also technically sound which makes him an admirable professional."
     }
 ];
+
+export const communityRoles = [
+    {
+        title: "Campus Lead – Google Developer Student Clubs (IUB)",
+        duration: "Aug 2021 – Aug 2022",
+        description: "Led the GDSC chapter at IUB, organizing 30+ tech events & bootcamps on campus. Facilitated workshops (e.g. Web, Flutter) and a university-wide hackathon, engaging hundreds of students."
+    },
+    {
+        title: "Founder & President – Hack Club IUB",
+        duration: "2021 – 2022",
+        description: "Established the first Hack Club at IUB to foster a culture of coding and innovation. Hosted hackathons (e.g. Hacktoberfest) and weekly coding sessions, building a community of enthusiastic student developers."
+    }
+];
+
+export const aboutContent = {
+    title: {
+        main: "About",
+        highlight: "Me"
+    },
+    description: [
+        "I’m a Senior Software Engineer with a passion for solving complex problems through clean, efficient code. I specialize in building modern web and mobile applications, intelligent interfaces, and scalable systems that deliver real impact.",
+        "My journey has led me through developing low-code platforms, developer SDKs, and AI-driven tools — always with a focus on performance, usability, and growth."
+    ],
+    expertise: {
+        title: {
+            main: "My",
+            highlight: "Expertise"
+        },
+        skills: [
+            {
+                title: "Frontend Development",
+                icon: "BsCode",
+                description: "Building responsive and interactive user interfaces with React, Next.js, and modern CSS frameworks.",
+                technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+            },
+            {
+                title: "Backend Development",
+                icon: "BsServer",
+                description: "Creating scalable server-side applications and APIs using Node.js and modern databases.",
+                technologies: ["Node.js", "Express", "PostgreSQL", "MongoDB"]
+            },
+            {
+                title: "Problem Solving",
+                icon: "BsLightbulb",
+                description: "Designing robust systems, debugging effectively, and delivering maintainable, high-performance solutions.",
+                technologies: ["System Design", "Optimization", "Clean Code", "Testing"]
+            }
+        ]
+    },
+    image: images.Artwork
+};
+
+export const technicalSkills = {
+    title: {
+        main: "Technical",
+        highlight: "Skills"
+    },
+    description: "A comprehensive overview of my technical expertise and proficiency in various technologies.",
+    categories: [
+        {
+            title: "Languages",
+            skills: [
+                { name: "JavaScript", icon: "SiJavascript", proficiency: 95 },
+                { name: "TypeScript", icon: "SiTypescript", proficiency: 90 },
+                { name: "HTML5", icon: "SiHtml5", proficiency: 95 },
+                { name: "CSS3", icon: "SiCss3", proficiency: 90 },
+                { name: "Dart", icon: "SiDart", proficiency: 75 }
+            ]
+        },
+        {
+            title: "Frontend",
+            skills: [
+                { name: "React", icon: "SiReact", proficiency: 95 },
+                { name: "Next.js", icon: "SiNextdotjs", proficiency: 90 },
+                { name: "Redux", icon: "SiRedux", proficiency: 85 },
+                { name: "Tailwind CSS", icon: "SiTailwindcss", proficiency: 90 },
+                { name: "Flutter", icon: "SiFlutter", proficiency: 75 }
+            ]
+        },
+        {
+            title: "Backend",
+            skills: [
+                { name: "Node.js", icon: "SiNodedotjs", proficiency: 90 },
+                { name: "Express", icon: "SiExpress", proficiency: 85 },
+                { name: "MongoDB", icon: "SiMongodb", proficiency: 85 },
+                { name: "PostgreSQL", icon: "SiPostgresql", proficiency: 80 },
+                { name: "Firebase", icon: "SiFirebase", proficiency: 85 }
+            ]
+        },
+        {
+            title: "AI/ML",
+            skills: [
+                { name: "TensorFlow", icon: "SiTensorflow", proficiency: 70 },
+                { name: "PyTorch", icon: "SiPytorch", proficiency: 65 },
+                { name: "OpenAI API", icon: "SiOpenai", proficiency: 85 }
+            ]
+        },
+        {
+            title: "Tools & DevOps",
+            skills: [
+                { name: "Git", icon: "SiGit", proficiency: 90 },
+                { name: "Docker", icon: "SiDocker", proficiency: 80 },
+                { name: "AWS", icon: "SiAmazonaws", proficiency: 75 },
+                { name: "Figma", icon: "SiFigma", proficiency: 80 },
+                { name: "Postman", icon: "SiPostman", proficiency: 85 }
+            ]
+        }
+    ]
+};
+
+export const professionalExperience = {
+    title: {
+        main: "Professional",
+        highlight: "Experience"
+    },
+    description: "My journey in software development, featuring roles where I've driven significant improvements and delivered measurable impact.",
+    experiences: [
+        {
+            title: "Senior Software Engineer",
+            company: "Ensemble Technologies",
+            companyUrl: "https://ensembleui.com",
+            location: "Remote",
+            type: "Full-time",
+            date: "Feb 2024 - Present",
+            achievements: [
+                "Built a robust deployment system that reduced deployment time by 50%",
+                "Improved platform performance by 25% through optimization and caching",
+                "Led the implementation of new features and architectural improvements",
+                "Mentored junior developers and established best practices"
+            ],
+            technologies: ["React", "Node.js", "AWS", "CI/CD", "System Architecture"]
+        },
+        {
+            title: "Application Software Developer",
+            company: "Ensemble Technologies",
+            companyUrl: "https://ensembleui.com",
+            location: "Remote",
+            type: "Full-time",
+            date: "Feb 2023 - Feb 2024",
+            achievements: [
+                "Accelerated development speed by 40% through implementing a low-code platform",
+                "Increased developer engagement by 50% by streamlining the app builder",
+                "Optimized application performance and user experience",
+                "Collaborated with cross-functional teams to deliver high-quality solutions"
+            ],
+            technologies: ["React", "TypeScript", "Node.js", "Low-Code Development", "Performance Optimization"]
+        },
+        {
+            title: "Software Engineer",
+            company: "CareerNetwork",
+            companyUrl: "https://careernetwork.co",
+            location: "Remote",
+            type: "Full-time",
+            date: "Jun 2022 - May 2023",
+            achievements: [
+                "Provided a robust platform serving 5,000+ professionals",
+                "Boosted user engagement by 35% through UI/UX improvements",
+                "Implemented key features that enhanced platform functionality",
+                "Collaborated with stakeholders to define and achieve project goals"
+            ],
+            technologies: ["Next.js", "React", "Node.js", "MongoDB", "User Analytics"]
+        },
+        {
+            title: "Developer Advocate",
+            company: "Metaschool",
+            companyUrl: "https://metaschool.so",
+            location: "Remote",
+            type: "Contract",
+            date: "Jun 2022 - Sep 2022",
+            achievements: [
+                "Grew user participation by 30% through engaging content and workshops",
+                "Forged 12+ partnerships to raise platform visibility by 40%",
+                "Created technical content and tutorials for the community",
+                "Led developer workshops and training sessions"
+            ],
+            technologies: ["Technical Writing", "Community Building", "Web3", "Developer Relations"]
+        }
+    ]
+};

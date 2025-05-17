@@ -68,12 +68,20 @@
   border-bottom: 1px solid rgba(225, 225, 225, 0.18);
 }
 .nav > .myname {
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.nav > .myname a {
+  display: flex;
+  gap: 1px;
+}
+.nav > .myname {
   font-family: 'BestermindRegular';
   font-weight: 900;
   font-size: 22px;
   line-height: 21px;
   color: var(--color-primary);
-  transition: all 0.3s ease-in-out;
 }
 .nav > .myname > a:hover {
   color: var(--color-anchor-hover);

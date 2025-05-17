@@ -36,7 +36,12 @@ export default function Header() {
     <div className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.myname}>
-          <Link href='/'>SharjeelYunus</Link>
+          <Link href="/" passHref>
+            <div className="flex gap-1">
+              <span className="font-['BestermindRegular'] text-2xl tracking-wider hover:text-[#4F46E5] transition-colors duration-300">Sharjeel</span>
+              <span className="font-['BestermindRegular'] text-2xl tracking-wider text-[#4F46E5]">Yunus</span>
+            </div>
+          </Link>
         </div>
         <div>
           {darkTheme !== undefined && (
